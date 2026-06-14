@@ -73,6 +73,9 @@ graph TD
 
 点击右上角 **Fork**，将本仓库复制到你自己的账号下。
 
+> [!IMPORTANT]
+> 本站模板已内置 `analytics.1step.dev` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。Fork 后请改成你自己的站点 ID，或直接删除 `templates/index.html.j2` 底部的脚本，避免统计数据混入原项目仪表板。
+
 ### 第二步：配置环境 (二选一)
 
 本项目通过环境变量驱动，**配置优先级：GitHub Secrets > .env 文件**。

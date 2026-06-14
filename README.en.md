@@ -72,6 +72,9 @@ graph TD
 
 Click the **Fork** button in the top right corner to copy this repository to your account.
 
+> [!IMPORTANT]
+> This site template includes the `analytics.1step.dev` analytics script with `data-website-id` set to `GitHubStarsIndex`. After forking, change it to your own website ID or remove the script at the bottom of `templates/index.html.j2` so your traffic does not appear in the original project dashboard.
+
 ### Step 2: Configure Environment (Choose One)
 
 This project is driven by environment variables. **Priority: GitHub Secrets > .env file**.
