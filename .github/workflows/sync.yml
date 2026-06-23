@@ -128,11 +128,7 @@ jobs:
           echo "--- RESPONSE_HEADERS ---"
           tr -d '\r' < /tmp/ai_headers.txt
           echo "--- RESPONSE_BODY_PREVIEW ---"
-          python3 - <<'PY'
-from pathlib import Path
-body = Path('/tmp/ai_body.txt').read_text(encoding='utf-8', errors='replace')
-print(body[:1000])
-PY
+          python3 -c "from pathlib import Path; print(Path('/tmp/ai_body.txt').read_text(encoding='utf-8', errors='replace')[:1000])"
 
       # ── 5b. 常规模式：正常同步（增量抓取） ─────────────────────
       - name: 同步 GitHub Stars
