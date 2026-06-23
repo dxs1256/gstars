@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23 11:04 UTC",
+  "last_updated": "2026-06-23 11:07 UTC",
   "repos": {
     "waoowaooAI/waoowaoo": {
       "metadata": {
@@ -31283,7 +31283,7 @@
         "name": "QwenPaw",
         "owner": "agentscope-ai",
         "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-        "stars": 19895,
+        "stars": 19896,
         "language": "Python",
         "url": "https://github.com/agentscope-ai/QwenPaw",
         "homepage": "http://qwenpaw.agentscope.io/",
@@ -31298,7 +31298,7 @@
           "super-agent"
         ],
         "pushed_at": "2026-06-23T10:18:22Z",
-        "updated_at": "2026-06-23T10:58:30Z",
+        "updated_at": "2026-06-23T11:04:44Z",
         "starred_at": "2026-06-21T16:20:46Z"
       },
       "summary": {
@@ -31340,7 +31340,7 @@
         "name": "streambert",
         "owner": "truelockmc",
         "description": "A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking",
-        "stars": 5421,
+        "stars": 5422,
         "language": "JavaScript",
         "url": "https://github.com/truelockmc/streambert",
         "homepage": "",
@@ -31362,7 +31362,7 @@
           "tv"
         ],
         "pushed_at": "2026-06-14T19:33:07Z",
-        "updated_at": "2026-06-23T11:00:43Z",
+        "updated_at": "2026-06-23T11:02:39Z",
         "starred_at": "2026-05-19T11:53:39Z"
       },
       "summary": {
@@ -31428,7 +31428,7 @@
         "name": "vpn-configs-for-russia",
         "owner": "igareck",
         "description": "🗽Бесплатные и проверенные VPN конфигурации, работающие в РФ ⚪ Белые списки / обход белых списков ⚪ Free and checked VPN configurations that work in Russia ⚪ Whitelists bypass",
-        "stars": 7139,
+        "stars": 7140,
         "language": "N/A",
         "url": "https://github.com/igareck/vpn-configs-for-russia",
         "homepage": "",
@@ -31455,7 +31455,7 @@
           "xray"
         ],
         "pushed_at": "2026-06-23T09:52:18Z",
-        "updated_at": "2026-06-23T10:53:02Z",
+        "updated_at": "2026-06-23T11:03:18Z",
         "starred_at": "2026-05-20T17:18:31Z"
       },
       "summary": {
@@ -31731,7 +31731,7 @@
         "name": "Agent-Reach",
         "owner": "Panniantong",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "stars": 38274,
+        "stars": 38277,
         "language": "Python",
         "url": "https://github.com/Panniantong/Agent-Reach",
         "homepage": "",
@@ -31755,7 +31755,7 @@
           "youtube-transcript"
         ],
         "pushed_at": "2026-06-16T12:45:59Z",
-        "updated_at": "2026-06-23T11:00:58Z",
+        "updated_at": "2026-06-23T11:04:06Z",
         "starred_at": "2026-02-28T17:12:02Z"
       },
       "summary": {
@@ -32025,7 +32025,7 @@
         "name": "trackerslist",
         "owner": "ngosang",
         "description": "Updated list of public BitTorrent trackers",
-        "stars": 54249,
+        "stars": 54250,
         "language": "N/A",
         "url": "https://github.com/ngosang/trackerslist",
         "homepage": "https://ngosang.github.io/trackerslist/",
@@ -32047,7 +32047,7 @@
           "ws"
         ],
         "pushed_at": "2026-06-22T22:09:37Z",
-        "updated_at": "2026-06-23T07:59:23Z",
+        "updated_at": "2026-06-23T11:03:39Z",
         "starred_at": "2025-11-16T12:38:07Z"
       },
       "summary": {
@@ -32562,7 +32562,7 @@
         "name": "yt-dlp",
         "owner": "yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
-        "stars": 172792,
+        "stars": 172791,
         "language": "Python",
         "url": "https://github.com/yt-dlp/yt-dlp",
         "homepage": "https://discord.gg/H5MNcFW63r",
@@ -32576,7 +32576,7 @@
           "yt-dlp"
         ],
         "pushed_at": "2026-06-21T22:49:35Z",
-        "updated_at": "2026-06-23T10:59:09Z",
+        "updated_at": "2026-06-23T11:04:36Z",
         "starred_at": "2025-03-14T06:17:16Z"
       },
       "summary": {
@@ -32618,7 +32618,7 @@
         "name": "Bulk-Crap-Uninstaller",
         "owner": "BCUninstaller",
         "description": "Remove large amounts of unwanted applications quickly.",
-        "stars": 19839,
+        "stars": 19840,
         "language": "C#",
         "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller",
         "homepage": "https://www.bcuninstaller.com/",
@@ -32644,7 +32644,7 @@
           "windows-forms"
         ],
         "pushed_at": "2026-06-18T13:42:02Z",
-        "updated_at": "2026-06-23T09:54:18Z",
+        "updated_at": "2026-06-23T11:03:41Z",
         "starred_at": "2025-02-11T14:37:04Z"
       },
       "summary": {
@@ -32800,7 +32800,7 @@
         "name": "lx-music-mobile",
         "owner": "lyswhut",
         "description": "一个基于 React native 开发的音乐软件",
-        "stars": 17255,
+        "stars": 17256,
         "language": "TypeScript",
         "url": "https://github.com/lyswhut/lx-music-mobile",
         "homepage": "https://lyswhut.github.io/lx-music-doc/",
@@ -32810,7 +32810,7 @@
           "react-native-app"
         ],
         "pushed_at": "2026-05-28T03:16:18Z",
-        "updated_at": "2026-06-23T10:47:09Z",
+        "updated_at": "2026-06-23T11:03:49Z",
         "starred_at": "2025-01-17T13:58:41Z"
       },
       "summary": {
@@ -33336,13 +33336,13 @@
         "name": "Nagram",
         "owner": "NextAlone",
         "description": "The third-party Telegram android app.",
-        "stars": 2902,
+        "stars": 2903,
         "language": "Java",
         "url": "https://github.com/NextAlone/Nagram",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-22T15:19:48Z",
-        "updated_at": "2026-06-23T06:49:00Z",
+        "updated_at": "2026-06-23T11:04:55Z",
         "starred_at": "2024-07-03T09:05:49Z"
       },
       "summary": {
@@ -33824,7 +33824,7 @@
         "name": "1Panel",
         "owner": "1Panel-dev",
         "description": "🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.",
-        "stars": 35958,
+        "stars": 35959,
         "language": "Go",
         "url": "https://github.com/1Panel-dev/1Panel",
         "homepage": "https://1panel.pro",
@@ -33845,7 +33845,7 @@
           "webmin"
         ],
         "pushed_at": "2026-06-23T08:07:50Z",
-        "updated_at": "2026-06-23T09:11:00Z",
+        "updated_at": "2026-06-23T11:05:03Z",
         "starred_at": "2023-04-01T01:30:37Z"
       },
       "summary": {
@@ -33863,7 +33863,7 @@
         "name": "anti-AD",
         "owner": "privacy-protection-tools",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD 现已支持 AdGuardHome，dnsmasq，Surge，Pi-Hole，Clash, mihomo，smartdns，sing-box 等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
-        "stars": 10501,
+        "stars": 10502,
         "language": "N/A",
         "url": "https://github.com/privacy-protection-tools/anti-AD",
         "homepage": "https://anti-ad.net",
@@ -33878,7 +33878,7 @@
           "surge"
         ],
         "pushed_at": "2026-06-22T21:18:03Z",
-        "updated_at": "2026-06-23T03:20:26Z",
+        "updated_at": "2026-06-23T11:03:35Z",
         "starred_at": "2023-03-15T09:45:16Z"
       },
       "summary": {
@@ -33896,7 +33896,7 @@
         "name": "SmartTube",
         "owner": "yuliskov",
         "description": "Browse media content with your own rules on Android TV",
-        "stars": 30722,
+        "stars": 30723,
         "language": "Java",
         "url": "https://github.com/yuliskov/SmartTube",
         "homepage": "https://smarttubeapp.github.io",
@@ -33910,7 +33910,7 @@
           "rxjava-android"
         ],
         "pushed_at": "2026-06-20T17:47:37Z",
-        "updated_at": "2026-06-23T10:38:25Z",
+        "updated_at": "2026-06-23T11:04:32Z",
         "starred_at": "2023-02-27T15:46:43Z"
       },
       "summary": {
@@ -34119,7 +34119,7 @@
         "name": "FileCentipede",
         "owner": "filecxx",
         "description": "Cross-platform internet upload/download manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, m3u8, ed2k, and online videos.  WebDAV client, FTP client, SSH client.",
-        "stars": 10890,
+        "stars": 10891,
         "language": "C++",
         "url": "https://github.com/filecxx/FileCentipede",
         "homepage": "http://filecxx.com",
@@ -34144,7 +34144,7 @@
           "webdav-client"
         ],
         "pushed_at": "2026-06-02T10:19:53Z",
-        "updated_at": "2026-06-23T00:44:16Z",
+        "updated_at": "2026-06-23T11:04:58Z",
         "starred_at": "2022-04-08T13:54:30Z"
       },
       "summary": {
@@ -34335,7 +34335,7 @@
         "name": "v2rayN",
         "owner": "2dust",
         "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-        "stars": 109735,
+        "stars": 109736,
         "language": "C#",
         "url": "https://github.com/2dust/v2rayN",
         "homepage": "https://v2rayn.2dust.link",
@@ -34353,7 +34353,7 @@
           "xtls"
         ],
         "pushed_at": "2026-06-23T06:07:43Z",
-        "updated_at": "2026-06-23T10:49:53Z",
+        "updated_at": "2026-06-23T11:04:14Z",
         "starred_at": "2019-12-29T09:59:51Z"
       },
       "summary": {

@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-06-23 11:04 UTC · Total: 109
+> Updated: 2026-06-23 11:07 UTC · Total: 109
 
 ---
 
@@ -150,7 +150,7 @@
 ## agentscope-ai/QwenPaw
 
 > [!info]
-> ⭐ 19,895 · Python · 2026-06-23T10:58:30Z  
+> ⭐ 19,896 · Python · 2026-06-23T11:04:44Z  
 > [GitHub](https://github.com/agentscope-ai/QwenPaw) · [Website](http://qwenpaw.agentscope.io/)  
 > `#agent` `#agent-harness` `#agentscope` `#harness-engineering` `#llm-tools` `#llms` `#skills` `#super-agent` 
 > Generation failed
@@ -189,7 +189,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 7,139 · N/A · 2026-06-23T10:53:02Z  
+> ⭐ 7,140 · N/A · 2026-06-23T11:03:18Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia)  
 > `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > Generation failed
@@ -199,7 +199,7 @@
 ## truelockmc/streambert
 
 > [!info]
-> ⭐ 5,421 · JavaScript · 2026-06-23T11:00:43Z  
+> ⭐ 5,422 · JavaScript · 2026-06-23T11:02:39Z  
 > [GitHub](https://github.com/truelockmc/streambert)  
 > `#anime` `#anime-downloader` `#anime-scraper` `#downloader` `#electron` `#modern-ui` `#movies` `#movies-streaming` `#opinionated` `#piracy` `#series` `#streaming` `#streaming-video` `#tmdb-api` `#tv` 
 > Generation failed
@@ -296,7 +296,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 38,274 · Python · 2026-06-23T11:00:58Z  
+> ⭐ 38,277 · Python · 2026-06-23T11:04:06Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Generation failed
@@ -433,7 +433,7 @@
 ## ngosang/trackerslist
 
 > [!info]
-> ⭐ 54,249 · N/A · 2026-06-23T07:59:23Z  
+> ⭐ 54,250 · N/A · 2026-06-23T11:03:39Z  
 > [GitHub](https://github.com/ngosang/trackerslist) · [Website](https://ngosang.github.io/trackerslist/)  
 > `#bittorrent` `#bittorrent-tracker` `#bittorrent-trackers` `#http` `#list` `#lists` `#public-tracker` `#public-trackers` `#torrent` `#tracker` `#trackers` `#trackerslist` `#udp` `#webtorrent` `#ws` 
 > Generation failed
@@ -611,7 +611,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 172,792 · Python · 2026-06-23T10:59:09Z  
+> ⭐ 172,791 · Python · 2026-06-23T11:04:36Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > Generation failed
@@ -631,7 +631,7 @@
 ## BCUninstaller/Bulk-Crap-Uninstaller
 
 > [!info]
-> ⭐ 19,839 · C# · 2026-06-23T09:54:18Z  
+> ⭐ 19,840 · C# · 2026-06-23T11:03:41Z  
 > [GitHub](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) · [Website](https://www.bcuninstaller.com/)  
 > `#application-manager` `#application-uninstaller` `#bloatware` `#bulk-actions` `#bulk-uninstall` `#cleaner` `#debloat` `#disk-space` `#inno-setup` `#msi` `#nsis` `#portableapps` `#software-management` `#unattended-uninstall` `#uninstall` `#uninstaller` `#windows` `#windows-10` `#windows-forms` 
 > Generation failed
@@ -681,7 +681,7 @@
 ## lyswhut/lx-music-mobile
 
 > [!info]
-> ⭐ 17,255 · TypeScript · 2026-06-23T10:47:09Z  
+> ⭐ 17,256 · TypeScript · 2026-06-23T11:03:49Z  
 > [GitHub](https://github.com/lyswhut/lx-music-mobile) · [Website](https://lyswhut.github.io/lx-music-doc/)  
 > `#javascript` `#music-player` `#react-native-app` 
 > Generation failed
@@ -860,7 +860,7 @@
 ## NextAlone/Nagram
 
 > [!info]
-> ⭐ 2,902 · Java · 2026-06-23T06:49:00Z  
+> ⭐ 2,903 · Java · 2026-06-23T11:04:55Z  
 > [GitHub](https://github.com/NextAlone/Nagram)  
 > 
 > Generation failed
@@ -1029,7 +1029,7 @@
 ## 1Panel-dev/1Panel
 
 > [!info]
-> ⭐ 35,958 · Go · 2026-06-23T09:11:00Z  
+> ⭐ 35,959 · Go · 2026-06-23T11:05:03Z  
 > [GitHub](https://github.com/1Panel-dev/1Panel) · [Website](https://1panel.pro)  
 > `#agent` `#clawdbot` `#copaw` `#docker` `#docker-ui` `#hermes` `#hermes-agent` `#linux` `#lnmp` `#ollama` `#openclaw` `#openresty` `#qwenpaw` `#webmin` 
 > Generation failed
@@ -1039,7 +1039,7 @@
 ## privacy-protection-tools/anti-AD
 
 > [!info]
-> ⭐ 10,501 · N/A · 2026-06-23T03:20:26Z  
+> ⭐ 10,502 · N/A · 2026-06-23T11:03:35Z  
 > [GitHub](https://github.com/privacy-protection-tools/anti-AD) · [Website](https://anti-ad.net)  
 > `#adblock` `#adguardhome` `#dnsmasq` `#easylist` `#neohosts` `#php` `#pi-hole` `#surge` 
 > Generation failed
@@ -1049,7 +1049,7 @@
 ## yuliskov/SmartTube
 
 > [!info]
-> ⭐ 30,722 · Java · 2026-06-23T10:38:25Z  
+> ⭐ 30,723 · Java · 2026-06-23T11:04:32Z  
 > [GitHub](https://github.com/yuliskov/SmartTube) · [Website](https://smarttubeapp.github.io)  
 > `#android` `#android-tv` `#android-tv-box` `#java` `#kotlin` `#retrofit2` `#rxjava-android` 
 > Generation failed
@@ -1119,7 +1119,7 @@
 ## filecxx/FileCentipede
 
 > [!info]
-> ⭐ 10,890 · C++ · 2026-06-23T00:44:16Z  
+> ⭐ 10,891 · C++ · 2026-06-23T11:04:58Z  
 > [GitHub](https://github.com/filecxx/FileCentipede) · [Website](http://filecxx.com)  
 > `#bittorrent-client` `#bt` `#download` `#download-manager` `#download-videos` `#ftp-client` `#http-client` `#libtorrent` `#m3u8` `#magnet` `#qt` `#remote-download` `#ssh-client` `#stream-downloader` `#torrent` `#transmission` `#video-downloader` `#webdav-client` 
 > Generation failed
@@ -1189,7 +1189,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 109,735 · C# · 2026-06-23T10:49:53Z  
+> ⭐ 109,736 · C# · 2026-06-23T11:04:14Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > Generation failed
