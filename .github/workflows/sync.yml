@@ -16,7 +16,7 @@ on:
     inputs:
       force_rebuild:
         description: '强制重新生成所有摘要（重建 JSON 数据集）'
-        required: false
+        required: true
         default: 'false'
         type: choice
         options:
