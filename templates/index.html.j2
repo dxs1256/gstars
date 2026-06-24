@@ -73,28 +73,40 @@
             .container { padding: 2rem 1rem; }
         }
 
-        /* Header Enhancements */
+        /* Header Layout Redesign */
         header {
-            margin-bottom: 6rem;
+            margin-bottom: 3rem;
             display: grid;
-            grid-template-columns: 1.5fr 1fr;
+            grid-template-columns: 1fr 2fr; /* 给右侧流线面板留出更多空间 */
             gap: 2rem;
-            align-items: end;
+            align-items: center; /* 垂直居中，大幅减小高度落差 */
+            border-bottom: 1px solid var(--border); /* 添加分割线，增强结构感 */
+            padding-bottom: 2rem;
         }
 
+        /* 标题字号保持原样，微调行高 */
         .title-area h1 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: clamp(3.5rem, 15vw, 10rem);
-            line-height: 0.9;
+            line-height: 0.85;
             letter-spacing: -0.02em;
         }
 
+        /* 右侧统计区容器 */
         .header-stats {
             display: flex;
             flex-direction: column;
+            gap: 1.2rem;
+            align-items: flex-end;
+        }
+
+        /* 第一行：状态时钟与控制按钮并排 */
+        .header-top-row {
+            display: flex;
+            align-items: center;
             gap: 1.5rem;
-            text-align: right;
-            font-family: 'Space Mono', monospace;
+            flex-wrap: wrap;
+            justify-content: flex-end;
         }
 
         .status-badge {
@@ -120,35 +132,10 @@
             100% { transform: scale(1); opacity: 1; }
         }
 
-        .stats-grid {
-            display: flex;
-            justify-content: flex-end;
-            gap: 2rem;
-            font-size: 0.85rem;
-            color: var(--fg-dim);
-        }
-
-        .stat-item b { color: var(--fg); }
-
-        .top-langs {
-            display: flex;
-            gap: 0.8rem;
-            justify-content: flex-end;
-            flex-wrap: wrap;
-        }
-
-        .lang-tag {
-            font-size: 0.7rem;
-            background: var(--surface);
-            padding: 0.2rem 0.6rem;
-            border: 1px solid var(--border);
-        }
-
         .header-links {
             display: flex;
             gap: 1.5rem;
             justify-content: flex-end;
-            margin-top: 1rem;
             align-items: center;
         }
 
@@ -200,21 +187,83 @@
             color: var(--fg);
         }
 
+        /* 第二行：横向胶囊徽章面板 */
+        .stats-dashboard {
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin-bottom: 0;
+        }
+
+        /* 将卡片重构为扁平、横向的极客徽章 (LABEL | VALUE) */
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 0.4rem 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: var(--transition);
+        }
+
+        .stat-card:hover {
+            border-color: var(--accent);
+            background: rgba(255, 62, 0, 0.02);
+        }
+
+        .stat-card-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--fg-dim);
+            text-transform: uppercase;
+            border-right: 1px solid var(--border); /* 竖线分割标签与数值 */
+            padding-right: 0.6rem;
+        }
+
+        .stat-card-value {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem; /* 降低字号适应横向徽章 */
+            display: flex;
+            align-items: center;
+            line-height: 1;
+        }
+
+        .stat-card-value b { color: var(--accent); }
+
+        .stat-card-value .ui-stars {
+            font-size: 0.95rem !important;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .stat-card-value .ui-stars svg {
+            width: 14px;
+            height: 14px;
+        }
+
         @media (max-width: 900px) {
             header { 
                 grid-template-columns: 1fr; 
                 text-align: left; 
                 gap: 1.5rem;
-                margin-bottom: 3rem;
-                padding-bottom: 2rem;
+                margin-bottom: 2rem;
+                padding-bottom: 1.5rem;
             }
-            .header-stats, .stats-grid, .top-langs, .header-links, .status-badge { 
-                justify-content: flex-start; 
-                text-align: left; 
+            .header-stats { 
+                align-items: flex-start; 
+                gap: 1rem;
             }
-            .header-stats { gap: 1rem; }
-            .stats-grid { gap: 1rem; flex-wrap: wrap; }
-            .header-links { flex-wrap: wrap; gap: 0.8rem; }
+            .header-top-row {
+                justify-content: flex-start;
+                gap: 1rem;
+            }
+            .stats-dashboard {
+                justify-content: flex-start;
+                width: 100%;
+            }
         }
 
         /* Search Section */
@@ -410,7 +459,7 @@
             flex-grow: 1;
             border-top: 1px solid var(--border);
             border-left: 1px solid var(--border);
-            border-right: 1px solid var(--border); /* Added right border to container */
+            border-right: 1px solid var(--border);
         }
 
         .dropdown-item {
@@ -438,8 +487,6 @@
             border-bottom-color: var(--accent);
             font-weight: bold;
         }
-
-        /* Removed static nth-child logic as columns are now dynamic */
 
         @media (max-width: 1024px) {
             .dropdown-content { 
@@ -558,73 +605,43 @@
             color: var(--bg);
         }
 
-        /* Stats Bar Enhancements */
-        .stats-dashboard {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 1rem;
-        }
-
         @media (max-width: 768px) {
             .stats-dashboard {
                 display: flex;
-                gap: 0;
-                background: var(--surface);
-                border: 1px solid var(--border);
-                margin-bottom: 0.5rem;
+                gap: 0.5rem;
+                border: none;
+                margin-bottom: 0;
                 padding: 0;
+                flex-wrap: wrap;
+                background: none !important;
             }
 
             .stat-card {
-                flex: 1;
-                padding: 0.8rem 0.4rem;
-                background: none;
-                border: none;
-                border-right: 1px solid var(--border);
+                flex: none;
+                padding: 0.4rem 0.6rem;
+                border: 1px solid var(--border) !important;
                 align-items: center;
-                gap: 0.2rem;
-            }
-
-            .stat-card:last-child {
-                border-right: none;
+                gap: 0.4rem;
+                background: var(--surface) !important;
             }
 
             .stat-card-label {
                 font-size: 0.55rem;
+                padding-right: 0.4rem;
+                border-right: 1px solid var(--border) !important;
             }
 
             .stat-card-value {
-                font-size: 0.9rem;
+                font-size: 0.85rem;
             }
             .stat-card-value .ui-stars {
-                font-size: 0.9rem !important;
+                font-size: 0.85rem !important;
             }
             .stat-card-value .ui-stars svg {
-                width: 14px;
-                height: 14px;
+                width: 12px;
+                height: 12px;
             }
         }
-
-        .stat-card:hover {
-            border-color: var(--accent);
-            background: rgba(255, 62, 0, 0.02);
-        }
-
-        .stat-card-label {
-            font-family: 'Space Mono', monospace;
-            font-size: 0.65rem;
-            color: var(--fg-dim);
-            text-transform: uppercase;
-        }
-
-        .stat-card-value {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            font-weight: 700;
-            font-size: 1.5rem;
-        }
-
-        .stat-card-value b { color: var(--accent); }
 
         /* Skeleton Loading */
         .skeleton {
@@ -1014,12 +1031,21 @@
                 <h1>Stars<br>Archive</h1>
             </div>
             <div class="header-stats">
-                <div class="status-badge">
-                    <div id="clock">00:00:00</div>
-                    <span>UTC+0800</span>
-                    <div class="status-dot"></div>
+                <!-- 第一行：状态时钟与控制按钮并排 -->
+                <div class="header-top-row">
+                    <div class="status-badge">
+                        <div id="clock">00:00:00</div>
+                        <span>UTC+0800</span>
+                        <div class="status-dot"></div>
+                    </div>
+                    <div class="header-links">
+                        <button id="lang-btn" class="lang-toggle">LANG: ZH_CN</button>
+                        <button id="theme-btn" class="theme-toggle">UI_THEME: NOIR_MODE</button>
+                        <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ SOURCE_CODE ]</a>
+                    </div>
                 </div>
 
+                <!-- 第二行：精简的横向胶囊徽章 -->
                 <div class="stats-dashboard" id="dashboard">
                     <div class="stat-card">
                         <span class="stat-card-label">TOTAL_ENTRIES</span>
@@ -1033,12 +1059,6 @@
                         <span class="stat-card-label">TOP_STACK</span>
                         <div class="stat-card-value" id="s-top-stack">--</div>
                     </div>
-                </div>
-
-                <div class="header-links">
-                    <button id="lang-btn" class="lang-toggle">LANG: ZH_CN</button>
-                    <button id="theme-btn" class="theme-toggle">UI_THEME: NOIR_MODE</button>
-                    <a href="https://github.com/iblogc/GithubStarsIndex" target="_blank">[ SOURCE_CODE ]</a>
                 </div>
             </div>
         </header>
@@ -1288,7 +1308,7 @@
             const topLang = LANG_ALIAS[topLangRaw] || topLangRaw;
 
             document.getElementById('s-total').textContent = total;
-            document.getElementById('s-avg').innerHTML = `<span class="ui-stars" style="font-size: 1.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> ${avgStars}</span>`;
+            document.getElementById('s-avg').innerHTML = `<span class="ui-stars"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> ${avgStars}</span>`;
             document.getElementById('s-top-stack').textContent = topLang;
         }
 
@@ -1345,7 +1365,6 @@
             if (!container) return;
             const filtered = query ? availableLangs.filter(l => l.toLowerCase().includes(query.toLowerCase())) : availableLangs;
             
-            // Fixed: Use activeLanguage check to properly highlight "ALL"
             let html = `<div class="dropdown-item ${activeLanguage === null ? 'active' : ''}" data-value="" style="grid-column: span 2;">All Languages</div>`;
             filtered.forEach(l => {
                 const isActive = activeLanguage === l;
@@ -1793,7 +1812,6 @@
         });
 
     </script>
-    <!-- 网站分析：Fork 后请替换 data-website-id 或删除这段脚本，避免统计数据混入原站点。 -->
-    <script defer src="https://analytics.1step.dev/tracker.min.js" data-website-id="GitHubStarsIndex"></script>
+    <script defer src="https://analytics.1step.dev/tracker.min.js" data-website-id="gstars"></script>
 </body>
 </html>
