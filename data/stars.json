@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01 20:15 UTC",
+  "last_updated": "2026-07-06 20:14 UTC",
   "repos": {
     "iblogc/GithubStarsIndex": {
       "metadata": {
@@ -12,7 +12,7 @@
         "url": "https://github.com/iblogc/GithubStarsIndex",
         "homepage": "https://stars.iblogc.com",
         "topics": [],
-        "pushed_at": "2026-07-01T20:15:18Z",
+        "pushed_at": "2026-07-05T19:42:22Z",
         "updated_at": "2026-06-30T13:26:30Z",
         "starred_at": "2026-06-23T03:13:11Z"
       },
@@ -75,13 +75,13 @@
         "name": "sms_forwarding",
         "owner": "chenxuuu",
         "description": "超低成本硬件短信转发器，支持移动联通电信，ML307R+ESP32C3",
-        "stars": 1329,
+        "stars": 1375,
         "language": "C++",
         "url": "https://github.com/chenxuuu/sms_forwarding",
         "homepage": "http://sms.j2.cx/",
         "topics": [],
         "pushed_at": "2026-06-23T06:30:47Z",
-        "updated_at": "2026-07-01T07:29:41Z",
+        "updated_at": "2026-07-06T18:15:35Z",
         "starred_at": "2026-06-22T11:00:59Z"
       },
       "summary": {
@@ -152,13 +152,13 @@
         "name": "Selene-TV",
         "owner": "MoonTechLab",
         "description": "以 MoonTV v100 版本 / Helios 为后端的 Android TV 客户端，针对遥控器设备优化",
-        "stars": 512,
+        "stars": 526,
         "language": "N/A",
         "url": "https://github.com/MoonTechLab/Selene-TV",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-22T07:50:38Z",
-        "updated_at": "2026-07-01T15:18:55Z",
+        "updated_at": "2026-07-06T14:30:59Z",
         "starred_at": "2026-06-17T12:48:29Z"
       },
       "summary": {
@@ -186,13 +186,13 @@
         "name": "91",
         "owner": "nianzhibai",
         "description": "nine one",
-        "stars": 1198,
+        "stars": 1208,
         "language": "Go",
         "url": "https://github.com/nianzhibai/91",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T13:41:38Z",
-        "updated_at": "2026-07-01T15:50:23Z",
+        "pushed_at": "2026-07-06T08:30:40Z",
+        "updated_at": "2026-07-06T10:34:23Z",
         "starred_at": "2026-06-12T11:44:52Z"
       },
       "summary": {
@@ -220,7 +220,7 @@
         "name": "vpn-configs-for-russia",
         "owner": "igareck",
         "description": "🗽Бесплатные и проверенные VPN конфигурации, работающие в РФ ⚪ Белые списки / обход белых списков ⚪ Free and checked VPN configurations that work in Russia ⚪ Whitelists bypass",
-        "stars": 7333,
+        "stars": 7426,
         "language": "N/A",
         "url": "https://github.com/igareck/vpn-configs-for-russia",
         "homepage": "",
@@ -246,8 +246,8 @@
           "whitelist",
           "xray"
         ],
-        "pushed_at": "2026-07-01T19:59:35Z",
-        "updated_at": "2026-07-01T20:07:48Z",
+        "pushed_at": "2026-07-06T17:18:53Z",
+        "updated_at": "2026-07-06T20:05:10Z",
         "starred_at": "2026-05-20T17:18:31Z"
       },
       "summary": {
@@ -275,13 +275,13 @@
         "name": "3x-ui",
         "owner": "Teminuosi",
         "description": "",
-        "stars": 120,
+        "stars": 139,
         "language": "TypeScript",
         "url": "https://github.com/Teminuosi/3x-ui",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-06-26T01:51:24Z",
-        "updated_at": "2026-07-01T12:49:15Z",
+        "pushed_at": "2026-07-04T05:11:37Z",
+        "updated_at": "2026-07-06T15:35:03Z",
         "starred_at": "2026-06-20T06:34:10Z"
       },
       "summary": {
@@ -309,13 +309,13 @@
         "name": "x-spider-mod-2026",
         "owner": "hureyqi",
         "description": "",
-        "stars": 114,
+        "stars": 115,
         "language": "TypeScript",
         "url": "https://github.com/hureyqi/x-spider-mod-2026",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-06T08:04:22Z",
-        "updated_at": "2026-07-01T16:10:11Z",
+        "updated_at": "2026-07-05T02:55:52Z",
         "starred_at": "2026-05-18T15:30:27Z"
       },
       "summary": {
@@ -343,13 +343,13 @@
         "name": "XHTTP-Installer",
         "owner": "avacocloud",
         "description": "VLESS+XHTTP+TLS Auto-Installer for Ubuntu — Vercel / Netlify relay",
-        "stars": 906,
+        "stars": 909,
         "language": "HTML",
         "url": "https://github.com/avacocloud/XHTTP-Installer",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-18T20:04:20Z",
-        "updated_at": "2026-06-30T18:14:27Z",
+        "updated_at": "2026-07-06T19:30:16Z",
         "starred_at": "2026-05-17T09:58:14Z"
       },
       "summary": {
@@ -377,13 +377,13 @@
         "name": "lxserver",
         "owner": "XCQ0607",
         "description": "LX Music 数据同步服务端，同时支持了部分lx-music-desktop的网页端实现。",
-        "stars": 597,
+        "stars": 606,
         "language": "JavaScript",
         "url": "https://github.com/XCQ0607/lxserver",
         "homepage": "https://xcq0607.github.io/lxserver/",
         "topics": [],
         "pushed_at": "2026-07-01T03:26:49Z",
-        "updated_at": "2026-07-01T15:09:03Z",
+        "updated_at": "2026-07-06T13:43:19Z",
         "starred_at": "2026-05-06T14:15:32Z"
       },
       "summary": {
@@ -409,13 +409,13 @@
         "name": "abc",
         "owner": "tmxk2020",
         "description": "",
-        "stars": 376,
+        "stars": 377,
         "language": "N/A",
         "url": "https://github.com/tmxk2020/abc",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-07-01T11:48:31Z",
-        "updated_at": "2026-07-01T14:36:25Z",
+        "updated_at": "2026-07-05T23:55:01Z",
         "starred_at": "2026-05-06T08:48:37Z"
       },
       "summary": {
@@ -443,13 +443,13 @@
         "name": "zhangxuefeng-skillset",
         "owner": "Eric-Yibo-Shen",
         "description": "",
-        "stars": 375,
+        "stars": 377,
         "language": "N/A",
         "url": "https://github.com/Eric-Yibo-Shen/zhangxuefeng-skillset",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-04-14T00:05:12Z",
-        "updated_at": "2026-06-30T02:28:32Z",
+        "updated_at": "2026-07-04T08:53:44Z",
         "starred_at": "2026-04-09T10:26:41Z"
       },
       "summary": {
@@ -477,13 +477,13 @@
         "name": "zhangxuefeng-skill",
         "owner": "alchaincyf",
         "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
-        "stars": 9729,
+        "stars": 9841,
         "language": "N/A",
         "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-05-28T00:10:21Z",
-        "updated_at": "2026-07-01T18:51:50Z",
+        "updated_at": "2026-07-06T16:18:52Z",
         "starred_at": "2026-04-09T10:13:45Z"
       },
       "summary": {
@@ -511,13 +511,13 @@
         "name": "K-Vault",
         "owner": "katelya77",
         "description": "基于 Cloudflare 的 Serverless 聚合云盘。以 Telegram 为核心（支持 Webhook 直传与 2GB 扩展），并全面兼容 R2、S3、Discord 及 HuggingFace 等多存储后端。零成本构建你的全能私有数据金库。",
-        "stars": 681,
-        "language": "JavaScript",
+        "stars": 689,
+        "language": "HTML",
         "url": "https://github.com/katelya77/K-Vault",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-06-23T10:36:25Z",
-        "updated_at": "2026-07-01T17:36:05Z",
+        "pushed_at": "2026-07-06T03:31:11Z",
+        "updated_at": "2026-07-06T15:38:56Z",
         "starred_at": "2026-03-12T13:55:01Z"
       },
       "summary": {
@@ -545,7 +545,7 @@
         "name": "streambert",
         "owner": "truelockmc",
         "description": "A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking",
-        "stars": 5599,
+        "stars": 5717,
         "language": "JavaScript",
         "url": "https://github.com/truelockmc/streambert",
         "homepage": "",
@@ -566,8 +566,8 @@
           "tmdb-api",
           "tv"
         ],
-        "pushed_at": "2026-06-29T17:17:11Z",
-        "updated_at": "2026-07-01T19:51:02Z",
+        "pushed_at": "2026-07-03T11:58:18Z",
+        "updated_at": "2026-07-06T19:12:40Z",
         "starred_at": "2026-05-19T11:53:39Z"
       },
       "summary": {
@@ -595,7 +595,7 @@
         "name": "Agent-Reach",
         "owner": "Panniantong",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "stars": 48230,
+        "stars": 51964,
         "language": "Python",
         "url": "https://github.com/Panniantong/Agent-Reach",
         "homepage": "",
@@ -618,8 +618,8 @@
           "xiaohongshu",
           "youtube-transcript"
         ],
-        "pushed_at": "2026-06-29T15:22:51Z",
-        "updated_at": "2026-07-01T20:15:21Z",
+        "pushed_at": "2026-07-03T06:57:59Z",
+        "updated_at": "2026-07-06T20:14:03Z",
         "starred_at": "2026-02-28T17:12:02Z"
       },
       "summary": {
@@ -647,7 +647,7 @@
         "name": "nodewarden",
         "owner": "shuaiplus",
         "description": "Bitwarden-compatible server running on Cloudflare Workers",
-        "stars": 2918,
+        "stars": 2972,
         "language": "TypeScript",
         "url": "https://github.com/shuaiplus/nodewarden",
         "homepage": "https://nodewarden.app",
@@ -670,8 +670,8 @@
           "workers",
           "zero-knowledge"
         ],
-        "pushed_at": "2026-07-01T09:07:30Z",
-        "updated_at": "2026-07-01T18:09:18Z",
+        "pushed_at": "2026-07-06T17:51:53Z",
+        "updated_at": "2026-07-06T17:43:48Z",
         "starred_at": "2026-02-15T02:18:13Z"
       },
       "summary": {
@@ -733,13 +733,13 @@
         "name": "kgcheckin",
         "owner": "develop202",
         "description": "酷狗概念VIP自动签到",
-        "stars": 206,
+        "stars": 213,
         "language": "JavaScript",
         "url": "https://github.com/develop202/kgcheckin",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-07-01T02:49:15Z",
-        "updated_at": "2026-07-01T13:17:10Z",
+        "updated_at": "2026-07-05T11:57:14Z",
         "starred_at": "2026-01-30T13:05:32Z"
       },
       "summary": {
@@ -767,13 +767,13 @@
         "name": "iptv-m3u-manager",
         "owner": "XianYuDaXian",
         "description": "IPTV M3U 管理器",
-        "stars": 182,
+        "stars": 180,
         "language": "HTML",
         "url": "https://github.com/XianYuDaXian/iptv-m3u-manager",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-29T03:34:21Z",
-        "updated_at": "2026-06-30T02:30:15Z",
+        "updated_at": "2026-07-03T12:28:08Z",
         "starred_at": "2026-01-14T02:13:59Z"
       },
       "summary": {
@@ -801,7 +801,7 @@
         "name": "warden-worker",
         "owner": "qaz741wsd856",
         "description": "A Bitwarden-compatible server for Cloudflare Workers",
-        "stars": 1163,
+        "stars": 1175,
         "language": "Rust",
         "url": "https://github.com/qaz741wsd856/warden-worker",
         "homepage": "http://warden.qqnt.de/",
@@ -814,7 +814,7 @@
           "serverless"
         ],
         "pushed_at": "2026-05-10T10:54:23Z",
-        "updated_at": "2026-07-01T15:00:13Z",
+        "updated_at": "2026-07-06T09:38:21Z",
         "starred_at": "2026-02-08T12:59:02Z"
       },
       "summary": {
@@ -910,13 +910,13 @@
         "name": "movecar",
         "owner": "lesnolie",
         "description": "🚗 智能挪车通知系统 - 基于 Cloudflare Workers，支持实时位置共享和多推送服务",
-        "stars": 1159,
+        "stars": 1162,
         "language": "JavaScript",
         "url": "https://github.com/lesnolie/movecar",
         "homepage": "",
         "topics": [],
         "pushed_at": "2025-12-31T04:32:03Z",
-        "updated_at": "2026-07-01T09:17:51Z",
+        "updated_at": "2026-07-03T17:41:05Z",
         "starred_at": "2025-12-30T05:49:44Z"
       },
       "summary": {
@@ -944,13 +944,13 @@
         "name": "dysync.net",
         "owner": "jianzhichu",
         "description": "视频同步工具",
-        "stars": 177,
+        "stars": 178,
         "language": "C#",
         "url": "https://github.com/jianzhichu/dysync.net",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-16T14:29:35Z",
-        "updated_at": "2026-07-01T18:47:07Z",
+        "updated_at": "2026-07-04T06:52:52Z",
         "starred_at": "2025-12-26T07:35:15Z"
       },
       "summary": {
@@ -984,7 +984,7 @@
         "homepage": "https://push.hzzio.top",
         "topics": [],
         "pushed_at": "2026-05-27T15:19:59Z",
-        "updated_at": "2026-07-01T00:39:06Z",
+        "updated_at": "2026-07-06T13:04:45Z",
         "starred_at": "2025-12-20T18:36:21Z"
       },
       "summary": {
@@ -1012,7 +1012,7 @@
         "name": "renewhelper",
         "owner": "ieax",
         "description": "RenewHelper - 时序·守望是一款基于Cloudflare Workers的全栈服务生命周期提醒、管理工具。它专为管理周期性订阅、域名续费、服务器到期等场景设计。无需服务器，零成本托管，提供精美的机甲风（Mecha-style）UI 界面、强大的农历/公历计算核心、多渠道通知推送能力、iCal日程同步以及账单管理功能。同时支持Worker和Docker方式部署。",
-        "stars": 358,
+        "stars": 361,
         "language": "Vue",
         "url": "https://github.com/ieax/renewhelper",
         "homepage": "https://lostfree.de5.net",
@@ -1023,7 +1023,7 @@
           "subscribe"
         ],
         "pushed_at": "2026-04-05T13:38:12Z",
-        "updated_at": "2026-06-30T02:20:10Z",
+        "updated_at": "2026-07-06T00:01:42Z",
         "starred_at": "2025-12-20T02:46:36Z"
       },
       "summary": {
@@ -1049,13 +1049,13 @@
         "name": "uart_sms_forwarder",
         "owner": "dushixiang",
         "description": "Air780 短信UART转发器",
-        "stars": 291,
+        "stars": 307,
         "language": "TypeScript",
         "url": "https://github.com/dushixiang/uart_sms_forwarder",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-03-16T07:38:23Z",
-        "updated_at": "2026-07-01T09:11:21Z",
+        "updated_at": "2026-07-06T10:08:15Z",
         "starred_at": "2025-12-18T14:27:40Z"
       },
       "summary": {
@@ -1083,13 +1083,13 @@
         "name": "api",
         "owner": "vodtv",
         "description": "MoonTV/LunaTV源配置，每日自动检测API状态，可在CF部署CORSAPI中转被墙API，本人提供的CORSAPI仅为测试使用，请勿滥用！",
-        "stars": 146,
+        "stars": 147,
         "language": "JavaScript",
         "url": "https://github.com/vodtv/api",
         "homepage": "https://mconfig.viptv.work/",
         "topics": [],
-        "pushed_at": "2026-07-01T18:55:13Z",
-        "updated_at": "2026-07-01T18:55:17Z",
+        "pushed_at": "2026-07-06T18:51:04Z",
+        "updated_at": "2026-07-06T18:51:09Z",
         "starred_at": "2025-12-16T07:03:38Z"
       },
       "summary": {
@@ -1117,7 +1117,7 @@
         "name": "trackerslist",
         "owner": "ngosang",
         "description": "Updated list of public BitTorrent trackers",
-        "stars": 54355,
+        "stars": 54410,
         "language": "N/A",
         "url": "https://github.com/ngosang/trackerslist",
         "homepage": "https://ngosang.github.io/trackerslist/",
@@ -1138,8 +1138,8 @@
           "webtorrent",
           "ws"
         ],
-        "pushed_at": "2026-06-30T22:09:45Z",
-        "updated_at": "2026-07-01T19:47:36Z",
+        "pushed_at": "2026-07-05T22:09:46Z",
+        "updated_at": "2026-07-06T18:14:48Z",
         "starred_at": "2025-11-16T12:38:07Z"
       },
       "summary": {
@@ -1165,7 +1165,7 @@
         "name": "argosbx",
         "owner": "yonggekkk",
         "description": "小白自建代理神器！ArgoSBX一键无交互小钢炮脚本💣：Sing-box、Xray、Argo三内核自动搭配；支持VPS、Docker、容器多环境部署；套CDN的5大方案+套WARP的15种组合；已支持协议：AnyTLS、Any-reality、Vless-xhttp-reality-vision-enc、Vless-tcp-reality-vision、Vless-xhttp-vision-enc、Vless-ws-vision-enc、Shadowsocks-2022、Hysteria2、Tuic、Socks5、Vmess-ws、Argo临时/固定隧道",
-        "stars": 5380,
+        "stars": 5416,
         "language": "Shell",
         "url": "https://github.com/yonggekkk/argosbx",
         "homepage": "https://yonggekkk.github.io/argosbx/",
@@ -1191,8 +1191,8 @@
           "wireguard",
           "xray"
         ],
-        "pushed_at": "2026-06-26T12:46:55Z",
-        "updated_at": "2026-07-01T18:32:45Z",
+        "pushed_at": "2026-07-04T13:12:15Z",
+        "updated_at": "2026-07-06T11:43:53Z",
         "starred_at": "2025-11-09T13:55:17Z"
       },
       "summary": {
@@ -1254,13 +1254,13 @@
         "name": "cfnew",
         "owner": "byJoey",
         "description": "",
-        "stars": 14362,
+        "stars": 14400,
         "language": "N/A",
         "url": "https://github.com/byJoey/cfnew",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-06-28T10:18:37Z",
-        "updated_at": "2026-07-01T15:53:05Z",
+        "updated_at": "2026-07-06T19:42:27Z",
         "starred_at": "2025-10-30T15:10:27Z"
       },
       "summary": {
@@ -1286,7 +1286,7 @@
         "name": "whistle",
         "owner": "avwo",
         "description": "HTTP, HTTP2, HTTPS, Websocket debugging proxy",
-        "stars": 15584,
+        "stars": 15594,
         "language": "JavaScript",
         "url": "https://github.com/avwo/whistle",
         "homepage": "https://wproxy.org/",
@@ -1301,8 +1301,8 @@
           "web",
           "weinre"
         ],
-        "pushed_at": "2026-06-21T15:35:58Z",
-        "updated_at": "2026-07-01T11:55:58Z",
+        "pushed_at": "2026-07-06T14:51:47Z",
+        "updated_at": "2026-07-06T14:59:19Z",
         "starred_at": "2025-10-25T09:24:10Z"
       },
       "summary": {
@@ -1330,7 +1330,7 @@
         "name": "TVAPP",
         "owner": "youhunwl",
         "description": " 收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！              ✅ TVBox/影视仓等影音壳接口配置源。",
-        "stars": 19242,
+        "stars": 19521,
         "language": "JavaScript",
         "url": "https://github.com/youhunwl/TVAPP",
         "homepage": "https://app.iyouhun.com",
@@ -1342,8 +1342,8 @@
           "tv",
           "tv-box"
         ],
-        "pushed_at": "2026-07-01T06:25:53Z",
-        "updated_at": "2026-07-01T17:22:15Z",
+        "pushed_at": "2026-07-06T00:05:04Z",
+        "updated_at": "2026-07-06T16:54:52Z",
         "starred_at": "2025-10-25T04:25:41Z"
       },
       "summary": {
@@ -1376,8 +1376,8 @@
         "url": "https://github.com/xyfqzy/free-nodes",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T19:41:55Z",
-        "updated_at": "2026-07-01T19:42:00Z",
+        "pushed_at": "2026-07-06T19:44:35Z",
+        "updated_at": "2026-07-06T19:44:40Z",
         "starred_at": "2025-10-17T13:31:46Z"
       },
       "summary": {
@@ -1434,21 +1434,14 @@
         "full_name": "btjawa/BiliTools",
         "name": "BiliTools",
         "owner": "btjawa",
-        "description": "A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源",
-        "stars": 5271,
+        "description": "本项目已停止维护。",
+        "stars": 5284,
         "language": "Rust",
         "url": "https://github.com/btjawa/BiliTools",
-        "homepage": "https://btjawa.top/bilitools",
-        "topics": [
-          "bilibili",
-          "download",
-          "rust",
-          "tauri-app",
-          "typescript",
-          "vue"
-        ],
-        "pushed_at": "2026-07-01T04:24:32Z",
-        "updated_at": "2026-07-01T17:49:43Z",
+        "homepage": "",
+        "topics": [],
+        "pushed_at": "2026-07-06T16:16:23Z",
+        "updated_at": "2026-07-06T17:44:18Z",
         "starred_at": "2025-10-11T16:45:12Z"
       },
       "summary": {
@@ -1476,7 +1469,7 @@
         "name": "GitHubDaily",
         "owner": "GitHubDaily",
         "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
-        "stars": 46945,
+        "stars": 46984,
         "language": "N/A",
         "url": "https://github.com/GitHubDaily/GitHubDaily",
         "homepage": "https://githubdaily.com",
@@ -1499,7 +1492,7 @@
           "web"
         ],
         "pushed_at": "2025-12-31T18:59:20Z",
-        "updated_at": "2026-07-01T19:20:12Z",
+        "updated_at": "2026-07-06T19:12:09Z",
         "starred_at": "2025-10-10T07:35:35Z"
       },
       "summary": {
@@ -1526,30 +1519,24 @@
         "full_name": "proxifly/free-proxy-list",
         "name": "free-proxy-list",
         "owner": "proxifly",
-        "description": "🚀 Free HTTP, SOCKS4, & SOCKS5 Proxy List * Updated every 5 minutes *",
-        "stars": 6010,
+        "description": "a free rotating proxy API with tested HTTPS and SOCKS5 proxies from 100+ countries",
+        "stars": 6056,
         "language": "N/A",
         "url": "https://github.com/proxifly/free-proxy-list",
         "homepage": "https://proxifly.dev",
         "topics": [
           "free-proxy",
-          "free-proxy-list",
-          "fresh-proxies",
-          "http",
-          "http-proxy",
+          "https-proxy",
+          "javascript",
+          "nodejs",
           "proxies",
-          "proxies-list",
-          "proxy",
+          "proxy-api",
           "proxy-list",
-          "proxy-scraper",
-          "socks",
-          "socks4",
-          "socks4-proxy",
-          "socks5",
-          "socks5-proxy"
+          "scraping",
+          "socks5"
         ],
-        "pushed_at": "2026-07-01T19:58:55Z",
-        "updated_at": "2026-07-01T19:59:00Z",
+        "pushed_at": "2026-07-06T19:17:12Z",
+        "updated_at": "2026-07-06T20:13:39Z",
         "starred_at": "2025-10-10T07:34:36Z"
       },
       "summary": {
@@ -1577,7 +1564,7 @@
         "name": "chinese-independent-developer",
         "owner": "1c7",
         "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
-        "stars": 49058,
+        "stars": 49086,
         "language": "N/A",
         "url": "https://github.com/1c7/chinese-independent-developer",
         "homepage": "",
@@ -1586,8 +1573,8 @@
           "indie",
           "indie-developer"
         ],
-        "pushed_at": "2026-07-01T13:10:24Z",
-        "updated_at": "2026-07-01T16:20:35Z",
+        "pushed_at": "2026-07-06T18:46:45Z",
+        "updated_at": "2026-07-06T18:47:22Z",
         "starred_at": "2025-10-07T16:09:15Z"
       },
       "summary": {
@@ -1615,13 +1602,13 @@
         "name": "pansou",
         "owner": "fish2018",
         "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 ",
-        "stars": 13715,
+        "stars": 13767,
         "language": "Go",
         "url": "https://github.com/fish2018/pansou",
         "homepage": "https://so.252035.xyz/",
         "topics": [],
         "pushed_at": "2026-06-14T14:06:26Z",
-        "updated_at": "2026-07-01T19:05:47Z",
+        "updated_at": "2026-07-06T18:15:54Z",
         "starred_at": "2025-10-04T03:09:31Z"
       },
       "summary": {
@@ -1649,7 +1636,7 @@
         "name": "ai-goofish-monitor",
         "owner": "Usagi-org",
         "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
-        "stars": 12711,
+        "stars": 13329,
         "language": "Python",
         "url": "https://github.com/Usagi-org/ai-goofish-monitor",
         "homepage": "",
@@ -1669,7 +1656,7 @@
           "xianyu-bot"
         ],
         "pushed_at": "2026-05-18T10:52:34Z",
-        "updated_at": "2026-07-01T19:50:53Z",
+        "updated_at": "2026-07-06T19:35:43Z",
         "starred_at": "2025-08-30T09:52:59Z"
       },
       "summary": {
@@ -1697,13 +1684,13 @@
         "name": "r1-iot-java",
         "owner": "ring1012",
         "description": "",
-        "stars": 75,
+        "stars": 76,
         "language": "Java",
         "url": "https://github.com/ring1012/r1-iot-java",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-03-25T15:57:28Z",
-        "updated_at": "2026-06-10T08:11:19Z",
+        "updated_at": "2026-07-04T11:04:26Z",
         "starred_at": "2025-06-18T08:16:58Z"
       },
       "summary": {
@@ -1731,7 +1718,7 @@
         "name": "OpenList",
         "owner": "OpenListTeam",
         "description": "A new AList Fork to Anti Trust Crisis",
-        "stars": 23332,
+        "stars": 23411,
         "language": "Go",
         "url": "https://github.com/OpenListTeam/OpenList",
         "homepage": "https://doc.oplist.org",
@@ -1741,8 +1728,8 @@
           "baidupan",
           "openlist"
         ],
-        "pushed_at": "2026-07-01T09:20:57Z",
-        "updated_at": "2026-07-01T19:07:55Z",
+        "pushed_at": "2026-07-06T13:41:38Z",
+        "updated_at": "2026-07-06T18:15:53Z",
         "starred_at": "2025-06-15T15:01:32Z"
       },
       "summary": {
@@ -1770,13 +1757,13 @@
         "name": "ChinaTextbook",
         "owner": "TapXWorld",
         "description": "所有小初高、大学PDF教材。",
-        "stars": 75152,
+        "stars": 75369,
         "language": "Roff",
         "url": "https://github.com/TapXWorld/ChinaTextbook",
         "homepage": "",
         "topics": [],
         "pushed_at": "2025-10-18T13:39:24Z",
-        "updated_at": "2026-07-01T18:42:49Z",
+        "updated_at": "2026-07-06T20:05:42Z",
         "starred_at": "2025-05-22T08:32:35Z"
       },
       "summary": {
@@ -1802,7 +1789,7 @@
         "name": "SaveAny-Bot",
         "owner": "krau",
         "description": "Save Any Telegram File to Anywhere 📂 (Alist, Disk, Webdav, S3, Rclone...) . Support restrict saving content and files beyond telegram.",
-        "stars": 2388,
+        "stars": 2393,
         "language": "Go",
         "url": "https://github.com/krau/SaveAny-Bot",
         "homepage": "https://sabot.unv.app",
@@ -1813,8 +1800,8 @@
           "telegram-bot",
           "webdav"
         ],
-        "pushed_at": "2026-06-28T10:00:29Z",
-        "updated_at": "2026-07-01T08:47:24Z",
+        "pushed_at": "2026-07-06T03:35:13Z",
+        "updated_at": "2026-07-06T12:47:59Z",
         "starred_at": "2025-05-04T14:36:34Z"
       },
       "summary": {
@@ -1874,7 +1861,7 @@
         "name": "yt-dlp",
         "owner": "yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
-        "stars": 174557,
+        "stars": 175668,
         "language": "Python",
         "url": "https://github.com/yt-dlp/yt-dlp",
         "homepage": "https://discord.gg/H5MNcFW63r",
@@ -1887,8 +1874,8 @@
           "youtube-downloader",
           "yt-dlp"
         ],
-        "pushed_at": "2026-07-01T18:27:40Z",
-        "updated_at": "2026-07-01T19:46:38Z",
+        "pushed_at": "2026-07-04T22:41:31Z",
+        "updated_at": "2026-07-06T20:06:35Z",
         "starred_at": "2025-03-14T06:17:16Z"
       },
       "summary": {
@@ -1914,7 +1901,7 @@
         "name": "Bulk-Crap-Uninstaller",
         "owner": "BCUninstaller",
         "description": "Remove large amounts of unwanted applications quickly.",
-        "stars": 20016,
+        "stars": 20088,
         "language": "C#",
         "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller",
         "homepage": "https://www.bcuninstaller.com/",
@@ -1940,7 +1927,7 @@
           "windows-forms"
         ],
         "pushed_at": "2026-06-18T13:42:02Z",
-        "updated_at": "2026-07-01T18:10:12Z",
+        "updated_at": "2026-07-06T18:59:17Z",
         "starred_at": "2025-02-11T14:37:04Z"
       },
       "summary": {
@@ -1966,7 +1953,7 @@
         "name": "DailyHotApi",
         "owner": "imsyy",
         "description": "🔥 今日热榜 API，一个聚合热门数据的 API 接口，支持 RSS 模式 及 Vercel 部署 | 前端页面：https://github.com/imsyy/DailyHot",
-        "stars": 3909,
+        "stars": 3917,
         "language": "TypeScript",
         "url": "https://github.com/imsyy/DailyHotApi",
         "homepage": "",
@@ -1978,7 +1965,7 @@
           "vercel"
         ],
         "pushed_at": "2026-03-11T10:38:03Z",
-        "updated_at": "2026-07-01T11:51:04Z",
+        "updated_at": "2026-07-06T15:33:14Z",
         "starred_at": "2025-02-02T20:17:16Z"
       },
       "summary": {
@@ -2004,7 +1991,7 @@
         "name": "PROXY-List",
         "owner": "TheSpeedX",
         "description": "Get PROXY List  that gets updated everyday",
-        "stars": 5656,
+        "stars": 5663,
         "language": "N/A",
         "url": "https://github.com/TheSpeedX/PROXY-List",
         "homepage": "",
@@ -2027,8 +2014,8 @@
           "speedx",
           "vpn"
         ],
-        "pushed_at": "2026-07-01T19:45:01Z",
-        "updated_at": "2026-07-01T19:45:08Z",
+        "pushed_at": "2026-07-06T19:48:09Z",
+        "updated_at": "2026-07-06T19:55:47Z",
         "starred_at": "2025-01-27T18:25:47Z"
       },
       "summary": {
@@ -2079,8 +2066,8 @@
           "socks5",
           "socks5-proxy"
         ],
-        "pushed_at": "2026-07-01T18:31:41Z",
-        "updated_at": "2026-07-01T18:31:47Z",
+        "pushed_at": "2026-07-06T18:31:54Z",
+        "updated_at": "2026-07-06T18:32:53Z",
         "starred_at": "2025-01-27T18:16:54Z"
       },
       "summary": {
@@ -2108,13 +2095,13 @@
         "name": "231006",
         "owner": "adminouyang",
         "description": "主要搜集tvbox配置文件",
-        "stars": 237,
+        "stars": 239,
         "language": "JavaScript",
         "url": "https://github.com/adminouyang/231006",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T19:02:53Z",
-        "updated_at": "2026-07-01T19:03:17Z",
+        "pushed_at": "2026-07-06T18:58:40Z",
+        "updated_at": "2026-07-06T18:58:50Z",
         "starred_at": "2025-01-18T14:51:41Z"
       },
       "summary": {
@@ -2142,7 +2129,7 @@
         "name": "lx-music-mobile",
         "owner": "lyswhut",
         "description": "一个基于 React native 开发的音乐软件",
-        "stars": 17344,
+        "stars": 17412,
         "language": "TypeScript",
         "url": "https://github.com/lyswhut/lx-music-mobile",
         "homepage": "https://lyswhut.github.io/lx-music-doc/",
@@ -2151,8 +2138,8 @@
           "music-player",
           "react-native-app"
         ],
-        "pushed_at": "2026-05-28T03:16:18Z",
-        "updated_at": "2026-07-01T18:31:24Z",
+        "pushed_at": "2026-07-06T12:48:44Z",
+        "updated_at": "2026-07-06T19:41:09Z",
         "starred_at": "2025-01-17T13:58:41Z"
       },
       "summary": {
@@ -2180,13 +2167,13 @@
         "name": "breezy-weather",
         "owner": "breezy-weather",
         "description": "A feature-rich weather app with good visualizations and more than 50 sources.",
-        "stars": 10564,
+        "stars": 10622,
         "language": "Kotlin",
         "url": "https://github.com/breezy-weather/breezy-weather",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T04:38:01Z",
-        "updated_at": "2026-07-01T19:24:34Z",
+        "pushed_at": "2026-07-05T05:44:24Z",
+        "updated_at": "2026-07-06T14:10:09Z",
         "starred_at": "2025-01-17T10:01:56Z"
       },
       "summary": {
@@ -2214,13 +2201,13 @@
         "name": "lxmusic-",
         "owner": "guoyue2010",
         "description": "lxmusic(洛雪音乐)全网最新最全音源",
-        "stars": 4479,
+        "stars": 4531,
         "language": "JavaScript",
         "url": "https://github.com/guoyue2010/lxmusic-",
         "homepage": "https://github.com/guoyue2010/lxmusic-/releases",
         "topics": [],
         "pushed_at": "2026-06-22T14:22:49Z",
-        "updated_at": "2026-07-01T18:18:29Z",
+        "updated_at": "2026-07-06T11:36:00Z",
         "starred_at": "2025-01-12T07:28:12Z"
       },
       "summary": {
@@ -2280,7 +2267,7 @@
         "name": "GitHubDesktop2Chinese",
         "owner": "cngege",
         "description": "GithubDesktop语言本地化(汉化)工具 【GitHub桌面客户端中文汉化】",
-        "stars": 740,
+        "stars": 751,
         "language": "C++",
         "url": "https://github.com/cngege/GitHubDesktop2Chinese",
         "homepage": "",
@@ -2291,7 +2278,7 @@
           "githubdesktop"
         ],
         "pushed_at": "2026-06-30T20:46:34Z",
-        "updated_at": "2026-07-01T17:45:45Z",
+        "updated_at": "2026-07-06T15:38:25Z",
         "starred_at": "2025-01-07T16:53:45Z"
       },
       "summary": {
@@ -2319,7 +2306,7 @@
         "name": "Douyin_TikTok_Download_API",
         "owner": "Evil0ctal",
         "description": "🚀「Douyin_TikTok_Download_API」是一个开箱即用的高性能异步抖音、快手、TikTok、Bilibili数据爬取工具，支持API调用，在线批量解析及下载。",
-        "stars": 18607,
+        "stars": 18671,
         "language": "Python",
         "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
         "homepage": "https://douyin.wtf",
@@ -2346,7 +2333,7 @@
           "web-scraping"
         ],
         "pushed_at": "2025-10-12T15:30:32Z",
-        "updated_at": "2026-07-01T17:02:43Z",
+        "updated_at": "2026-07-06T17:28:43Z",
         "starred_at": "2025-01-06T14:07:00Z"
       },
       "summary": {
@@ -2372,13 +2359,13 @@
         "name": "notepad--",
         "owner": "cxasm",
         "description": "一个支持windows/linux/mac的文本编辑器，目标是做中国人自己的编辑器，来自中国。",
-        "stars": 9791,
+        "stars": 9848,
         "language": "C++",
         "url": "https://github.com/cxasm/notepad--",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-06-25T02:07:28Z",
-        "updated_at": "2026-07-01T16:59:43Z",
+        "pushed_at": "2026-07-03T05:11:41Z",
+        "updated_at": "2026-07-06T18:15:31Z",
         "starred_at": "2025-01-06T03:44:07Z"
       },
       "summary": {
@@ -2406,7 +2393,7 @@
         "name": "bilibili-video-downloader",
         "owner": "lanyeeee",
         "description": "哔哩哔哩 bilibili B站 视频 下载器，图形界面 + nfo刮削 + 广告标记 + 字幕下载 + 弹幕下载，轻松将视频加入emby等媒体库",
-        "stars": 1566,
+        "stars": 1581,
         "language": "Rust",
         "url": "https://github.com/lanyeeee/bilibili-video-downloader",
         "homepage": "",
@@ -2422,7 +2409,7 @@
           "vue"
         ],
         "pushed_at": "2026-03-19T04:49:39Z",
-        "updated_at": "2026-07-01T14:09:10Z",
+        "updated_at": "2026-07-06T19:27:50Z",
         "starred_at": "2025-10-25T08:34:46Z"
       },
       "summary": {
@@ -2450,7 +2437,7 @@
         "name": "HelloGitHub",
         "owner": "521xueweihan",
         "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-        "stars": 163530,
+        "stars": 164188,
         "language": "Python",
         "url": "https://github.com/521xueweihan/HelloGitHub",
         "homepage": "https://hellogithub.com",
@@ -2461,7 +2448,7 @@
           "python"
         ],
         "pushed_at": "2026-06-29T00:35:14Z",
-        "updated_at": "2026-07-01T19:12:53Z",
+        "updated_at": "2026-07-06T20:07:17Z",
         "starred_at": "2024-12-27T02:14:26Z"
       },
       "summary": {
@@ -2487,13 +2474,13 @@
         "name": "HotPEToolBox",
         "owner": "VirtualHotBar",
         "description": "一个纯净、强大、优雅的WinPE",
-        "stars": 2058,
+        "stars": 2063,
         "language": "Batchfile",
         "url": "https://github.com/VirtualHotBar/HotPEToolBox",
         "homepage": "https://www.hotpe.top",
         "topics": [],
         "pushed_at": "2026-06-24T13:08:25Z",
-        "updated_at": "2026-07-01T10:54:51Z",
+        "updated_at": "2026-07-04T13:11:17Z",
         "starred_at": "2024-11-18T00:24:18Z"
       },
       "summary": {
@@ -2521,13 +2508,13 @@
         "name": "NetMount",
         "owner": "VirtualHotBar",
         "description": "统一管理和挂载云存储设施/Unified management and mounting of cloud storage facilities",
-        "stars": 1385,
+        "stars": 1386,
         "language": "TypeScript",
         "url": "https://github.com/VirtualHotBar/NetMount",
         "homepage": "http://netmount.cn",
         "topics": [],
         "pushed_at": "2026-06-02T14:45:23Z",
-        "updated_at": "2026-06-30T15:15:53Z",
+        "updated_at": "2026-07-06T18:57:54Z",
         "starred_at": "2024-11-03T16:24:49Z"
       },
       "summary": {
@@ -2555,7 +2542,7 @@
         "name": "GoGoGo",
         "owner": "ZCShou",
         "description": "一个基于 Android 调试 API + 百度地图实现的虚拟定位工具，并且同时实现了一个可以自由移动的摇杆",
-        "stars": 10774,
+        "stars": 10814,
         "language": "Java",
         "url": "https://github.com/ZCShou/GoGoGo",
         "homepage": "https://itexp.blog.csdn.net/",
@@ -2572,7 +2559,7 @@
           "virtual-location"
         ],
         "pushed_at": "2025-11-20T17:04:08Z",
-        "updated_at": "2026-07-01T17:14:31Z",
+        "updated_at": "2026-07-06T18:47:09Z",
         "starred_at": "2024-10-31T06:32:24Z"
       },
       "summary": {
@@ -2600,7 +2587,7 @@
         "name": "iptv-api",
         "owner": "Guovin",
         "description": "⚡️IPTV直播源自动更新平台『🤖全自动采集、筛选、测速、生成🚀』：自定义获取频道；IPv4/IPv6；接口验效；推流；多平台支持；工作流、Docker、命令行、GUI多端部署 | IPTV live streaming source automatic update platform",
-        "stars": 24421,
+        "stars": 24486,
         "language": "Python",
         "url": "https://github.com/Guovin/iptv-api",
         "homepage": "",
@@ -2626,8 +2613,8 @@
           "tv",
           "tvbox"
         ],
-        "pushed_at": "2026-05-16T03:37:49Z",
-        "updated_at": "2026-07-01T15:22:26Z",
+        "pushed_at": "2026-07-06T02:46:27Z",
+        "updated_at": "2026-07-06T19:17:19Z",
         "starred_at": "2024-10-24T07:17:45Z"
       },
       "summary": {
@@ -2655,7 +2642,7 @@
         "name": "Cloudflare-vless-trojan",
         "owner": "yonggekkk",
         "description": "CF-workers/pages代理脚本：支持Vless-ws(tls)、Trojan-ws(tls)；Socks5/http本地代理脚本：可选ECH-TLS、普通TLS、无TLS三种代理模式",
-        "stars": 15489,
+        "stars": 15535,
         "language": "JavaScript",
         "url": "https://github.com/yonggekkk/Cloudflare-vless-trojan",
         "homepage": "https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html",
@@ -2678,7 +2665,7 @@
           "ygkkk"
         ],
         "pushed_at": "2026-06-24T06:51:37Z",
-        "updated_at": "2026-07-01T17:27:45Z",
+        "updated_at": "2026-07-06T17:54:52Z",
         "starred_at": "2024-10-04T15:59:38Z"
       },
       "summary": {
@@ -2704,13 +2691,13 @@
         "name": "taosync",
         "owner": "dr34m-cn",
         "description": "TaoSync是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList",
-        "stars": 1506,
+        "stars": 1513,
         "language": "Python",
         "url": "https://github.com/dr34m-cn/taosync",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-01-06T05:16:01Z",
-        "updated_at": "2026-06-30T14:17:24Z",
+        "updated_at": "2026-07-06T15:05:31Z",
         "starred_at": "2024-09-30T07:13:47Z"
       },
       "summary": {
@@ -2738,7 +2725,7 @@
         "name": "cf-proxy-ex",
         "owner": "1234567Yang",
         "description": "Cloudflare超级代理，无服务器代理，Duckduckgo代理（可用AI聊天，包含GPT4o/Claude3），Github加速，支持解锁Libgen，在线代理。现已支持多平台部署。Cloudflare super proxy, setting up a free serverless proxy by using Cloudflare worker, support Duckduckgo / Libgen. Now you can deploy this project on different platforms.",
-        "stars": 1799,
+        "stars": 1807,
         "language": "JavaScript",
         "url": "https://github.com/1234567Yang/cf-proxy-ex",
         "homepage": "https://y.demo.lhyang.org/",
@@ -2755,7 +2742,7 @@
           "reverse-proxy"
         ],
         "pushed_at": "2026-06-11T02:24:22Z",
-        "updated_at": "2026-06-30T12:22:51Z",
+        "updated_at": "2026-07-06T12:46:51Z",
         "starred_at": "2024-09-15T07:31:44Z"
       },
       "summary": {
@@ -2783,7 +2770,7 @@
         "name": "NoMoreWalls",
         "owner": "peasoft",
         "description": "自动抓取合并互联网上的公开节点。",
-        "stars": 3356,
+        "stars": 3369,
         "language": "Python",
         "url": "https://github.com/peasoft/NoMoreWalls",
         "homepage": "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
@@ -2809,8 +2796,8 @@
           "vless",
           "vmess"
         ],
-        "pushed_at": "2026-07-01T19:26:19Z",
-        "updated_at": "2026-07-01T20:04:16Z",
+        "pushed_at": "2026-07-06T19:26:43Z",
+        "updated_at": "2026-07-06T19:26:48Z",
         "starred_at": "2024-08-23T15:34:36Z"
       },
       "summary": {
@@ -2838,13 +2825,13 @@
         "name": "tvbox",
         "owner": "qist",
         "description": "OK影视、tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。",
-        "stars": 10115,
+        "stars": 10192,
         "language": "JavaScript",
         "url": "https://github.com/qist/tvbox",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T06:50:40Z",
-        "updated_at": "2026-07-01T16:42:34Z",
+        "pushed_at": "2026-07-06T06:50:42Z",
+        "updated_at": "2026-07-06T18:37:06Z",
         "starred_at": "2024-07-13T10:10:25Z"
       },
       "summary": {
@@ -2870,13 +2857,13 @@
         "name": "Nagram",
         "owner": "NextAlone",
         "description": "The third-party Telegram android app.",
-        "stars": 2954,
+        "stars": 2972,
         "language": "Java",
         "url": "https://github.com/NextAlone/Nagram",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-06-28T15:20:28Z",
-        "updated_at": "2026-07-01T17:58:39Z",
+        "pushed_at": "2026-07-06T14:53:16Z",
+        "updated_at": "2026-07-06T16:45:40Z",
         "starred_at": "2024-07-03T09:05:49Z"
       },
       "summary": {
@@ -2904,7 +2891,7 @@
         "name": "BPB-Worker-Panel",
         "owner": "bia-pain-bache",
         "description": "A GUI Panel providing Worker subscriptions for VLESS, Trojan and Warp configs alongside a private DoH server and chain proxies, offering full DNS, clean IP,  Fragment, Warp, Warp pro and routing settings for cross-platform clients using Amnezia, Wireguard, Sing-box, Clash/Mihomo and Xray cores.",
-        "stars": 12236,
+        "stars": 12294,
         "language": "TypeScript",
         "url": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
         "homepage": "https://bia-pain-bache.github.io/BPB-Worker-Panel/",
@@ -2927,7 +2914,7 @@
           "xray-core"
         ],
         "pushed_at": "2026-06-17T18:20:57Z",
-        "updated_at": "2026-07-01T19:05:37Z",
+        "updated_at": "2026-07-06T19:31:33Z",
         "starred_at": "2024-11-25T23:26:19Z"
       },
       "summary": {
@@ -2955,7 +2942,7 @@
         "name": "httpsok",
         "owner": "httpsok",
         "description": "🔥🔥🔥一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费SSL证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt",
-        "stars": 1264,
+        "stars": 1273,
         "language": "Shell",
         "url": "https://github.com/httpsok/httpsok",
         "homepage": "https://httpsok.com/doc/",
@@ -2969,7 +2956,7 @@
           "tls-certificate"
         ],
         "pushed_at": "2026-05-25T10:57:46Z",
-        "updated_at": "2026-07-01T19:55:32Z",
+        "updated_at": "2026-07-05T06:53:40Z",
         "starred_at": "2024-04-24T14:57:46Z"
       },
       "summary": {
@@ -2997,13 +2984,13 @@
         "name": "awesome-cloudflare",
         "owner": "zhuima",
         "description": "⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.",
-        "stars": 14374,
+        "stars": 14421,
         "language": "N/A",
         "url": "https://github.com/zhuima/awesome-cloudflare",
         "homepage": "https://cloudflare.chuhai.tools/",
         "topics": [],
         "pushed_at": "2026-06-30T01:51:01Z",
-        "updated_at": "2026-07-01T15:37:05Z",
+        "updated_at": "2026-07-06T16:27:14Z",
         "starred_at": "2024-04-12T13:07:04Z"
       },
       "summary": {
@@ -3031,7 +3018,7 @@
         "name": "ecs",
         "owner": "spiritLHLS",
         "description": "VPS 融合怪服务器测评项目 更推荐使用无环境依赖的Go版本 VPS Fusion Monster Server Test Script – More recommended to use the Go version with no environment dependencies: https://github.com/oneclickvirt/ecs",
-        "stars": 6982,
+        "stars": 6998,
         "language": "Shell",
         "url": "https://github.com/spiritLHLS/ecs",
         "homepage": "https://t.me/+UHVoo2U4VyA5NTQ1",
@@ -3057,8 +3044,8 @@
           "ubuntu",
           "vps"
         ],
-        "pushed_at": "2026-05-08T15:34:32Z",
-        "updated_at": "2026-07-01T16:30:47Z",
+        "pushed_at": "2026-07-02T12:52:56Z",
+        "updated_at": "2026-07-06T15:11:38Z",
         "starred_at": "2024-04-07T13:50:09Z"
       },
       "summary": {
@@ -3086,7 +3073,7 @@
         "name": "proxypin",
         "owner": "wanghongenpin",
         "description": "Open source free capture HTTP(S) traffic  software ProxyPin, supporting full platform systems",
-        "stars": 13413,
+        "stars": 13453,
         "language": "Dart",
         "url": "https://github.com/wanghongenpin/proxypin",
         "homepage": "",
@@ -3098,8 +3085,8 @@
           "proxypin",
           "zhuabao"
         ],
-        "pushed_at": "2026-07-01T14:00:23Z",
-        "updated_at": "2026-07-01T14:26:36Z",
+        "pushed_at": "2026-07-06T08:53:51Z",
+        "updated_at": "2026-07-06T16:53:32Z",
         "starred_at": "2024-04-01T14:53:56Z"
       },
       "summary": {
@@ -3127,7 +3114,7 @@
         "name": "FreeNodes",
         "owner": "Barabama",
         "description": "v2ray、clash免费节点爬虫，自动更新",
-        "stars": 2898,
+        "stars": 2917,
         "language": "Python",
         "url": "https://github.com/Barabama/FreeNodes",
         "homepage": "",
@@ -3140,8 +3127,8 @@
           "vless",
           "vmess"
         ],
-        "pushed_at": "2026-07-01T08:08:05Z",
-        "updated_at": "2026-07-01T13:04:28Z",
+        "pushed_at": "2026-07-06T08:16:24Z",
+        "updated_at": "2026-07-06T11:58:19Z",
         "starred_at": "2024-03-15T13:58:24Z"
       },
       "summary": {
@@ -3201,13 +3188,13 @@
         "name": "Sandboxie",
         "owner": "sandboxie-plus",
         "description": "Sandboxie Plus & Classic",
-        "stars": 18758,
+        "stars": 18828,
         "language": "C",
         "url": "https://github.com/sandboxie-plus/Sandboxie",
         "homepage": "https://Sandboxie-Plus.com",
         "topics": [],
-        "pushed_at": "2026-06-25T21:38:05Z",
-        "updated_at": "2026-07-01T19:02:15Z",
+        "pushed_at": "2026-07-06T15:49:08Z",
+        "updated_at": "2026-07-06T15:49:33Z",
         "starred_at": "2024-04-10T08:25:24Z"
       },
       "summary": {
@@ -3235,7 +3222,7 @@
         "name": "GOODBYEADS",
         "owner": "8680",
         "description": "适用于AdGuard、Quantumult X、SmartDNS的去广告规则，合并优质上游规则并去重整理排列。",
-        "stars": 1803,
+        "stars": 1807,
         "language": "Python",
         "url": "https://github.com/8680/GOODBYEADS",
         "homepage": "",
@@ -3248,8 +3235,8 @@
           "adguardhome",
           "quantumult-x"
         ],
-        "pushed_at": "2026-07-01T14:47:06Z",
-        "updated_at": "2026-07-01T14:47:15Z",
+        "pushed_at": "2026-07-06T15:43:42Z",
+        "updated_at": "2026-07-06T16:24:10Z",
         "starred_at": "2024-02-16T04:17:51Z"
       },
       "summary": {
@@ -3275,13 +3262,13 @@
         "name": "N3RD",
         "owner": "n3rddd",
         "description": "CTV",
-        "stars": 75,
+        "stars": 76,
         "language": "JavaScript",
         "url": "https://github.com/n3rddd/N3RD",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T12:59:10Z",
-        "updated_at": "2026-07-01T12:59:14Z",
+        "pushed_at": "2026-07-06T14:02:29Z",
+        "updated_at": "2026-07-06T14:04:50Z",
         "starred_at": "2024-02-15T12:32:59Z"
       },
       "summary": {
@@ -3307,7 +3294,7 @@
         "name": "adblockfilters",
         "owner": "217heidai",
         "description": "去广告合并规则，每8个小时更新一次。",
-        "stars": 7216,
+        "stars": 7237,
         "language": "Python",
         "url": "https://github.com/217heidai/adblockfilters",
         "homepage": "",
@@ -3329,8 +3316,8 @@
           "sing-box",
           "smartdns"
         ],
-        "pushed_at": "2026-07-01T16:53:23Z",
-        "updated_at": "2026-07-01T16:53:37Z",
+        "pushed_at": "2026-07-06T18:14:58Z",
+        "updated_at": "2026-07-06T18:15:23Z",
         "starred_at": "2024-02-09T17:27:48Z"
       },
       "summary": {
@@ -3358,12 +3345,11 @@
         "name": "TikTokDownloader",
         "owner": "JoeanAmier",
         "description": "TikTok 发布/喜欢/合辑/直播/视频/图集/音乐；抖音发布/喜欢/收藏/收藏夹/视频/图集/实况/直播/音乐/合集/评论/账号/搜索/热榜数据采集工具/下载工具",
-        "stars": 14975,
+        "stars": 15022,
         "language": "Python",
         "url": "https://github.com/JoeanAmier/TikTokDownloader",
         "homepage": "https://discord.com/invite/ZYtmgKud9Y",
         "topics": [
-          "abogus",
           "api",
           "csv",
           "docker",
@@ -3373,19 +3359,17 @@
           "httpx",
           "linux",
           "macos",
-          "mstoken",
           "pyinstaller",
           "python",
           "rich",
           "server",
           "sqlite",
           "tiktok",
-          "ttwid",
           "windows",
           "xlsx"
         ],
-        "pushed_at": "2026-06-28T05:52:34Z",
-        "updated_at": "2026-07-01T19:13:35Z",
+        "pushed_at": "2026-07-04T05:07:59Z",
+        "updated_at": "2026-07-06T17:36:42Z",
         "starred_at": "2023-12-22T10:29:29Z"
       },
       "summary": {
@@ -3413,13 +3397,13 @@
         "name": "X",
         "owner": "alantang1977",
         "description": "如果喜欢，请点亮右上角星星，如有侵权请反馈！谢谢！免责声明：📛本仓库管理者不能保证本仓库内容的合法性、准确性、完整性和有效性，请根据情况自行判断。本仓库内容，仅用于测试和学习研究，禁止用于商业用途，不得将其用于违反国家、地区、组织等的法律法规或相关规定的其他用途，禁止任何公众号、自媒体进行任何形式的转载、发布，请不要在中华人民共和国境内使用本仓库内容，否则后果自负",
-        "stars": 664,
+        "stars": 666,
         "language": "Python",
         "url": "https://github.com/alantang1977/X",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-07-01T05:16:33Z",
-        "updated_at": "2026-07-01T05:16:36Z",
+        "pushed_at": "2026-07-06T04:56:55Z",
+        "updated_at": "2026-07-06T04:56:59Z",
         "starred_at": "2024-03-04T13:29:24Z"
       },
       "summary": {
@@ -3447,7 +3431,7 @@
         "name": "mediago",
         "owner": "mediago-dev",
         "description": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
-        "stars": 9041,
+        "stars": 9056,
         "language": "TypeScript",
         "url": "https://github.com/mediago-dev/mediago",
         "homepage": "https://downloader.caorushizi.cn/guides.html?form=github",
@@ -3462,8 +3446,8 @@
           "video",
           "youtube"
         ],
-        "pushed_at": "2026-06-21T18:27:50Z",
-        "updated_at": "2026-07-01T13:39:22Z",
+        "pushed_at": "2026-07-03T11:15:56Z",
+        "updated_at": "2026-07-06T13:38:25Z",
         "starred_at": "2023-05-06T02:57:22Z"
       },
       "summary": {
@@ -3491,7 +3475,7 @@
         "name": "x-ui-yg",
         "owner": "yonggekkk",
         "description": "x-ui精简修改版脚本，支持Hysteria2、Xhttp传输协议、ENC加密、MLDSA65加密，集成argo固定临时双隧道（可共存）、Psiphon赛风VPN（30个国家）分流功能，支持部分节点聚合订阅、sing-box订阅、clash-meta订阅的配置输出",
-        "stars": 3893,
+        "stars": 3911,
         "language": "Shell",
         "url": "https://github.com/yonggekkk/x-ui-yg",
         "homepage": "https://ygkkk.blogspot.com/2023/05/reality-xui-chatgpt.html",
@@ -3513,8 +3497,8 @@
           "xhttp",
           "xray-core"
         ],
-        "pushed_at": "2026-06-29T09:06:35Z",
-        "updated_at": "2026-07-01T12:30:32Z",
+        "pushed_at": "2026-07-04T13:13:26Z",
+        "updated_at": "2026-07-06T15:13:19Z",
         "starred_at": "2023-11-25T08:29:35Z"
       },
       "summary": {
@@ -3542,7 +3526,7 @@
         "name": "lx-music-sync-server",
         "owner": "lyswhut",
         "description": "运行在 Node.js 上的 LX Music 数据同步服务",
-        "stars": 811,
+        "stars": 815,
         "language": "TypeScript",
         "url": "https://github.com/lyswhut/lx-music-sync-server",
         "homepage": "",
@@ -3550,7 +3534,7 @@
           "nodejs"
         ],
         "pushed_at": "2025-09-08T01:14:00Z",
-        "updated_at": "2026-07-01T02:42:48Z",
+        "updated_at": "2026-07-06T09:18:12Z",
         "starred_at": "2023-04-02T07:45:50Z"
       },
       "summary": {
@@ -3578,7 +3562,7 @@
         "name": "biliup",
         "owner": "biliup",
         "description": "自动直播录制、投稿、twitch、ytb频道搬运工具。命令行投稿(B站)和视频下载工具，提供多种登录方式，支持多p。",
-        "stars": 5248,
+        "stars": 5261,
         "language": "Rust",
         "url": "https://github.com/biliup/biliup",
         "homepage": "https://biliup.github.io/biliup/",
@@ -3590,8 +3574,8 @@
           "twitch",
           "youtube"
         ],
-        "pushed_at": "2026-06-26T14:32:19Z",
-        "updated_at": "2026-07-01T15:53:38Z",
+        "pushed_at": "2026-07-05T11:09:18Z",
+        "updated_at": "2026-07-06T18:14:55Z",
         "starred_at": "2023-04-21T09:36:21Z"
       },
       "summary": {
@@ -3619,7 +3603,7 @@
         "name": "anti-AD",
         "owner": "privacy-protection-tools",
         "description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD 现已支持 AdGuardHome，dnsmasq，Surge，Pi-Hole，Clash, mihomo，smartdns，sing-box 等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式",
-        "stars": 10528,
+        "stars": 10546,
         "language": "N/A",
         "url": "https://github.com/privacy-protection-tools/anti-AD",
         "homepage": "https://anti-ad.net",
@@ -3633,8 +3617,8 @@
           "pi-hole",
           "surge"
         ],
-        "pushed_at": "2026-06-28T19:51:07Z",
-        "updated_at": "2026-07-01T12:55:12Z",
+        "pushed_at": "2026-07-04T19:42:53Z",
+        "updated_at": "2026-07-06T15:52:24Z",
         "starred_at": "2023-03-15T09:45:16Z"
       },
       "summary": {
@@ -3662,7 +3646,7 @@
         "name": "SmartTube",
         "owner": "yuliskov",
         "description": "Browse media content with your own rules on Android TV",
-        "stars": 30844,
+        "stars": 31031,
         "language": "Java",
         "url": "https://github.com/yuliskov/SmartTube",
         "homepage": "https://smarttubeapp.github.io",
@@ -3675,8 +3659,8 @@
           "retrofit2",
           "rxjava-android"
         ],
-        "pushed_at": "2026-07-01T10:40:11Z",
-        "updated_at": "2026-07-01T16:14:41Z",
+        "pushed_at": "2026-07-03T16:01:57Z",
+        "updated_at": "2026-07-06T19:29:05Z",
         "starred_at": "2023-02-27T15:46:43Z"
       },
       "summary": {
@@ -3701,14 +3685,14 @@
         "full_name": "leiurayer/downkyi",
         "name": "downkyi",
         "owner": "leiurayer",
-        "description": "哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。",
-        "stars": 24439,
+        "description": "",
+        "stars": 24444,
         "language": "N/A",
         "url": "https://github.com/leiurayer/downkyi",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2025-07-21T06:32:50Z",
-        "updated_at": "2026-07-01T15:27:30Z",
+        "pushed_at": "2026-07-06T02:20:42Z",
+        "updated_at": "2026-07-06T18:15:20Z",
         "starred_at": "2023-02-21T14:01:31Z"
       },
       "summary": {
@@ -3734,7 +3718,7 @@
         "name": "1Panel",
         "owner": "1Panel-dev",
         "description": "🔥 1Panel is a modern, open-source VPS control panel — and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.",
-        "stars": 36042,
+        "stars": 36116,
         "language": "Go",
         "url": "https://github.com/1Panel-dev/1Panel",
         "homepage": "https://1panel.pro",
@@ -3754,8 +3738,8 @@
           "qwenpaw",
           "webmin"
         ],
-        "pushed_at": "2026-07-01T10:14:35Z",
-        "updated_at": "2026-07-01T19:13:05Z",
+        "pushed_at": "2026-07-06T10:03:25Z",
+        "updated_at": "2026-07-06T19:07:16Z",
         "starred_at": "2023-04-01T01:30:37Z"
       },
       "summary": {
@@ -3783,7 +3767,7 @@
         "name": "free-api",
         "owner": "fangzesheng",
         "description": "收集免费的接口服务,做一个api的搬运工",
-        "stars": 16130,
+        "stars": 16136,
         "language": "N/A",
         "url": "https://github.com/fangzesheng/free-api",
         "homepage": "",
@@ -3792,7 +3776,7 @@
           "freeapi"
         ],
         "pushed_at": "2026-06-30T14:50:33Z",
-        "updated_at": "2026-07-01T04:06:44Z",
+        "updated_at": "2026-07-06T15:25:29Z",
         "starred_at": "2022-11-04T06:13:00Z"
       },
       "summary": {
@@ -3818,7 +3802,7 @@
         "name": "changedetection.io",
         "owner": "dgtlmoon",
         "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
-        "stars": 32164,
+        "stars": 32219,
         "language": "Python",
         "url": "https://github.com/dgtlmoon/changedetection.io",
         "homepage": "https://changedetection.io",
@@ -3844,8 +3828,8 @@
           "website-monitoring",
           "website-watcher"
         ],
-        "pushed_at": "2026-06-28T10:25:43Z",
-        "updated_at": "2026-07-01T20:10:57Z",
+        "pushed_at": "2026-07-06T17:27:59Z",
+        "updated_at": "2026-07-06T17:28:06Z",
         "starred_at": "2022-11-13T08:48:29Z"
       },
       "summary": {
@@ -3912,7 +3896,7 @@
         "name": "WebMonitor",
         "owner": "LogicJake",
         "description": "实时监控网页变化，并发送通知（Monitor web page changes in real time and send notifications）",
-        "stars": 910,
+        "stars": 911,
         "language": "Python",
         "url": "https://github.com/LogicJake/WebMonitor",
         "homepage": "https://logicjake.github.io/WebMonitor/#/",
@@ -3922,7 +3906,7 @@
           "web-monitor"
         ],
         "pushed_at": "2025-06-20T13:58:06Z",
-        "updated_at": "2026-07-01T00:13:11Z",
+        "updated_at": "2026-07-06T03:24:41Z",
         "starred_at": "2022-07-14T16:11:40Z"
       },
       "summary": {
@@ -3948,7 +3932,7 @@
         "name": "TrackersListCollection",
         "owner": "XIU2",
         "description": "🎈 Updated daily! A list of popular BitTorrent Trackers! / 每天更新！全网热门 BT Tracker 列表！",
-        "stars": 31657,
+        "stars": 31678,
         "language": "N/A",
         "url": "https://github.com/XIU2/TrackersListCollection",
         "homepage": "https://trackerslist.com",
@@ -3965,8 +3949,8 @@
           "trackerslist",
           "utorrent"
         ],
-        "pushed_at": "2026-07-01T00:40:44Z",
-        "updated_at": "2026-07-01T14:39:17Z",
+        "pushed_at": "2026-07-06T00:33:35Z",
+        "updated_at": "2026-07-06T18:15:08Z",
         "starred_at": "2022-04-10T05:36:00Z"
       },
       "summary": {
@@ -3994,7 +3978,7 @@
         "name": "FileCentipede",
         "owner": "filecxx",
         "description": "Cross-platform internet upload/download manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, m3u8, ed2k, and online videos.  WebDAV client, FTP client, SSH client.",
-        "stars": 10889,
+        "stars": 10888,
         "language": "C++",
         "url": "https://github.com/filecxx/FileCentipede",
         "homepage": "http://filecxx.com",
@@ -4019,7 +4003,7 @@
           "webdav-client"
         ],
         "pushed_at": "2026-06-02T10:19:53Z",
-        "updated_at": "2026-06-30T12:12:06Z",
+        "updated_at": "2026-07-06T19:11:22Z",
         "starred_at": "2022-04-08T13:54:30Z"
       },
       "summary": {
@@ -4045,7 +4029,7 @@
         "name": "lx-music-desktop",
         "owner": "lyswhut",
         "description": "一个基于 Electron 的音乐软件",
-        "stars": 51893,
+        "stars": 51987,
         "language": "TypeScript",
         "url": "https://github.com/lyswhut/lx-music-desktop",
         "homepage": "https://lyswhut.github.io/lx-music-doc/",
@@ -4055,8 +4039,8 @@
           "music-player",
           "vue"
         ],
-        "pushed_at": "2026-06-21T05:14:17Z",
-        "updated_at": "2026-07-01T15:02:28Z",
+        "pushed_at": "2026-07-06T13:03:12Z",
+        "updated_at": "2026-07-06T19:41:57Z",
         "starred_at": "2021-02-14T17:00:55Z"
       },
       "summary": {
@@ -4084,13 +4068,13 @@
         "name": "Docker_Microsoft365_E5_Renew_X",
         "owner": "hongyonghan",
         "description": "Docker版本的E5调用API续订服务：Microsoft 365 E5 Renew X",
-        "stars": 1377,
+        "stars": 1378,
         "language": "Dockerfile",
         "url": "https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X",
         "homepage": "",
         "topics": [],
         "pushed_at": "2024-03-07T11:50:12Z",
-        "updated_at": "2026-06-28T22:38:36Z",
+        "updated_at": "2026-07-05T17:58:36Z",
         "starred_at": "2022-03-18T09:29:11Z"
       },
       "summary": {
@@ -4118,7 +4102,7 @@
         "name": "v2ray-heroku",
         "owner": "bclswl0827",
         "description": "用于在 Heroku 上部署 V2Ray WebSocket。",
-        "stars": 2055,
+        "stars": 2053,
         "language": "Shell",
         "url": "https://github.com/bclswl0827/v2ray-heroku",
         "homepage": "https://ibcl.us/Heroku-V2Ray_20191014/",
@@ -4127,7 +4111,7 @@
           "websocket-v2ray"
         ],
         "pushed_at": "2022-04-30T10:09:08Z",
-        "updated_at": "2026-07-01T06:53:10Z",
+        "updated_at": "2026-07-06T16:48:59Z",
         "starred_at": "2020-10-09T04:14:04Z"
       },
       "summary": {
@@ -4155,13 +4139,13 @@
         "name": "ContextMenuManager",
         "owner": "BluePointLilac",
         "description": "🖱️ 纯粹的Windows右键菜单管理程序",
-        "stars": 19458,
+        "stars": 19492,
         "language": "C#",
         "url": "https://github.com/BluePointLilac/ContextMenuManager",
         "homepage": "https://bluepointlilac.github.io/ContextMenuManager",
         "topics": [],
         "pushed_at": "2024-08-17T03:11:10Z",
-        "updated_at": "2026-07-01T16:55:31Z",
+        "updated_at": "2026-07-06T19:07:31Z",
         "starred_at": "2020-11-08T10:02:10Z"
       },
       "summary": {
@@ -4187,13 +4171,13 @@
         "name": "ChromeAppHeroes",
         "owner": "zhaoolee",
         "description": "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~  ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let the Chrome plugin heroes benefit the human~ 公众号「0加1」同步更新",
-        "stars": 25696,
+        "stars": 25715,
         "language": "JavaScript",
         "url": "https://github.com/zhaoolee/ChromeAppHeroes",
         "homepage": "https://zhaoolee.com/ChromeAppHeroes/",
         "topics": [],
         "pushed_at": "2026-05-11T03:54:12Z",
-        "updated_at": "2026-07-01T08:09:28Z",
+        "updated_at": "2026-07-06T09:47:53Z",
         "starred_at": "2019-12-30T07:58:04Z"
       },
       "summary": {
@@ -4219,7 +4203,7 @@
         "name": "v2rayN",
         "owner": "2dust",
         "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-        "stars": 110332,
+        "stars": 110710,
         "language": "C#",
         "url": "https://github.com/2dust/v2rayN",
         "homepage": "https://v2rayn.2dust.link",
@@ -4236,8 +4220,8 @@
           "xray",
           "xtls"
         ],
-        "pushed_at": "2026-06-28T03:05:41Z",
-        "updated_at": "2026-07-01T20:11:50Z",
+        "pushed_at": "2026-07-06T08:08:43Z",
+        "updated_at": "2026-07-06T19:26:50Z",
         "starred_at": "2019-12-29T09:59:51Z"
       },
       "summary": {
@@ -4263,7 +4247,7 @@
         "name": "ShareX",
         "owner": "ShareX",
         "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
-        "stars": 38362,
+        "stars": 38444,
         "language": "C#",
         "url": "https://github.com/ShareX/ShareX",
         "homepage": "https://getsharex.com",
@@ -4289,8 +4273,8 @@
           "sharex",
           "url-shortener"
         ],
-        "pushed_at": "2026-07-01T07:38:59Z",
-        "updated_at": "2026-07-01T20:06:42Z",
+        "pushed_at": "2026-07-05T11:57:04Z",
+        "updated_at": "2026-07-06T18:14:38Z",
         "starred_at": "2020-02-26T04:54:09Z"
       },
       "summary": {
@@ -4318,13 +4302,13 @@
         "name": "cloudflare-light-blog",
         "owner": "SRSGMOE",
         "description": "",
-        "stars": 26,
+        "stars": 30,
         "language": "JavaScript",
         "url": "https://github.com/SRSGMOE/cloudflare-light-blog",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-06-04T16:00:02Z",
-        "updated_at": "2026-07-01T03:25:21Z",
+        "pushed_at": "2026-07-05T17:03:20Z",
+        "updated_at": "2026-07-06T17:27:18Z",
         "starred_at": "2026-07-01T03:25:20Z"
       },
       "summary": {
@@ -4350,13 +4334,13 @@
         "name": "Collect-IPTV",
         "owner": "zilong7728",
         "description": "📡IPTV节目源收集，每4小时更新！！",
-        "stars": 1867,
+        "stars": 1901,
         "language": "N/A",
         "url": "https://github.com/zilong7728/Collect-IPTV",
         "homepage": "https://zilong7728.github.io/Collect-IPTV/",
         "topics": [],
-        "pushed_at": "2026-07-01T17:52:22Z",
-        "updated_at": "2026-07-01T17:52:34Z",
+        "pushed_at": "2026-07-06T18:09:00Z",
+        "updated_at": "2026-07-06T18:51:26Z",
         "starred_at": "2026-07-01T03:19:39Z"
       },
       "summary": {
@@ -4377,6 +4361,74 @@
       },
       "pushed_at": "2026-07-01T17:52:22Z",
       "updated_at": "2026-07-01"
+    },
+    "ZeroDeng01/sublinkPro": {
+      "metadata": {
+        "full_name": "ZeroDeng01/sublinkPro",
+        "name": "sublinkPro",
+        "owner": "ZeroDeng01",
+        "description": "✨ 现代化代理订阅管理平台 | 智能分类 · 专业测速 · 链式中转 · 流量监控 · TG管理 · JS扩展 | Go+React 全新UI 🌍 Modern Proxy Subscription Manager | Smart Tags · Speed Test · Relays · Monitor · TG Bot · JS Scripts",
+        "stars": 1455,
+        "language": "Go",
+        "url": "https://github.com/ZeroDeng01/sublinkPro",
+        "homepage": "https://demo.sublinkpro.dpdns.org",
+        "topics": [],
+        "pushed_at": "2026-07-06T02:28:46Z",
+        "updated_at": "2026-07-06T14:34:55Z",
+        "starred_at": "2026-07-06T03:46:15Z"
+      },
+      "summary": {
+        "zh": "一个基于 Go+React 的现代化代理订阅管理平台。提供智能标签、专业测速、链式中转、流量监控和 TG Bot 管理等功能，支持 JS 扩展，旨在高效管理和转换代理订阅。",
+        "en": "A modern proxy subscription management platform built with Go+React. It features smart tagging, professional speed testing, relay chains, traffic monitoring, and TG Bot management, designed for efficient proxy subscription handling.",
+        "tags_zh": [
+          "Go",
+          "React",
+          "数据可视化",
+          "运维自动化"
+        ],
+        "tags_en": [
+          "DevOps Automation",
+          "Go",
+          "React",
+          "数据可视化"
+        ]
+      },
+      "pushed_at": "2026-07-06T02:28:46Z",
+      "updated_at": "2026-07-06"
+    },
+    "0x90d/videoduplicatefinder": {
+      "metadata": {
+        "full_name": "0x90d/videoduplicatefinder",
+        "name": "videoduplicatefinder",
+        "owner": "0x90d",
+        "description": "Video Duplicate Finder - Crossplatform",
+        "stars": 3389,
+        "language": "C#",
+        "url": "https://github.com/0x90d/videoduplicatefinder",
+        "homepage": "",
+        "topics": [],
+        "pushed_at": "2026-07-06T09:13:39Z",
+        "updated_at": "2026-07-06T20:06:52Z",
+        "starred_at": "2026-07-06T01:42:56Z"
+      },
+      "summary": {
+        "zh": "跨平台视频与图像去重工具，基于视觉相似性与音频指纹技术，精准识别不同分辨率、帧率、带水印及部分剪辑的重复文件。支持桌面GUI、CLI、Web UI及Docker部署，适用于本地硬盘、NAS及服务器环境，提供高效媒体文件管理解决方案。",
+        "en": "A cross-platform video and image deduplication tool leveraging visual similarity and audio fingerprinting to identify duplicates with varying resolutions, frame rates, watermarks, and partial clips. It supports desktop GUI, CLI, Web UI, and Docker deployment, providing an efficient media file management solution for local drives, NAS, and servers.",
+        "tags_zh": [
+          "去重工具",
+          "媒体处理",
+          "跨平台",
+          "音频指纹"
+        ],
+        "tags_en": [
+          "Audio Fingerprinting",
+          "Cross-platform",
+          "Deduplication Tool",
+          "Media Processing"
+        ]
+      },
+      "pushed_at": "2026-07-06T09:13:39Z",
+      "updated_at": "2026-07-06"
     }
   }
 }
