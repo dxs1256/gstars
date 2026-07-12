@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-07-12 08:23 UTC · Total: 114
+> Updated: 2026-07-12 08:34 UTC · Total: 114
 
 ---
 
@@ -125,10 +125,10 @@
 ## laoma2053/awesome-zhuiju-free
 
 > [!info]
-> ⭐ 1,241 · JavaScript · 2026-07-12T08:21:50Z  
+> ⭐ 1,243 · JavaScript · 2026-07-12T08:31:20Z  
 > [GitHub](https://github.com/laoma2053/awesome-zhuiju-free) · [Website](https://zhuiju.me)  
-> `#awesome-list` `#bt-search` `#chinese` `#cloud-drive-search` `#free` `#free-streaming` `#iptv` `#magnet-search` `#media-player` `#movie` `#movie-guide` `#movie-resources` `#no-ads` `#subtitles` `#tvbox` `#tvbox-config` 
-> Generation failed
+> `#Automation Tools` `#Free Streaming` `#Media Resource Navigation` `#Open Source Collaboration` `#awesome-list` `#bt-search` `#chinese` `#cloud-drive-search` `#free` `#free-streaming` `#iptv` `#magnet-search` `#media-player` `#movie` `#movie-guide` `#movie-resources` `#no-ads` `#subtitles` `#tvbox` `#tvbox-config` 
+> Curated free ad-free streaming resource directory covering online movies, cloud storage search, TVBox configs. Daily automated availability checks, open-source community maintenance ensures resource validity, helping users efficiently access media content.
 > <sub>人工精选的免费无广告追剧资源导航，每日自动检测可用性。收录在线影视、影视APP、网盘搜索、磁力 BT、字幕、TVBox / 影视仓配置地址、IPTV 订阅源。开源，社区共同维护。</sub>
 
 ---
@@ -137,15 +137,15 @@
 > [!info]
 > ⭐ 2,690 · TypeScript · 2026-07-12T08:21:20Z  
 > [GitHub](https://github.com/mtvpls/MoonTVPlus)  
-> 
-> Generation failed
+> `#Enhanced Viewing` `#Media Streaming` `#Next.js` `#WebGPU` 
+> MoonTVPlus is an enhanced media player built on MoonTV, featuring external player integration, WebGPU-based video upscaling, danmaku system, Douban review scraping, and M3U8 downloading. Developed with Next.js and TypeScript, it offers PWA offline support, multi-platform deployment, ad-blocking, and private media library for superior viewing experience.
 > <sub>MoonTVPlus 是基于 MoonTV v100 二次开发的增强版影视聚合播放器。它在原版基础上新增了外部播放器支持、视频超分、弹幕系统、评论抓取等实用功能，提供更强大的观影体验。</sub>
 
 ---
 ## vxcontrol/pentagi
 
 > [!info]
-> ⭐ 20,022 · Go · 2026-07-12T08:12:23Z  
+> ⭐ 20,024 · Go · 2026-07-12T08:28:42Z  
 > [GitHub](https://github.com/vxcontrol/pentagi) · [Website](https://pentagi.com)  
 > `#AI Agents` `#AI 大模型` `#Penetration Testing` `#网络安全` `#ai-agents` `#ai-security-tool` `#anthropic` `#autonomous-agents` `#golang` `#gpt` `#graphql` `#multi-agent-system` `#offensive-security` `#open-source` `#openai` `#penetration-testing` `#penetration-testing-tools` `#react` `#security-automation` `#security-testing` `#security-tools` `#self-hosted` 
 > PentAGI is a fully autonomous AI penetration testing system leveraging large models to execute complex security tests within a sandboxed Docker environment. It includes 20+ professional tools, integrates knowledge graphs and smart memory, and supports multiple LLM providers. Designed for security researchers and ethical hackers, it significantly enhances the efficiency and reliability of automated penetration testing workflows through intelligent task planning and execution monitoring.
@@ -370,7 +370,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 55,051 · Python · 2026-07-12T08:19:30Z  
+> ⭐ 55,052 · Python · 2026-07-12T08:27:03Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI Agents` `#Automation Tools` `#Cross-platform` `#网页爬虫` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach empowers AI Agents with internet access via a single CLI, supporting platforms like Twitter, Reddit, YouTube, and Bilibili without API fees. It features multi-backend routing for stability, local cookie privacy, and seamless integration with agents like Cursor or Claude Code, ensuring zero-cost, reliable data retrieval.
@@ -546,7 +546,7 @@
 ## youhunwl/TVAPP
 
 > [!info]
-> ⭐ 19,750 · JavaScript · 2026-07-12T07:53:17Z  
+> ⭐ 19,751 · JavaScript · 2026-07-12T08:26:46Z  
 > [GitHub](https://github.com/youhunwl/TVAPP) · [Website](https://app.iyouhun.com)  
 > `#Android TV` `#Home Entertainment` `#Interface Configuration` `#Media Aggregation` `#android` `#android-tv` `#apk` `#app` `#tv` `#tv-box` 
 > This repository aggregates Android TV apps covering movies, live TV, and tools. It specializes in providing interface configuration sources for TVBox and Film Warehouse shells. Featuring high-quality APKs like Moonlight Box and OK Movie with compatibility notes, it facilitates easy downloads to build a home entertainment center. For personal learning only.
@@ -606,7 +606,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 49,364 · N/A · 2026-07-12T08:22:05Z  
+> ⭐ 49,367 · N/A · 2026-07-12T08:32:01Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI Applications` `#Independent Development` `#Project Navigation` `#Resource Aggregation` `#china` `#indie` `#indie-developer` 
 > This repository aggregates projects by Chinese independent developers, featuring AI tools, SaaS, browser extensions, and productivity apps. It serves as a discovery platform for indie hackers to showcase products and exchange ideas. Contributions via PR are welcome, emphasizing clear product value propositions for the community.
@@ -655,7 +655,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 75,558 · Roff · 2026-07-12T08:20:07Z  
+> ⭐ 75,559 · Roff · 2026-07-12T08:27:48Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#Education Technology` `#Open Source Resources` `#Textbook Sharing` 
 > This project builds an open-source repository of PDF textbooks covering all Chinese education levels from primary to university. It aims to break information barriers, reduce regional educational disparities, and support overseas Chinese children in continuing domestic education. By centralizing free resources, it counters commercial monopolies and promotes educational equity.
@@ -675,7 +675,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 177,411 · Python · 2026-07-12T08:07:17Z  
+> ⭐ 177,413 · Python · 2026-07-12T08:29:07Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#Audio/Video Downloading` `#CLI Tools` `#Multimedia Processing` `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > yt-dlp is a powerful CLI audio/video downloader, a fork of youtube-dl supporting thousands of sites. It features plugin extensibility, SponsorBlock integration, and advanced format filtering, making it the top choice for media archiving and automation.
@@ -805,7 +805,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 164,846 · Python · 2026-07-12T08:20:48Z  
+> ⭐ 164,847 · Python · 2026-07-12T08:31:12Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#Content Aggregation` `#Open Source` `#Project Discovery` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub is a platform dedicated to aggregating and recommending interesting, entry-level open source projects on GitHub. It updates monthly with curated projects, books, and practical cases. The core value is to lower the barrier for developers to participate in open source, helping users efficiently discover high-quality resources and feel the joy of open source.
@@ -815,7 +815,7 @@
 ## bia-pain-bache/BPB-Worker-Panel
 
 > [!info]
-> ⭐ 12,391 · TypeScript · 2026-07-12T08:13:43Z  
+> ⭐ 12,392 · TypeScript · 2026-07-12T08:23:14Z  
 > [GitHub](https://github.com/bia-pain-bache/BPB-Worker-Panel) · [Website](https://bia-pain-bache.github.io/BPB-Worker-Panel/)  
 > `#Cloudflare Workers` `#Cross-platform Proxy` `#Network Proxy` `#Xray Core` `#amnezia` `#android` `#chain` `#clash-core` `#doh-server` `#fragment` `#ios` `#linux` `#mihomo` `#proxy-chain` `#singbox-core` `#trojan` `#vless` `#warp` `#windows` `#xray-core` 
 > BPB Panel is a free GUI for Cloudflare Workers providing VLESS, Trojan, and Warp subscriptions with a private DoH server. It features chain proxies, advanced routing, and Fragment/Warp Pro support. Compatible with Xray, Sing-box, and Clash cores, it ensures secure, private, and cross-platform connectivity for bypassing restrictions.
@@ -1084,7 +1084,7 @@
 ## 1Panel-dev/1Panel
 
 > [!info]
-> ⭐ 36,180 · Go · 2026-07-12T06:31:17Z  
+> ⭐ 36,179 · Go · 2026-07-12T08:28:19Z  
 > [GitHub](https://github.com/1Panel-dev/1Panel) · [Website](https://1panel.pro)  
 > `#AI LLM` `#Docker Container` `#Ops Automation` `#VPS Control Panel` `#agent` `#clawdbot` `#copaw` `#docker` `#docker-ui` `#hermes` `#hermes-agent` `#linux` `#lnmp` `#ollama` `#openclaw` `#openresty` `#qwenpaw` `#webmin` 
 > 1Panel is a modern, open-source VPS control panel featuring native AI agent support. Users can run Ollama models, deploy OpenClaw agents, and manage Docker containers directly from the web interface. It offers one-click website deployment, automatic SSL provisioning, and a marketplace with 165+ apps. With a modern UI and active development, it's the ideal choice for managing servers and AI applications efficiently.
@@ -1233,7 +1233,7 @@
 ## zhaoolee/ChromeAppHeroes
 
 > [!info]
-> ⭐ 25,717 · JavaScript · 2026-07-12T01:44:44Z  
+> ⭐ 25,716 · JavaScript · 2026-07-12T08:27:06Z  
 > [GitHub](https://github.com/zhaoolee/ChromeAppHeroes) · [Website](https://zhaoolee.com/ChromeAppHeroes/)  
 > `#Browser Extensions` `#Open Source Docs` `#Productivity Tools` 
 > ChromeAppHeroes curates top Chrome extensions with detailed Chinese guides, covering translation, ad-blocking, and video tools. Built with docsify and hosted on GitHub Pages, it empowers users to enhance productivity through browser extensions.
@@ -1243,7 +1243,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 111,149 · C# · 2026-07-12T08:11:35Z  
+> ⭐ 111,148 · C# · 2026-07-12T08:28:40Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#Cross-Platform` `#Network Tools` `#Proxy Client` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN is a cross-platform GUI client for Windows, Linux, and macOS, supporting multiple core engines like Xray and sing-box. It offers robust network proxy capabilities with GPG-signed releases to ensure authenticity and integrity, preventing hijacking. It serves as a reliable tool for secure network access.

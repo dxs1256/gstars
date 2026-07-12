@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-07-12 08:23 UTC · Total: 114
+> Updated: 2026-07-12 08:34 UTC · Total: 114
 
 ---
 
@@ -125,10 +125,10 @@
 ## laoma2053/awesome-zhuiju-free
 
 > [!info]
-> ⭐ 1,241 · JavaScript · 2026-07-12T08:21:50Z  
+> ⭐ 1,243 · JavaScript · 2026-07-12T08:31:20Z  
 > [GitHub](https://github.com/laoma2053/awesome-zhuiju-free) · [Website](https://zhuiju.me)  
-> `#awesome-list` `#bt-search` `#chinese` `#cloud-drive-search` `#free` `#free-streaming` `#iptv` `#magnet-search` `#media-player` `#movie` `#movie-guide` `#movie-resources` `#no-ads` `#subtitles` `#tvbox` `#tvbox-config` 
-> 生成失败
+> `#免费追剧` `#开源协作` `#影视资源导航` `#自动化工具` `#awesome-list` `#bt-search` `#chinese` `#cloud-drive-search` `#free` `#free-streaming` `#iptv` `#magnet-search` `#media-player` `#movie` `#movie-guide` `#movie-resources` `#no-ads` `#subtitles` `#tvbox` `#tvbox-config` 
+> 人工精选的免费无广告追剧资源导航，涵盖在线影视、网盘搜索、TVBox配置等。每日自动检测资源可用性，开源社区维护，确保资源有效，助力用户高效获取影视内容。
 > <sub>人工精选的免费无广告追剧资源导航，每日自动检测可用性。收录在线影视、影视APP、网盘搜索、磁力 BT、字幕、TVBox / 影视仓配置地址、IPTV 订阅源。开源，社区共同维护。</sub>
 
 ---
@@ -137,15 +137,15 @@
 > [!info]
 > ⭐ 2,690 · TypeScript · 2026-07-12T08:21:20Z  
 > [GitHub](https://github.com/mtvpls/MoonTVPlus)  
-> 
-> 生成失败
+> `#Next.js` `#WebGPU` `#影视娱乐` `#观影增强` 
+> MoonTVPlus是基于MoonTV的增强版影视聚合播放器，支持外部播放器跳转、WebGPU视频超分、弹幕系统、豆瓣评论抓取及M3U8下载。采用Next.js+TypeScript构建，具备PWA离线缓存、多平台部署能力，提供智能去广告与私人影库功能，显著提升观影体验。
 > <sub>MoonTVPlus 是基于 MoonTV v100 二次开发的增强版影视聚合播放器。它在原版基础上新增了外部播放器支持、视频超分、弹幕系统、评论抓取等实用功能，提供更强大的观影体验。</sub>
 
 ---
 ## vxcontrol/pentagi
 
 > [!info]
-> ⭐ 20,022 · Go · 2026-07-12T08:12:23Z  
+> ⭐ 20,024 · Go · 2026-07-12T08:28:42Z  
 > [GitHub](https://github.com/vxcontrol/pentagi) · [Website](https://pentagi.com)  
 > `#AI 智能体` `#大模型` `#渗透测试` `#网络安全` `#ai-agents` `#ai-security-tool` `#anthropic` `#autonomous-agents` `#golang` `#gpt` `#graphql` `#multi-agent-system` `#offensive-security` `#open-source` `#openai` `#penetration-testing` `#penetration-testing-tools` `#react` `#security-automation` `#security-testing` `#security-tools` `#self-hosted` 
 > PentAGI 是一款完全自主的 AI 渗透测试系统，利用大模型在沙箱 Docker 环境中自动执行复杂安全测试。内置 20+ 专业工具，集成知识图谱与智能记忆，支持多 LLM 提供商。专为安全研究人员和道德黑客打造，显著提升自动化渗透测试效率。
@@ -370,7 +370,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 55,051 · Python · 2026-07-12T08:19:30Z  
+> ⭐ 55,052 · Python · 2026-07-12T08:27:03Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#AI智能体` `#网页爬虫` `#自动化工具` `#跨平台` `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > Agent Reach 是一款赋予 AI Agent 互联网视野的 CLI 工具，支持 Twitter、Reddit、YouTube、Bilibili 及小红书等主流平台。它通过多后端路由实现零 API 费用、高稳定性的数据获取，兼容各类 AI Agent 环境，解决平台封锁与登录难题，实现隐私安全的跨平台信息检索。
@@ -546,7 +546,7 @@
 ## youhunwl/TVAPP
 
 > [!info]
-> ⭐ 19,750 · JavaScript · 2026-07-12T07:53:17Z  
+> ⭐ 19,751 · JavaScript · 2026-07-12T08:26:46Z  
 > [GitHub](https://github.com/youhunwl/TVAPP) · [Website](https://app.iyouhun.com)  
 > `#Android TV` `#家庭娱乐` `#影音聚合` `#接口配置` `#android` `#android-tv` `#apk` `#app` `#tv` `#tv-box` 
 > 该仓库聚合全网 Android TV 应用，涵盖影视、直播及工具类，重点提供 TVBox、影视仓等影音壳的接口配置源。包含月光宝盒、OK 影视等优质 APK，标注兼容性与状态，支持便捷下载，助力用户打造家庭影音娱乐中心，仅供学习使用。
@@ -606,7 +606,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 49,364 · N/A · 2026-07-12T08:22:05Z  
+> ⭐ 49,367 · N/A · 2026-07-12T08:32:01Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#AI 应用` `#独立开发` `#资源聚合` `#项目导航` `#china` `#indie` `#indie-developer` 
 > 本仓库聚合了中国独立开发者的优质项目，涵盖 AI 工具、SaaS、浏览器插件及效率应用等。旨在构建开发者生态，通过开源列表形式促进项目发现与交流。支持 PR 提交，强调产品价值表达，是独立开发者展示成果与寻找灵感的权威导航平台。
@@ -655,7 +655,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 75,558 · Roff · 2026-07-12T08:20:07Z  
+> ⭐ 75,559 · Roff · 2026-07-12T08:27:48Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > `#开源资源` `#教材共享` `#教育科技` 
 > 本项目致力于构建中国全学段（小初高及大学）PDF教材的开源资源库。旨在打破信息壁垒，消除地区教育差异，并帮助海外华人子女延续国内教育体系。通过集中托管免费教材，对抗资源商业化垄断，促进教育公平与知识普及。
@@ -675,7 +675,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 177,411 · Python · 2026-07-12T08:07:17Z  
+> ⭐ 177,413 · Python · 2026-07-12T08:29:07Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#命令行工具` `#多媒体处理` `#音视频下载` `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > yt-dlp 是一款功能强大的命令行音视频下载工具，作为 youtube-dl 的分支，它支持数千个网站。具备插件扩展、SponsorBlock 集成及丰富的格式筛选功能，是媒体归档与自动化下载的首选方案。
@@ -805,7 +805,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 164,846 · Python · 2026-07-12T08:20:48Z  
+> ⭐ 164,847 · Python · 2026-07-12T08:31:12Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#内容聚合` `#开源社区` `#项目发现` `#awesome` `#github` `#hellogithub` `#python` 
 > HelloGitHub 是专注于聚合与推荐 GitHub 上有趣、入门级开源项目的平台。通过每月更新的月刊，精选项目、书籍及实战案例，旨在降低开发者参与开源的门槛。核心价值在于帮助用户高效发现优质资源，感受开源乐趣，是开发者发现好项目最佳入口。
@@ -815,7 +815,7 @@
 ## bia-pain-bache/BPB-Worker-Panel
 
 > [!info]
-> ⭐ 12,391 · TypeScript · 2026-07-12T08:13:43Z  
+> ⭐ 12,392 · TypeScript · 2026-07-12T08:23:14Z  
 > [GitHub](https://github.com/bia-pain-bache/BPB-Worker-Panel) · [Website](https://bia-pain-bache.github.io/BPB-Worker-Panel/)  
 > `#Cloudflare Workers` `#Xray核心` `#网络代理` `#跨平台代理` `#amnezia` `#android` `#chain` `#clash-core` `#doh-server` `#fragment` `#ios` `#linux` `#mihomo` `#proxy-chain` `#singbox-core` `#trojan` `#vless` `#warp` `#windows` `#xray-core` 
 > BPB Panel 是一款基于 Cloudflare Workers 的免费 GUI 代理面板，支持 VLESS、Trojan 和 Warp 协议订阅。它提供私有 DoH 服务器、链式代理及高级路由规则，完美兼容 Xray、Sing-box 等主流客户端。具备 Fragment 和 Warp Pro 优化，专为跨平台隐私保护与网络访问设计。
@@ -1084,7 +1084,7 @@
 ## 1Panel-dev/1Panel
 
 > [!info]
-> ⭐ 36,180 · Go · 2026-07-12T06:31:17Z  
+> ⭐ 36,179 · Go · 2026-07-12T08:28:19Z  
 > [GitHub](https://github.com/1Panel-dev/1Panel) · [Website](https://1panel.pro)  
 > `#AI 大模型` `#Docker 容器` `#VPS 控制面板` `#运维自动化` `#agent` `#clawdbot` `#copaw` `#docker` `#docker-ui` `#hermes` `#hermes-agent` `#linux` `#lnmp` `#ollama` `#openclaw` `#openresty` `#qwenpaw` `#webmin` 
 > 1Panel 是一款现代化的开源 VPS 控制面板，首创原生 AI 代理支持。用户可在 Web 界面直接运行 Ollama 模型、部署 OpenClaw 代理及管理 Docker 容器。它提供一键网站部署、SSL 自动配置，界面现代且免费开源，是高效管理的利器。
@@ -1233,7 +1233,7 @@
 ## zhaoolee/ChromeAppHeroes
 
 > [!info]
-> ⭐ 25,717 · JavaScript · 2026-07-12T01:44:44Z  
+> ⭐ 25,716 · JavaScript · 2026-07-12T08:27:06Z  
 > [GitHub](https://github.com/zhaoolee/ChromeAppHeroes) · [Website](https://zhaoolee.com/ChromeAppHeroes/)  
 > `#开源文档` `#效率工具` `#浏览器插件` 
 > 谷粒-Chrome插件英雄榜精选优质Chrome插件，提供详尽中文指南，涵盖翻译、广告屏蔽、视频处理等场景。采用docsify构建开源文档，助力用户高效利用浏览器扩展提升工作效率。
@@ -1243,7 +1243,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 111,149 · C# · 2026-07-12T08:11:35Z  
+> ⭐ 111,148 · C# · 2026-07-12T08:28:40Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#代理客户端` `#网络工具` `#跨平台` `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > v2rayN 是一款专为 Windows、Linux 和 macOS 设计的跨平台图形化代理客户端。它支持 Xray、sing-box 等多种核心内核，提供强大的网络代理功能。项目具备 GPG 签名校验机制，确保发布文件的真实性与完整性，有效防止劫持，是用户进行安全网络访问的可靠工具。
