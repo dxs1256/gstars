@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07 15:07 UTC",
+  "last_updated": "2026-09-07 15:17 UTC",
   "repos": {
     "Stremio/stremio-web": {
       "metadata": {
@@ -34,7 +34,7 @@
         "name": "clash-verge-rev",
         "owner": "clash-verge-rev",
         "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-        "stars": 142844,
+        "stars": 142847,
         "language": "TypeScript",
         "url": "https://github.com/clash-verge-rev/clash-verge-rev",
         "homepage": "https://www.clashverge.dev",
@@ -49,7 +49,7 @@
           "windows"
         ],
         "pushed_at": "2026-09-07T14:20:05Z",
-        "updated_at": "2026-09-07T15:01:17Z",
+        "updated_at": "2026-09-07T15:10:02Z",
         "starred_at": "2026-09-07T12:38:46Z"
       },
       "summary": {
@@ -67,7 +67,7 @@
         "name": "czkawka",
         "owner": "qarmin",
         "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
-        "stars": 33287,
+        "stars": 33288,
         "language": "Fluent",
         "url": "https://github.com/qarmin/czkawka",
         "homepage": "",
@@ -83,7 +83,7 @@
           "similar-videos"
         ],
         "pushed_at": "2026-09-03T19:06:42Z",
-        "updated_at": "2026-09-07T15:04:17Z",
+        "updated_at": "2026-09-07T15:07:46Z",
         "starred_at": "2026-09-07T14:45:00Z"
       },
       "summary": {
@@ -233,7 +233,7 @@
         "name": "xiaozhi-esp32",
         "owner": "78",
         "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
-        "stars": 29686,
+        "stars": 29687,
         "language": "C++",
         "url": "https://github.com/78/xiaozhi-esp32",
         "homepage": "https://xiaozhi.me",
@@ -243,7 +243,7 @@
           "mcp"
         ],
         "pushed_at": "2026-09-04T15:58:08Z",
-        "updated_at": "2026-09-07T14:33:21Z",
+        "updated_at": "2026-09-07T15:12:48Z",
         "starred_at": "2026-08-24T12:03:58Z"
       },
       "summary": {
@@ -610,7 +610,7 @@
         "name": "OmniRoute",
         "owner": "diegosouzapw",
         "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
-        "stars": 62334,
+        "stars": 62337,
         "language": "TypeScript",
         "url": "https://github.com/diegosouzapw/OmniRoute",
         "homepage": "https://omniroute.online",
@@ -636,8 +636,8 @@
           "qwen",
           "token-saver"
         ],
-        "pushed_at": "2026-09-07T14:48:30Z",
-        "updated_at": "2026-09-07T15:00:35Z",
+        "pushed_at": "2026-09-07T15:09:57Z",
+        "updated_at": "2026-09-07T15:14:30Z",
         "starred_at": "2026-08-04T10:53:41Z"
       },
       "summary": {
@@ -646,7 +646,7 @@
         "tags_zh": [],
         "tags_en": []
       },
-      "pushed_at": "2026-09-07T14:48:30Z",
+      "pushed_at": "2026-09-07T15:09:57Z",
       "updated_at": "2026-09-07"
     },
     "hg3386628/qiying-media-vault": {
@@ -788,7 +788,7 @@
         "name": "awesome-zhuiju-free",
         "owner": "laoma2053",
         "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
-        "stars": 8236,
+        "stars": 8237,
         "language": "JavaScript",
         "url": "https://github.com/laoma2053/awesome-zhuiju-free",
         "homepage": "https://zhuiju.me",
@@ -811,7 +811,7 @@
           "tvbox-config"
         ],
         "pushed_at": "2026-09-07T01:32:52Z",
-        "updated_at": "2026-09-07T15:01:24Z",
+        "updated_at": "2026-09-07T15:11:24Z",
         "starred_at": "2026-07-12T08:21:50Z"
       },
       "summary": {
@@ -994,13 +994,13 @@
         "name": "LunaTV-config",
         "owner": "hafrey1",
         "description": "MoonTV/LunaTV源配置，每日自动检测API状态，可在CF部署CORSAPI中转被墙API，本人提供的CORSAPI仅为测试使用，请勿滥用！",
-        "stars": 4109,
+        "stars": 4110,
         "language": "JavaScript",
         "url": "https://github.com/hafrey1/LunaTV-config",
         "homepage": "https://pz.v88.qzz.io",
         "topics": [],
         "pushed_at": "2026-09-06T17:13:32Z",
-        "updated_at": "2026-09-07T14:15:05Z",
+        "updated_at": "2026-09-07T15:10:25Z",
         "starred_at": "2026-07-08T00:56:29Z"
       },
       "summary": {
@@ -1313,8 +1313,8 @@
           "whitelist",
           "xray"
         ],
-        "pushed_at": "2026-09-07T14:32:07Z",
-        "updated_at": "2026-09-07T14:33:03Z",
+        "pushed_at": "2026-09-07T15:05:50Z",
+        "updated_at": "2026-09-07T15:06:23Z",
         "starred_at": "2026-05-20T17:18:31Z"
       },
       "summary": {
@@ -1323,7 +1323,7 @@
         "tags_zh": [],
         "tags_en": []
       },
-      "pushed_at": "2026-09-07T14:32:07Z",
+      "pushed_at": "2026-09-07T15:05:50Z",
       "updated_at": "2026-09-07"
     },
     "hureyqi/x-spider-mod-2026": {
@@ -1524,7 +1524,7 @@
         "name": "Agent-Reach",
         "owner": "Panniantong",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "stars": 78551,
+        "stars": 78552,
         "language": "Python",
         "url": "https://github.com/Panniantong/Agent-Reach",
         "homepage": "",
@@ -1548,7 +1548,7 @@
           "youtube-transcript"
         ],
         "pushed_at": "2026-09-01T08:09:58Z",
-        "updated_at": "2026-09-07T14:58:54Z",
+        "updated_at": "2026-09-07T15:08:23Z",
         "starred_at": "2026-02-28T17:12:02Z"
       },
       "summary": {
@@ -2222,8 +2222,8 @@
           "indie",
           "indie-developer"
         ],
-        "pushed_at": "2026-09-07T11:05:47Z",
-        "updated_at": "2026-09-07T14:51:29Z",
+        "pushed_at": "2026-09-07T15:11:15Z",
+        "updated_at": "2026-09-07T15:12:08Z",
         "starred_at": "2025-10-07T16:09:15Z"
       },
       "summary": {
@@ -2232,7 +2232,7 @@
         "tags_zh": [],
         "tags_en": []
       },
-      "pushed_at": "2026-09-07T11:05:47Z",
+      "pushed_at": "2026-09-07T15:11:15Z",
       "updated_at": "2026-09-07"
     },
     "proxifly/free-proxy-list": {
@@ -2390,13 +2390,13 @@
         "name": "ChinaTextbook",
         "owner": "TapXWorld",
         "description": "所有小初高、大学PDF教材。",
-        "stars": 81599,
+        "stars": 81600,
         "language": "Roff",
         "url": "https://github.com/TapXWorld/ChinaTextbook",
         "homepage": "",
         "topics": [],
         "pushed_at": "2025-10-18T13:39:24Z",
-        "updated_at": "2026-09-07T14:31:24Z",
+        "updated_at": "2026-09-07T15:06:04Z",
         "starred_at": "2025-05-22T08:32:35Z"
       },
       "summary": {
@@ -2414,7 +2414,7 @@
         "name": "Bulk-Crap-Uninstaller",
         "owner": "BCUninstaller",
         "description": "Remove large amounts of unwanted applications quickly.",
-        "stars": 21146,
+        "stars": 21147,
         "language": "C#",
         "url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller",
         "homepage": "https://www.bcuninstaller.com/",
@@ -2440,7 +2440,7 @@
           "windows-forms"
         ],
         "pushed_at": "2026-09-07T13:16:47Z",
-        "updated_at": "2026-09-07T14:39:15Z",
+        "updated_at": "2026-09-07T15:13:57Z",
         "starred_at": "2025-02-11T14:37:04Z"
       },
       "summary": {
@@ -2542,7 +2542,7 @@
         "name": "yt-dlp",
         "owner": "yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
-        "stars": 189580,
+        "stars": 189586,
         "language": "Python",
         "url": "https://github.com/yt-dlp/yt-dlp",
         "homepage": "https://discord.gg/H5MNcFW63r",
@@ -2556,7 +2556,7 @@
           "yt-dlp"
         ],
         "pushed_at": "2026-08-30T13:58:45Z",
-        "updated_at": "2026-09-07T15:02:47Z",
+        "updated_at": "2026-09-07T15:11:33Z",
         "starred_at": "2025-03-14T06:17:16Z"
       },
       "summary": {
@@ -2621,8 +2621,8 @@
         "url": "https://github.com/adminouyang/231006",
         "homepage": "",
         "topics": [],
-        "pushed_at": "2026-09-07T12:14:42Z",
-        "updated_at": "2026-09-07T12:14:50Z",
+        "pushed_at": "2026-09-07T15:10:40Z",
+        "updated_at": "2026-09-07T15:12:28Z",
         "starred_at": "2025-01-18T14:51:41Z"
       },
       "summary": {
@@ -2631,7 +2631,7 @@
         "tags_zh": [],
         "tags_en": []
       },
-      "pushed_at": "2026-09-07T12:14:42Z",
+      "pushed_at": "2026-09-07T15:10:40Z",
       "updated_at": "2026-09-07"
     },
     "TheSpeedX/PROXY-List": {
@@ -2856,7 +2856,7 @@
         "name": "HelloGitHub",
         "owner": "521xueweihan",
         "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-        "stars": 175259,
+        "stars": 175262,
         "language": "Python",
         "url": "https://github.com/521xueweihan/HelloGitHub",
         "homepage": "https://hellogithub.com",
@@ -2867,7 +2867,7 @@
           "python"
         ],
         "pushed_at": "2026-08-28T00:38:12Z",
-        "updated_at": "2026-09-07T15:03:58Z",
+        "updated_at": "2026-09-07T15:09:11Z",
         "starred_at": "2024-12-27T02:14:26Z"
       },
       "summary": {
@@ -3223,13 +3223,13 @@
         "name": "awesome-cloudflare",
         "owner": "zhuima",
         "description": "⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.",
-        "stars": 15232,
+        "stars": 15233,
         "language": "N/A",
         "url": "https://github.com/zhuima/awesome-cloudflare",
         "homepage": "https://cloudflare.chuhai.tools/",
         "topics": [],
         "pushed_at": "2026-06-30T01:51:01Z",
-        "updated_at": "2026-09-07T14:22:46Z",
+        "updated_at": "2026-09-07T15:06:07Z",
         "starred_at": "2024-04-12T13:07:04Z"
       },
       "summary": {
@@ -3757,7 +3757,7 @@
         "name": "1Panel",
         "owner": "1Panel-dev",
         "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
-        "stars": 36826,
+        "stars": 36827,
         "language": "Go",
         "url": "https://github.com/1Panel-dev/1Panel",
         "homepage": "https://1panel.pro",
@@ -3778,7 +3778,7 @@
           "webmin"
         ],
         "pushed_at": "2026-09-07T10:30:29Z",
-        "updated_at": "2026-09-07T14:43:38Z",
+        "updated_at": "2026-09-07T15:13:41Z",
         "starred_at": "2023-04-01T01:30:37Z"
       },
       "summary": {
@@ -4170,7 +4170,7 @@
         "name": "lx-music-desktop",
         "owner": "lyswhut",
         "description": "一个基于 Electron 的音乐软件",
-        "stars": 53388,
+        "stars": 53389,
         "language": "TypeScript",
         "url": "https://github.com/lyswhut/lx-music-desktop",
         "homepage": "https://lyswhut.github.io/lx-music-doc/",
@@ -4181,7 +4181,7 @@
           "vue"
         ],
         "pushed_at": "2026-09-06T06:39:11Z",
-        "updated_at": "2026-09-07T14:13:21Z",
+        "updated_at": "2026-09-07T15:07:05Z",
         "starred_at": "2021-02-14T17:00:55Z"
       },
       "summary": {
@@ -4268,7 +4268,7 @@
         "name": "v2rayN",
         "owner": "2dust",
         "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-        "stars": 115636,
+        "stars": 115637,
         "language": "C#",
         "url": "https://github.com/2dust/v2rayN",
         "homepage": "https://v2rayn.2dust.link",
@@ -4286,7 +4286,7 @@
           "xtls"
         ],
         "pushed_at": "2026-09-06T02:31:58Z",
-        "updated_at": "2026-09-07T14:31:51Z",
+        "updated_at": "2026-09-07T15:08:17Z",
         "starred_at": "2019-12-29T09:59:51Z"
       },
       "summary": {

@@ -1,6 +1,6 @@
 # ⭐ GitHub Stars Index
 
-> Updated: 2026-09-07 15:07 UTC · Total: 140
+> Updated: 2026-09-07 15:17 UTC · Total: 140
 
 ---
 
@@ -151,7 +151,7 @@
 ## qarmin/czkawka
 
 > [!info]
-> ⭐ 33,287 · Fluent · 2026-09-07T15:04:17Z  
+> ⭐ 33,288 · Fluent · 2026-09-07T15:07:46Z  
 > [GitHub](https://github.com/qarmin/czkawka)  
 > `#cleaner` `#duplicates` `#multiplatform` `#optimization` `#optimizer` `#rust` `#similar-images` `#similar-music` `#similar-videos` 
 > 生成失败
@@ -161,7 +161,7 @@
 ## clash-verge-rev/clash-verge-rev
 
 > [!info]
-> ⭐ 142,844 · TypeScript · 2026-09-07T15:01:17Z  
+> ⭐ 142,847 · TypeScript · 2026-09-07T15:10:02Z  
 > [GitHub](https://github.com/clash-verge-rev/clash-verge-rev) · [Website](https://www.clashverge.dev)  
 > `#clash` `#clash-meta` `#clash-verge` `#linux` `#mac` `#mihomo` `#tauri-app` `#windows` 
 > 生成失败
@@ -221,7 +221,7 @@
 ## 78/xiaozhi-esp32
 
 > [!info]
-> ⭐ 29,686 · C++ · 2026-09-07T14:33:21Z  
+> ⭐ 29,687 · C++ · 2026-09-07T15:12:48Z  
 > [GitHub](https://github.com/78/xiaozhi-esp32) · [Website](https://xiaozhi.me)  
 > `#chatbot` `#esp32` `#mcp` 
 > 生成失败
@@ -350,7 +350,7 @@
 ## diegosouzapw/OmniRoute
 
 > [!info]
-> ⭐ 62,334 · TypeScript · 2026-09-07T15:00:35Z  
+> ⭐ 62,337 · TypeScript · 2026-09-07T15:14:30Z  
 > [GitHub](https://github.com/diegosouzapw/OmniRoute) · [Website](https://omniroute.online)  
 > `#a2a` `#ai-agents` `#ai-gateway` `#anthropic` `#claude` `#claude-code` `#cline` `#codex` `#copilot` `#cursor` `#deepseek` `#free-ai` `#gemini` `#kimi` `#llm-gateway` `#mcp` `#openai` `#openai-proxy` `#qwen` `#token-saver` 
 > 生成失败
@@ -400,7 +400,7 @@
 ## laoma2053/awesome-zhuiju-free
 
 > [!info]
-> ⭐ 8,236 · JavaScript · 2026-09-07T15:01:24Z  
+> ⭐ 8,237 · JavaScript · 2026-09-07T15:11:24Z  
 > [GitHub](https://github.com/laoma2053/awesome-zhuiju-free) · [Website](https://zhuiju.me)  
 > `#awesome-list` `#bt-search` `#chinese` `#cloud-drive-search` `#free` `#free-streaming` `#iptv` `#magnet-search` `#media-player` `#movie` `#movie-guide` `#movie-resources` `#no-ads` `#subtitles` `#tvbox` `#tvbox-config` 
 > 生成失败
@@ -460,7 +460,7 @@
 ## hafrey1/LunaTV-config
 
 > [!info]
-> ⭐ 4,109 · JavaScript · 2026-09-07T14:15:05Z  
+> ⭐ 4,110 · JavaScript · 2026-09-07T15:10:25Z  
 > [GitHub](https://github.com/hafrey1/LunaTV-config) · [Website](https://pz.v88.qzz.io)  
 > 
 > 生成失败
@@ -558,7 +558,7 @@
 ## igareck/vpn-configs-for-russia
 
 > [!info]
-> ⭐ 8,492 · N/A · 2026-09-07T14:33:03Z  
+> ⭐ 8,492 · N/A · 2026-09-07T15:06:23Z  
 > [GitHub](https://github.com/igareck/vpn-configs-for-russia) · [Website](https://t.me/igareq)  
 > `#free-vpn-key` `#free-vpn-keys` `#free-vpn-russia` `#roskomnadzor` `#russia-vpn` `#shadowsocks` `#shadowsocks-free` `#v2ray` `#vless` `#vless-reality` `#vpn` `#vpn-config` `#vpn-configuration` `#vpn-for-russia` `#vpn-free-russia` `#vpn-key` `#vpn-keys` `#vpn-russia` `#whitelist` `#xray` 
 > 生成失败
@@ -655,7 +655,7 @@
 ## Panniantong/Agent-Reach
 
 > [!info]
-> ⭐ 78,551 · Python · 2026-09-07T14:58:54Z  
+> ⭐ 78,552 · Python · 2026-09-07T15:08:23Z  
 > [GitHub](https://github.com/Panniantong/Agent-Reach)  
 > `#agent-infrastructure` `#ai-agent` `#ai-search` `#automation` `#bilibili` `#claude-code` `#cli` `#cursor` `#free-api` `#llm-tools` `#mcp` `#python` `#reddit-scraper` `#twitter-scraper` `#web-scraper` `#xiaohongshu` `#youtube-transcript` 
 > 生成失败
@@ -891,7 +891,7 @@
 ## 1c7/chinese-independent-developer
 
 > [!info]
-> ⭐ 61,280 · Python · 2026-09-07T14:51:29Z  
+> ⭐ 61,280 · Python · 2026-09-07T15:12:08Z  
 > [GitHub](https://github.com/1c7/chinese-independent-developer)  
 > `#china` `#indie` `#indie-developer` 
 > 生成失败
@@ -940,7 +940,7 @@
 ## TapXWorld/ChinaTextbook
 
 > [!info]
-> ⭐ 81,599 · Roff · 2026-09-07T14:31:24Z  
+> ⭐ 81,600 · Roff · 2026-09-07T15:06:04Z  
 > [GitHub](https://github.com/TapXWorld/ChinaTextbook)  
 > 
 > 生成失败
@@ -960,7 +960,7 @@
 ## yt-dlp/yt-dlp
 
 > [!info]
-> ⭐ 189,580 · Python · 2026-09-07T15:02:47Z  
+> ⭐ 189,586 · Python · 2026-09-07T15:11:33Z  
 > [GitHub](https://github.com/yt-dlp/yt-dlp) · [Website](https://discord.gg/H5MNcFW63r)  
 > `#cli` `#downloader` `#python` `#sponsorblock` `#youtube-dl` `#youtube-downloader` `#yt-dlp` 
 > 生成失败
@@ -980,7 +980,7 @@
 ## BCUninstaller/Bulk-Crap-Uninstaller
 
 > [!info]
-> ⭐ 21,146 · C# · 2026-09-07T14:39:15Z  
+> ⭐ 21,147 · C# · 2026-09-07T15:13:57Z  
 > [GitHub](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) · [Website](https://www.bcuninstaller.com/)  
 > `#application-manager` `#application-uninstaller` `#bloatware` `#bulk-actions` `#bulk-uninstall` `#cleaner` `#debloat` `#disk-space` `#inno-setup` `#msi` `#nsis` `#portableapps` `#software-management` `#unattended-uninstall` `#uninstall` `#uninstaller` `#windows` `#windows-10` `#windows-forms` 
 > 生成失败
@@ -1020,7 +1020,7 @@
 ## adminouyang/231006
 
 > [!info]
-> ⭐ 246 · JavaScript · 2026-09-07T12:14:50Z  
+> ⭐ 246 · JavaScript · 2026-09-07T15:12:28Z  
 > [GitHub](https://github.com/adminouyang/231006)  
 > 
 > 生成失败
@@ -1090,7 +1090,7 @@
 ## 521xueweihan/HelloGitHub
 
 > [!info]
-> ⭐ 175,259 · Python · 2026-09-07T15:03:58Z  
+> ⭐ 175,262 · Python · 2026-09-07T15:09:11Z  
 > [GitHub](https://github.com/521xueweihan/HelloGitHub) · [Website](https://hellogithub.com)  
 > `#awesome` `#github` `#hellogithub` `#python` 
 > 生成失败
@@ -1220,7 +1220,7 @@
 ## zhuima/awesome-cloudflare
 
 > [!info]
-> ⭐ 15,232 · N/A · 2026-09-07T14:22:46Z  
+> ⭐ 15,233 · N/A · 2026-09-07T15:06:07Z  
 > [GitHub](https://github.com/zhuima/awesome-cloudflare) · [Website](https://cloudflare.chuhai.tools/)  
 > 
 > 生成失败
@@ -1369,7 +1369,7 @@
 ## 1Panel-dev/1Panel
 
 > [!info]
-> ⭐ 36,826 · Go · 2026-09-07T14:43:38Z  
+> ⭐ 36,827 · Go · 2026-09-07T15:13:41Z  
 > [GitHub](https://github.com/1Panel-dev/1Panel) · [Website](https://1panel.pro)  
 > `#agent` `#clawdbot` `#copaw` `#docker` `#docker-ui` `#hermes` `#hermes-agent` `#linux` `#lnmp` `#ollama` `#openclaw` `#openresty` `#qwenpaw` `#webmin` 
 > 生成失败
@@ -1478,7 +1478,7 @@
 ## lyswhut/lx-music-desktop
 
 > [!info]
-> ⭐ 53,388 · TypeScript · 2026-09-07T14:13:21Z  
+> ⭐ 53,389 · TypeScript · 2026-09-07T15:07:05Z  
 > [GitHub](https://github.com/lyswhut/lx-music-desktop) · [Website](https://lyswhut.github.io/lx-music-doc/)  
 > `#electron` `#javascript` `#music-player` `#vue` 
 > 生成失败
@@ -1528,7 +1528,7 @@
 ## 2dust/v2rayN
 
 > [!info]
-> ⭐ 115,636 · C# · 2026-09-07T14:31:51Z  
+> ⭐ 115,637 · C# · 2026-09-07T15:08:17Z  
 > [GitHub](https://github.com/2dust/v2rayN) · [Website](https://v2rayn.2dust.link)  
 > `#proxy` `#shadowsocks` `#socks5` `#trojan` `#v2fly` `#v2ray` `#vless` `#vmess` `#windows` `#xray` `#xtls` 
 > 生成失败
