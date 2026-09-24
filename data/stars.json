@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24 04:35 UTC",
+  "last_updated": "2026-09-24 05:02 UTC",
   "repos": {
     "NavoMessenger/Navo": {
       "metadata": {
@@ -79,7 +79,7 @@
         "name": "edgeever",
         "owner": "tianma-if",
         "description": "Open-source, AI-native knowledge base & Evernote alternative with native MCP. Zero-cost on Cloudflare or Docker.",
-        "stars": 1498,
+        "stars": 1499,
         "language": "HTML",
         "url": "https://github.com/tianma-if/edgeever",
         "homepage": "https://edgeever.org",
@@ -106,7 +106,7 @@
           "web-clipper"
         ],
         "pushed_at": "2026-09-24T04:17:45Z",
-        "updated_at": "2026-09-24T04:17:49Z",
+        "updated_at": "2026-09-24T04:40:49Z",
         "starred_at": "2026-09-13T01:46:36Z"
       },
       "summary": {
@@ -134,20 +134,30 @@
         "name": "Open-Box",
         "owner": "liandu2024",
         "description": "OpenWrt 一体化透明代理方案:一条命令装完 sing-box 内核 + 管理面板,浏览器打开即用",
-        "stars": 1319,
+        "stars": 1321,
         "language": "Shell",
         "url": "https://github.com/liandu2024/Open-Box",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-09-24T01:20:19Z",
-        "updated_at": "2026-09-24T03:21:45Z",
+        "updated_at": "2026-09-24T04:42:56Z",
         "starred_at": "2026-09-10T12:45:24Z"
       },
       "summary": {
-        "text": "Open-Box是面向OpenWrt及Debian/Ubuntu系统的一体化透明代理方案，一条命令即可完成sing-box内核、管理面板及配套规则的部署，无需手写配置文件，支持多协议代理、智能分流与DNS接管，通过Web界面即可完成订阅、节点、分流等全流程配置，适配主/旁路由及主机代理场景",
-        "word_count": 98,
-        "tags_zh": [],
-        "tags_en": []
+        ": ": "Open-Box是面向OpenWrt及Debian/Ubuntu系统的一体化透明代理方案，一条命令即可完成sing-box内核、管理面板及地理数据的一键部署，无需手写配置文件，通过Web界面即可完成订阅管理、流量分流、DNS配置等操作，支持多协议代理、链式代理、规则集导入等特性，适配主/旁路由及主机使用场景。",
+        "en": "Open-Box is an all-in-one transparent proxy solution for OpenWrt and Debian/Ubuntu systems. It enables one-click deployment of sing-box kernel, management panel and geolocation data without manual configuration. Users can complete subscription management, traffic routing and DNS settings via web interface, with support for multi-protocol proxy, chained proxy and rule set import, applicable to primary/side routers and host usage scenarios.",
+        "tags_zh": [
+          "sing-box内核",
+          "一键部署",
+          "网络分流管理",
+          "透明代理"
+        ],
+        "tags_en": [
+          "Network Routing Management",
+          "One-click Deployment",
+          "Sing-box Kernel",
+          "Transparent Proxy"
+        ]
       },
       "pushed_at": "2026-09-24T01:20:19Z",
       "updated_at": "2026-09-24"
@@ -168,8 +178,20 @@
         "starred_at": "2026-09-09T15:53:45Z"
       },
       "summary": {
-        "tags_zh": [],
-        "tags_en": []
+        ": ": "免费开源的Windows系统重装工具，基于Rust开发，支持WIM/ESD/GHO等多格式镜像部署、BitLocker加密盘重装、系统备份恢复、在线镜像下载及驱动/分区管理，兼容UEFI/Legacy启动模式，提供桌面端与WinPE双端部署能力，适配Windows 7至11系统维护场景。",
+        "en": "LetRecovery is a free and open-source Windows system reinstallation tool built with Rust. It supports deployment of multi-format system images (WIM/ESD/GHO etc.), BitLocker-encrypted disk reinstallation, system backup & recovery, online image download, and driver/partition management. Compatible with UEFI/Legacy boot modes, it provides both desktop and WinPE deployment scenarios for Windows 7-11 system maintenance.",
+        "tags_zh": [
+          "Rust",
+          "Windows系统适配",
+          "系统运维工具",
+          "系统重装与备份恢复"
+        ],
+        "tags_en": [
+          "Rust",
+          "System Maintenance Tool",
+          "System Reinstallation & Backup",
+          "Windows API"
+        ]
       },
       "pushed_at": "2026-09-07T09:04:53Z",
       "updated_at": "2026-09-24"
@@ -190,10 +212,20 @@
         "starred_at": "2026-09-24T02:26:53Z"
       },
       "summary": {
-        ": ": "zh",
-        "  :  ": "[\"Cross-platform Application\", \"Flutter\", \"Multi-player Backend Adaptation\", \"LunaTV Video Client\"]",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "基于Flutter开发的跨平台LunaTV（MoonTV）影视客户端，覆盖Android TV、手机、Windows、Linux（适配Steam Deck）等多端，鸿蒙NEXT版在研，优化本地缓存提升访问流畅度，支持直播时移、多服务器自动测速切换、IPv6优先，适配大屏遥控与触屏操作。",
+        "en": "A Flutter-based cross-platform LunaTV (MoonTV) video streaming client supporting Android TV, mobile, Windows, Linux (optimized for Steam Deck) and HarmonyOS NEXT (in development). It optimizes local caching for smoother access than web version, features live TV time-shift, automatic server speed test switching, IPv6 priority, multi-player backend support, and dual-account quick switching, with optimized remote control and touchscreen interactions.",
+        "tags_zh": [
+          "Flutter跨端开发",
+          "多播放后端适配",
+          "影视流媒体客户端",
+          "跨平台应用"
+        ],
+        "tags_en": [
+          "Cross-platform Application",
+          "Flutter Cross-Platform Development",
+          "Multi-Player Backend Support",
+          "Video Streaming Client"
+        ]
       },
       "pushed_at": "2026-09-22T12:34:29Z",
       "updated_at": "2026-09-24"
@@ -236,7 +268,7 @@
         "name": "czkawka",
         "owner": "qarmin",
         "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
-        "stars": 33695,
+        "stars": 33696,
         "language": "Fluent",
         "url": "https://github.com/qarmin/czkawka",
         "homepage": "",
@@ -252,7 +284,7 @@
           "similar-videos"
         ],
         "pushed_at": "2026-09-16T17:34:11Z",
-        "updated_at": "2026-09-24T04:18:52Z",
+        "updated_at": "2026-09-24T04:35:16Z",
         "starred_at": "2026-09-07T14:45:00Z"
       },
       "summary": {
@@ -282,9 +314,20 @@
         "starred_at": "2026-09-05T12:36:58Z"
       },
       "summary": {
-        "summary": "Stremio Web是开源流媒体中心Stremio的官方Web端，基于React构建前端界面，核心逻辑由Rust编译为WebAssembly运行在Web Worker中。支持插件化内容聚合、跨设备同步、Chromecast投屏、PWA安装，覆盖50+语言，提供一站式视频娱乐解决方案。",
-        "tags_zh": [],
-        "tags_en": []
+        ": ": "Stremio Web是开源流媒体中心Stremio的官方Web端，基于React开发，核心逻辑由Rust编译为WebAssembly运行在Web Worker中。支持插件化内容发现、跨设备同步、投屏、多语言字幕，可安装为PWA，为用户提供一站式视频流媒体娱乐服务。",
+        "en": "Stremio Web is the official web client of the open-source media center Stremio, built with React and powered by a Rust engine compiled to WebAssembly running in a Web Worker. It supports addon-powered content discovery, cross-device sync, casting, multi-language subtitles, and PWA installation, delivering an all-in-one video streaming entertainment solution.",
+        "tags_zh": [
+          "React",
+          "WebAssembly",
+          "插件化流媒体平台",
+          "流媒体娱乐"
+        ],
+        "tags_en": [
+          "Add-on Powered Streaming Platform",
+          "React",
+          "Streaming Entertainment",
+          "WebAssembly"
+        ]
       },
       "pushed_at": "2026-09-23T18:04:56Z",
       "updated_at": "2026-09-24"
@@ -310,20 +353,9 @@
         "starred_at": "2026-09-07T11:27:42Z"
       },
       "summary": {
-        ": ": "GitPush是基于Cloudflare生态的AI GitHub Release追踪工具，可监控指定仓库的版本更新，借助DeepSeek R1自动生成更新摘要并通过邮件推送。依托Cloudflare Workers、Workflows等无服务器服务实现，无需本地部署，支持定时/手动触发，适用于开发者追踪开源项目动态、项目发布提醒等场景。",
-        "en": "GitPush is an AI-powered GitHub Release Tracker built on Cloudflare's ecosystem. It monitors specified repositories for version updates, uses DeepSeek R1 to auto-generate update summaries, and delivers notifications via email. Powered by serverless services like Cloudflare Workers and Workflows, it requires no local deployment, supports scheduled/manual triggers, and is ideal for developers tracking open-source updates and release alerts.",
-        "tags_zh": [
-          "Cloudflare Workers",
-          "GitHub发布追踪",
-          "Workers AI",
-          "自动化工具"
-        ],
-        "tags_en": [
-          "Automation Tool",
-          "Cloudflare Workers",
-          "GitHub Release Tracking",
-          "Workers AI"
-        ]
+        ": ": ", ",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2025-03-07T13:47:13Z",
       "updated_at": "2026-09-24"
@@ -334,7 +366,7 @@
         "name": "clash-verge-rev",
         "owner": "clash-verge-rev",
         "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-        "stars": 146919,
+        "stars": 146926,
         "language": "Rust",
         "url": "https://github.com/clash-verge-rev/clash-verge-rev",
         "homepage": "https://www.clashverge.dev",
@@ -349,14 +381,24 @@
           "windows"
         ],
         "pushed_at": "2026-09-24T01:44:13Z",
-        "updated_at": "2026-09-24T04:18:57Z",
+        "updated_at": "2026-09-24T04:53:11Z",
         "starred_at": "2026-09-07T12:38:46Z"
       },
       "summary": {
-        "content": "Clash Verge Rev是Clash Verge的官方延续版本，基于Tauri 2与Rust开发，内置Clash Meta内核，支持系统代理、TUN虚拟网卡、配置增强管理与主题自定义，覆盖Windows/macOS/Linux三大桌面系统，为用户提供现代化、可定制的代理服务体验。",
-        "word_count": 96,
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "Clash Verge官方继任项目，是基于Tauri 2与Rust开发的跨平台Clash Meta图形化客户端，支持Windows、macOS、Linux三大桌面系统，内置代理内核，提供可视化节点管理、TUN模式、配置同步等能力，大幅降低代理工具使用门槛。",
+        "en": "As the official successor to Clash Verge, this is a cross-platform GUI client for Clash Meta built with Tauri 2 and Rust. It supports Windows, macOS and Linux, integrates a built-in proxy core, and offers features like visual node management, TUN mode and configuration sync, greatly lowering the usage threshold of proxy tools.",
+        "tags_zh": [
+          "Rust",
+          "Tauri 框架",
+          "桌面应用",
+          "网络代理"
+        ],
+        "tags_en": [
+          "Desktop Application",
+          "Network Proxy",
+          "Rust",
+          "Tauri 框架"
+        ]
       },
       "pushed_at": "2026-09-24T01:44:13Z",
       "updated_at": "2026-09-24"
@@ -377,9 +419,25 @@
         "starred_at": "2026-09-06T15:20:38Z"
       },
       "summary": {
-        ": ": ": ",
-        "tags_zh": [],
-        "tags_en": []
+        ": ": ", ",
+        "tags_zh{": "  ,  ",
+        "en{": "  :",
+        "  ,  ": "  ,  ",
+        "tags_en{": "  ,  ",
+        "  : ": "JAVBUS是基于Flutter开发的插件式资源聚合工具，核心采用声明式JSON插件协议实现BT磁力搜索，无需编程即可编写与分发插件，同时集成网盘搜索、链接收藏管理与局域网文件/文本互传功能，跨平台支持且移动端友好，大幅降低资源搜索工具的插件开发与使用门槛。",
+        "en": "JAVBUS is a Flutter-based pluginized resource aggregation tool that leverages a declarative JSON plugin protocol for BT magnet search, enabling users to create and distribute plugins without coding. It also integrates cloud drive search, link collection management and LAN file/text transfer, with cross-platform support and mobile-friendly design, greatly lowering the threshold for resource search tool development and usage.",
+        "tags_zh": [
+          "BT磁力搜索",
+          "Flutter跨平台开发",
+          "插件化架构",
+          "资源搜索工具"
+        ],
+        "tags_en": [
+          "BT Magnet Search",
+          "Flutter Cross-platform Development",
+          "Plugin Architecture",
+          "Resource Search Tool"
+        ]
       },
       "pushed_at": "2026-06-05T10:03:44Z",
       "updated_at": "2026-09-24"
@@ -488,9 +546,20 @@
         "starred_at": "2026-08-24T10:12:20Z"
       },
       "summary": {
-        "value": "这是LX Music桌面端数据同步服务的Cloudflare Workers重构版本，基于Hono.js与Durable Objects构建，支持多设备实时同步歌单、不喜欢规则，无需自托管服务器，提供用户数据隔离、快照冲突处理及一键部署能力。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "本仓库是LX音乐数据同步服务的Cloudflare Workers重构版，基于Hono.js与Durable Objects实现，无需自托管服务器即可支持多设备实时同步歌单、 dislikes规则，具备多用户隔离、快照冲突处理能力，可通过GitHub Actions一键部署。",
+        "en": "This repository is a Cloudflare Workers rewrite of the LX Music data sync service, built with Hono.js and Durable Objects. It enables real-time multi-device sync for playlists and dislike rules without self-hosted servers, featuring user isolation, snapshot conflict resolution, and one-click deployment via GitHub Actions.",
+        "tags_zh": [
+          "Cloudflare Workers",
+          "Hono.js",
+          "多设备实时同步",
+          "音乐数据同步"
+        ],
+        "tags_en": [
+          "Cloudflare Workers",
+          "Hono.js",
+          "Multi-device Real-time Sync",
+          "Music Data Sync"
+        ]
       },
       "pushed_at": "2026-09-20T22:12:11Z",
       "updated_at": "2026-09-24"
@@ -501,7 +570,7 @@
         "name": "LinkSwift",
         "owner": "hmjz100",
         "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-        "stars": 20776,
+        "stars": 20779,
         "language": "JavaScript",
         "url": "https://github.com/hmjz100/LinkSwift",
         "homepage": "https://github.com/hmjz100/LinkSwift/raw/main/%EF%BC%88%E6%94%B9%EF%BC%89%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.user.js",
@@ -528,13 +597,22 @@
           "yidong-netdisk"
         ],
         "pushed_at": "2026-09-10T04:10:04Z",
-        "updated_at": "2026-09-24T03:24:43Z",
+        "updated_at": "2026-09-24T04:54:00Z",
         "starred_at": "2026-08-20T11:04:39Z"
       },
       "summary": {
-        "这是一款基于JavaScript开发的浏览器用户脚本工具，由「网盘直链下载助手」修改而来，支持百度网盘、阿里云盘、中国移动云盘等8大主流网盘，可快速解析获取文件直链，绕过客户端限制实现高速下载，解决网盘下载限速、需专用客户端等痛点。": "这是一款基于JavaScript开发的浏览器用户脚本工具，由「网盘直链下载助手」修改而来，支持百度网盘、阿里云盘、中国移动云盘等8大主流网盘，可快速解析获取文件直链，绕过客户端限制实现高速下载，解决网盘下载限速、需专用客户端等痛点。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "LinkSwift是基于JavaScript开发的网盘直链获取用户脚本，支持百度网盘、阿里云盘等8大主流网盘，可绕过客户端限制提取文件直链，搭配会员增强脚本可优化下载体验，适用于资源下载、文件批量导出等场景。",
+        "en": "LinkSwift is a JavaScript-based user script for extracting direct download links from cloud storage platforms. It supports 8 mainstream services including Baidu Netdisk, Alibaba Cloud Disk and China Mobile Cloud Disk, bypassing client restrictions to obtain direct file links. When paired with membership enhancement scripts, it delivers better download experience for scenarios like resource acquisition and batch file export.",
+        "tags_zh": [
+          "JavaScript",
+          "浏览器插件",
+          "网盘直链获取"
+        ],
+        "tags_en": [
+          "Cloud Storage Direct Link Extraction",
+          "JavaScript",
+          "浏览器插件"
+        ]
       },
       "pushed_at": "2026-09-10T04:10:04Z",
       "updated_at": "2026-09-24"
@@ -561,16 +639,27 @@
           "new-api",
           "openai"
         ],
-        "pushed_at": "2026-09-24T03:22:14Z",
-        "updated_at": "2026-09-24T03:27:44Z",
+        "pushed_at": "2026-09-24T04:54:20Z",
+        "updated_at": "2026-09-24T04:54:24Z",
         "starred_at": "2026-08-30T16:05:18Z"
       },
       "summary": {
-        "text": "AI Coding福利站导航，聚合Claude Code、Codex、Cursor等AI编程工具的中转与公益站点，自动更新各站额度、模型、价格信息，提供一键配置脚本、站点横评与可用性历史查询，支持用户投稿补充站点，帮助用户低成本使用AI编程工具。",
-        "tags_zh": [],
-        "tags_en": []
+        ": ": "本仓库为AI编程工具福利站导航，聚合Claude Code、Codex等工具的免费/低价中转与公益站，自动更新站点额度、模型、价格信息，提供一键配置脚本、站点横评与可用性历史追踪，支持社区投稿补充站点资源。",
+        "en": "This repository is a navigation hub for AI coding tool welfare sites, aggregating free and low-cost relay as well as public welfare platforms for tools like Claude Code and Codex. It automatically updates site quotas, supported models and pricing information, provides one-click configuration scripts, cross-site comparison and availability history tracking, and supports community submissions to supplement site resources.",
+        "tags_zh": [
+          "AI智能体",
+          "AI编程工具导航",
+          "网页爬虫",
+          "自动化工具"
+        ],
+        "tags_en": [
+          "AI Agents",
+          "AI Coding Tool Navigation",
+          "Automation Tools",
+          "网页爬虫"
+        ]
       },
-      "pushed_at": "2026-09-24T03:22:14Z",
+      "pushed_at": "2026-09-24T04:54:20Z",
       "updated_at": "2026-09-24"
     },
     "jason5ng32/MyIP": {
@@ -794,13 +883,13 @@
         "name": "FluxDown",
         "owner": "zerx-lab",
         "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
-        "stars": 3171,
+        "stars": 3172,
         "language": "Rust",
         "url": "https://github.com/zerx-lab/FluxDown",
         "homepage": "https://fluxdown.zerx.dev",
         "topics": [],
         "pushed_at": "2026-09-23T14:23:15Z",
-        "updated_at": "2026-09-24T04:26:19Z",
+        "updated_at": "2026-09-24T04:29:49Z",
         "starred_at": "2026-08-14T13:52:51Z"
       },
       "summary": {
@@ -872,6 +961,7 @@
         "starred_at": "2026-08-14T11:26:08Z"
       },
       "summary": {
+        ": ": ", ",
         "tags_zh": [],
         "tags_en": []
       },
@@ -1032,20 +1122,9 @@
         "starred_at": "2026-08-05T02:48:19Z"
       },
       "summary": {
-        ": ": "水獭音乐是基于React+Capacitor开发的免费多音源聚合音乐播放器，支持多平台歌单导入、B站音源搜索与网易云登录，安装包仅2.5MB，具备智能换源、播放增强、数据备份等能力，覆盖移动端与网页端多场景音乐收听需求。",
-        "en": "Otter Music is a free multi-source aggregated music player built with React and Capacitor. It supports cross-platform playlist import, Bilibili audio search, and NetEase Cloud Music login, with an APK size of only 2.5MB. It provides features like intelligent source switching, enhanced playback, and data backup, catering to music listening needs across mobile and web platforms.",
-        "tags_zh": [
-          "React",
-          "多音源聚合播放",
-          "跨平台",
-          "音乐应用"
-        ],
-        "tags_en": [
-          "Cross-platform",
-          "Multi-source Aggregated Playback",
-          "Music Application",
-          "React"
-        ]
+        "value": "水獭音乐是基于React+Capacitor开发的免费多音源聚合音乐播放器，支持多平台音源搜索、主流平台歌单导入、B站音源播放，具备多源回退、智能音源匹配、数据备份等功能，支持PWA与安卓端安装，安装包仅2.5MB，适配多端音乐收听场景。",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2026-09-20T12:45:41Z",
       "updated_at": "2026-09-24"
@@ -1056,7 +1135,7 @@
         "name": "awesome-zhuiju-free",
         "owner": "laoma2053",
         "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
-        "stars": 10119,
+        "stars": 10122,
         "language": "JavaScript",
         "url": "https://github.com/laoma2053/awesome-zhuiju-free",
         "homepage": "https://zhuiju.me",
@@ -1079,23 +1158,23 @@
           "tvbox-config"
         ],
         "pushed_at": "2026-09-24T01:29:52Z",
-        "updated_at": "2026-09-24T04:22:56Z",
+        "updated_at": "2026-09-24T04:51:13Z",
         "starred_at": "2026-07-12T08:21:50Z"
       },
       "summary": {
-        "这是一份免费无广告的追剧资源指南，人工精选在线影视、网盘搜索、磁力BT、IPTV直播源、TVBox配置等117类资源，依托自动化工具每日检测资源可用性，完全开源并由社区共同维护，为追剧用户提供纯净高效的资源索引服务。": "这是一份免费无广告的追剧资源指南，人工精选在线影视、网盘搜索、磁力BT、IPTV直播源、TVBox配置等117类资源，依托自动化工具每日检测资源可用性，完全开源并由社区共同维护，为追剧用户提供纯净高效的资源索引服务。",
-        "en": "This is a free, ad-free drama watching resource guide, featuring manually curated resources including online streaming, cloud storage search, magnet/BT, IPTV live sources, TVBox configurations and more. It uses automated tools for daily availability checks, is fully open-source and community-maintained, providing pure and efficient resource indexing for drama lovers.",
+        ": ": "免费无广告的追剧资源聚合指南，人工精选资源并每日自动检测可用性，完全开源由社区共同维护，覆盖在线影视、网盘搜索、磁力BT、IPTV直播源、TVBox接口等全品类追剧相关资源，解决普通导航站广告多、资源失效无人管的痛点。",
+        "en": "A free, ad-free curated guide for drama and movie resources, featuring manually selected content with daily automated availability checks. Fully open-source and community-maintained, it covers all categories of viewing-related resources including online streaming, cloud storage search, BitTorrent/magnet links, IPTV live sources, and TVBox interfaces, solving the pain points of ad-filled navigation sites and unmaintained broken links.",
         "tags_zh": [
+          "免费追剧",
           "开源协作",
-          "影视资源聚合",
-          "自动化工具",
-          "追剧资源索引"
+          "影视娱乐",
+          "自动化检测"
         ],
         "tags_en": [
-          "Automated Tools",
-          "Free Drama Resource Index",
-          "Open Source Collaboration",
-          "Streaming Resource Aggregation"
+          "Ad-free Streaming Guide",
+          "Automated Monitoring",
+          "Entertainment & Media",
+          "Open Source Collaboration"
         ]
       },
       "pushed_at": "2026-09-24T01:29:52Z",
@@ -1107,7 +1186,7 @@
         "name": "OmniRoute",
         "owner": "diegosouzapw",
         "description": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors",
-        "stars": 69655,
+        "stars": 69664,
         "language": "TypeScript",
         "url": "https://github.com/diegosouzapw/OmniRoute",
         "homepage": "https://omniroute.online",
@@ -1134,7 +1213,7 @@
           "token-saver"
         ],
         "pushed_at": "2026-09-24T04:14:39Z",
-        "updated_at": "2026-09-24T04:26:05Z",
+        "updated_at": "2026-09-24T04:54:33Z",
         "starred_at": "2026-08-04T10:53:41Z"
       },
       "summary": {
@@ -1185,17 +1264,17 @@
           "yingshiziyuan",
           "ziyuanzhan"
         ],
-        "pushed_at": "2026-09-23T21:25:11Z",
-        "updated_at": "2026-09-24T04:14:39Z",
+        "pushed_at": "2026-09-24T04:29:32Z",
+        "updated_at": "2026-09-24T04:29:36Z",
         "starred_at": "2026-07-08T01:06:02Z"
       },
       "summary": {
-        ": ": "本工具实时监测全网主流影视、视频类采集联盟的播放源与站点可用性，基于GitHub Actions定时运行，零服务器零成本，通过调用第三方API完成检测，生成静态可视化监控面板与多维度JSON数据，支持AI Agent调用，可适配libretv、maccms等主流影视采集系统。",
-        "en": "This tool real-time monitors the availability of playback sources and sites of mainstream video and film collection alliances across the network, running on scheduled GitHub Actions with zero servers and zero cost. It completes detection via third-party API, generates static visual monitoring panels and multi-dimensional JSON data, supports AI Agent calls, and is compatible with mainstream film and video collection systems like libretv and maccms.",
+        "zh": "ziyuanzhan 是影视资源站可用性实时监测工具，基于 GitHub Actions 实现零成本定时采集，可监测全网主流影视采集联盟（支持 libretv、moontvplus、maccms 等）的播放源状态，生成可视化监控面板与多维度 JSON 数据，可直接供 AI Agent 调用，无需自有服务器。",
+        "en": "ziyuanzhan is a real-time availability monitoring tool for video resource sites. It leverages GitHub Actions to implement zero-cost scheduled tasks, can monitor the playback source status of mainstream video collection alliances (supporting libretv, moontvplus, maccms, etc.), generates a visual monitoring dashboard and multi-dimensional JSON data that can be directly invoked by AI Agents, without requiring self-owned servers.",
         "tags_zh": [
           "GitHub Actions",
           "Python",
-          "影视资源监测",
+          "影视资源监控",
           "运维自动化"
         ],
         "tags_en": [
@@ -1205,7 +1284,7 @@
           "Video Resource Monitoring"
         ]
       },
-      "pushed_at": "2026-09-23T21:25:11Z",
+      "pushed_at": "2026-09-24T04:29:32Z",
       "updated_at": "2026-09-24"
     },
     "mtvpls/MoonTVPlus": {
@@ -1224,20 +1303,9 @@
         "starred_at": "2026-07-12T08:21:19Z"
       },
       "summary": {
-        ": ": "MoonTVPlus是基于MoonTV二次开发的增强版影视聚合播放器，采用Next.js 14与TypeScript技术栈构建，新增外部播放器支持、WebGPU视频超分、弹幕系统、豆瓣评论抓取、多人观影室等实用功能，支持多平台一键部署，为用户提供更强大的观影体验。",
-        "en": "MoonTVPlus is an enhanced video aggregation player derived from MoonTV, built with Next.js 14 and TypeScript. It adds practical features such as external player support, WebGPU-powered video super-resolution, danmaku system, Douban comment scraping, and multi-user watch rooms, supports one-click deployment across multiple platforms, and delivers an improved viewing experience for users.",
-        "tags_zh": [
-          "Next.js",
-          "TypeScript",
-          "影视聚合播放器",
-          "观影体验增强"
-        ],
-        "tags_en": [
-          "Enhanced Viewing Experience",
-          "Next.js",
-          "TypeScript",
-          "Video Aggregation Player"
-        ]
+        "value": "MoonTVPlus是基于MoonTV v100二次开发的增强版影视聚合播放器，采用Next.js 14与TypeScript构建，新增外部播放器支持、WebGPU视频超分、弹幕系统、豆瓣评论抓取等功能，支持多源搜索、多人同步观影、私人影库对接，可多平台部署，观影体验大幅提升。",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2026-09-09T09:42:53Z",
       "updated_at": "2026-09-24"
@@ -1248,17 +1316,17 @@
         "name": "LunaTV-config",
         "owner": "hafrey1",
         "description": "MoonTV/LunaTV源配置，每日自动检测API状态，可在CF部署CORSAPI中转被墙API，本人提供的CORSAPI仅为测试使用，请勿滥用！",
-        "stars": 4233,
+        "stars": 4234,
         "language": "JavaScript",
         "url": "https://github.com/hafrey1/LunaTV-config",
         "homepage": "https://pz.v88.qzz.io",
         "topics": [],
         "pushed_at": "2026-09-23T17:18:54Z",
-        "updated_at": "2026-09-24T02:58:43Z",
+        "updated_at": "2026-09-24T04:30:47Z",
         "starred_at": "2026-07-08T00:56:29Z"
       },
       "summary": {
-        "value": "本仓库提供LunaTV/MoonTV视频播放应用的源配置及配套Cloudflare Workers CORSAPI中转服务，支持每日自动检测API状态、代理被墙跨境接口、多版本源切换与Base58编码订阅生成，解决视频应用跨域与访问受限问题，可一键部署使用。",
+        ": ": ", ",
         "tags_zh": [],
         "tags_en": []
       },
@@ -1347,9 +1415,20 @@
         "starred_at": "2026-06-23T03:13:11Z"
       },
       "summary": {
-        "这是一款面向开发者的GitHub Stars自动化管理工具，可自动抓取用户Star的全部仓库，调用AI生成内容摘要与技术标签，内置标签归一化机制避免标签爆炸，支持并发处理、增量更新与GitHub Actions定时运行，可生成带搜索功能的静态页面并同步至Obsidian，适用于技术资源检索与知识库管理场景。": "这是一款面向开发者的GitHub Stars自动化管理工具，可自动抓取用户Star的全部仓库，调用AI生成内容摘要与技术标签，内置标签归一化机制避免标签爆炸，支持并发处理、增量更新与GitHub Actions定时运行，可生成带搜索功能的静态页面并同步至Obsidian，适用于技术资源检索与知识库管理场景。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "该工具自动抓取GitHub账号Star的全部仓库，调用AI生成内容摘要与技术标签，通过内置映射库归一化技术栈避免标签爆炸，支持增量同步元数据、并发调用提升处理效率，可输出Markdown/HTML归档并同步至Obsidian与GitHub Pages，解决开发者Stars仓库检索难、管理乱的问题，适用于个人技术知识库搭建与技术栈梳理。",
+        "en": "This tool automatically fetches all repositories starred by a GitHub account, leverages AI to generate content summaries and technical tags, normalizes tech stacks via a built-in mapping library to avoid tag explosion, and supports incremental metadata sync plus concurrent processing to boost efficiency. It outputs Markdown/HTML archives and syncs to Obsidian and GitHub Pages, solving the problem of difficult retrieval and messy management of starred repos, suitable for building personal technical knowledge bases and tech stack sorting.",
+        "tags_zh": [
+          "AI大模型",
+          "开发者工具",
+          "知识管理",
+          "自动化工具"
+        ],
+        "tags_en": [
+          "AI Large Model",
+          "Automation Tools",
+          "Developer Tools",
+          "Knowledge Management"
+        ]
       },
       "pushed_at": "2026-09-23T21:31:12Z",
       "updated_at": "2026-09-24"
@@ -1436,10 +1515,20 @@
         "starred_at": "2026-06-20T06:34:10Z"
       },
       "summary": {
-        "text": "3X-UI是基于Xray-core二次开发的网页控制面板，专为简化各类VPN/代理协议的配置与管理设计，提供一键全自动安装、预设主流协议模板、中转分流、多服务器批量部署管理、扫码导入客户端等功能，完成全界面中文化优化，大幅降低个人VPS代理服务的搭建与运维门槛。",
-        "word_count": 96,
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "3x-ui是基于Xray-core的网页端代理协议控制面板，为上游开源项目的二次开发分支，新增一键协议模板、中转分流、多服务器批量管理、扫码导入、中文化等特性，支持一键自动安装，用于个人通信场景下的代理协议快速配置与监控。",
+        "en": "3x-ui is a web-based proxy protocol control panel built on Xray-core, forked from the upstream open-source project with enhanced features including one-click protocol templates, relay traffic splitting, multi-server batch management, QR code import and Chinese localization. It supports one-click automatic installation for rapid proxy protocol configuration and monitoring in personal communication scenarios.",
+        "tags_zh": [
+          "Web控制面板",
+          "Xray-core",
+          "一键协议部署",
+          "代理服务管理"
+        ],
+        "tags_en": [
+          "One-click Protocol Deployment",
+          "Proxy Service Management",
+          "Web Control Panel",
+          "Xray-core"
+        ]
       },
       "pushed_at": "2026-09-09T11:12:48Z",
       "updated_at": "2026-09-24"
@@ -1476,9 +1565,20 @@
         "starred_at": "2026-05-19T11:53:39Z"
       },
       "summary": {
-        ": ": ": ",
-        "tags_zh": [],
-        "tags_en": []
+        ": ": "Streambert是跨平台Electron桌面应用，支持全球电影、电视剧、动漫的流媒体播放与下载，无广告无追踪，集成字幕管理、媒体库追踪、多线程高速下载能力，对接TMDB、AniList等多源数据，适配全平台桌面端使用。",
+        "en": "Streambert is a cross-platform Electron desktop application that enables streaming and downloading of global movies, TV series and anime, with zero ads and tracking. It provides subtitle management, media library tracking, multi-threaded high-speed download, and integrates data from sources like TMDB and AniList, supporting all major desktop platforms.",
+        "tags_zh": [
+          "Electron",
+          "多线程下载",
+          "桌面应用",
+          "流媒体工具"
+        ],
+        "tags_en": [
+          "Ad-free Media Streaming Tool",
+          "Cross-platform Desktop Application",
+          "Electron",
+          "Multi-threaded Download"
+        ]
       },
       "pushed_at": "2026-09-11T17:06:36Z",
       "updated_at": "2026-09-24"
@@ -1520,9 +1620,20 @@
         "starred_at": "2026-05-20T17:18:31Z"
       },
       "summary": {
-        "value": "该仓库提供面向俄罗斯地区、经过实测可用的免费VPN/Tor配置集合，支持VLESS、Trojan、Shadowsocks等主流代理协议，可绕过俄网络监管封锁，配置每2-4小时自动测试过滤，支持导入Karing、v2rayN等主流客户端，解决当地传统VPN失效的网络访问问题。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "面向俄罗斯地区用户的免费VPN/Tor配置集合，覆盖VLESS、Trojan、Shadowsocks、Hysteria2等多类代理协议，经自动化真实测试验证可有效绕过RKN网络封锁，支持导入v2rayN、Clash、Karing等各类主流代理客户端，每2-4小时自动更新测试，保障用户随时获取可用配置。",
+        "en": "This is a free VPN/Tor configuration collection specifically designed for users located in Russia, which supports a variety of mainstream proxy protocols such as VLESS, Trojan, Shadowsocks, Hysteria2 and more. All configurations are verified through automated real tests to ensure they can effectively bypass RKN internet censorship, and are compatible with most popular proxy clients like v2rayN, Clash and Karing. The collection is updated and tested every 2 to 4 hours to provide users with the latest available configurations at all times.",
+        "tags_zh": [
+          "多协议VPN配置",
+          "网络审查规避",
+          "网络工具",
+          "自动化测试"
+        ],
+        "tags_en": [
+          "Automated Testing",
+          "Internet Censorship Bypass",
+          "Multi-protocol VPN Configuration",
+          "Network Tools"
+        ]
       },
       "pushed_at": "2026-09-24T04:18:47Z",
       "updated_at": "2026-09-24"
@@ -1590,9 +1701,20 @@
         "starred_at": "2026-05-17T09:58:14Z"
       },
       "summary": {
-        "value": "面向Ubuntu 20.04+的VLESS+XHTTP+TLS代理服务一键部署工具，通过Vercel/Netlify免费CDN作为流量中继隐藏源站IP，支持自动申请Let's Encrypt证书、自动配置Xray核心与CDN平台资源，具备故障自愈能力，可快速搭建高隐蔽性代理服务。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "这是一款面向Ubuntu系统的VLESS+XHTTP+TLS网络代理自动化部署工具，依托Vercel/Netlify免费CDN作为流量中继隐藏源站IP，支持Let's Encrypt自动签发SSL证书、一键脚本安装、故障自愈，可降低服务被封锁风险，适用于需要安全网络访问的场景。",
+        "en": "This is an automated deployment tool for VLESS+XHTTP+TLS network proxy on Ubuntu systems, leveraging free CDN platforms like Vercel and Netlify as traffic relays to hide the origin server IP. It supports automatic Let's Encrypt SSL certificate issuance, one-click script installation, and self-healing for failures, reducing service blocking risks for secure network access scenarios.",
+        "tags_zh": [
+          "CDN中继",
+          "VLESS协议",
+          "网络代理",
+          "自动化部署"
+        ],
+        "tags_en": [
+          "Automated Deployment",
+          "CDN Relay",
+          "Network Proxy",
+          "VLESS Protocol"
+        ]
       },
       "pushed_at": "2026-06-18T20:04:20Z",
       "updated_at": "2026-09-24"
@@ -1613,20 +1735,20 @@
         "starred_at": "2026-05-06T14:15:32Z"
       },
       "summary": {
-        "summary": "本项目是LX Music增强版数据同步服务端，内置功能完整的Web音乐播放器，支持多平台音乐聚合搜索、歌单管理、自动化缓存、歌词卡片分享，适配Subsonic协议，可实现音乐数据跨设备同步，支持自定义音源与多主题切换。",
-        "tags": [
-          "流媒体服务",
-          "Web播放器",
-          "数据同步服务",
-          "音乐服务端"
-        ],
+        "zh": "本项目是LX Music增强版数据同步服务端，内置全功能Web音乐播放器，支持多平台音乐聚合搜索、歌单管理、自动化缓存、歌词卡片分享，适配Subsonic协议，可跨设备同步听歌数据，支持自定义音源与多主题切换。",
+        "en": "This project is an enhanced data sync server for LX Music, featuring a built-in full-featured web music player. It supports multi-platform music aggregation search, playlist management, automated caching, lyric card sharing, and Subsonic protocol compatibility, enabling cross-device listening data sync with custom audio source and multi-theme support.",
         "tags_zh": [
+          "Node.js",
           "Web播放器",
-          "数据同步服务",
-          "流媒体服务",
-          "音乐服务端"
+          "数据同步",
+          "流媒体服务"
         ],
-        "tags_en": []
+        "tags_en": [
+          "Data Synchronization",
+          "Node.js",
+          "Streaming Media Service",
+          "Web Player"
+        ]
       },
       "pushed_at": "2026-09-23T10:12:05Z",
       "updated_at": "2026-09-24"
@@ -1679,20 +1801,20 @@
         "starred_at": "2026-03-12T13:55:01Z"
       },
       "summary": {
-        "summary": "K-Vault是基于Cloudflare Serverless架构的免费聚合云盘，以Telegram为核心存储后端，兼容R2、S3、Discord、HuggingFace等多存储服务，支持Cloudflare Pages与Docker双模部署，提供文件上传预览、WebDAV、管理后台、API上传等能力，可零成本搭建私有数据存储方案。",
-        "tags": [
-          "云存储",
-          "Serverless架构",
-          "多存储聚合",
-          "零成本文件托管"
-        ],
+        "zh": "K-Vault是基于Cloudflare Serverless架构的免费聚合云盘，以Telegram为核心存储后端并兼容R2、S3、Discord等多存储，支持Cloudflare Pages与Docker双模部署，提供文件上传预览、分片上传、API认证等功能，可零成本实现私有数据托管与文件共享。",
+        "en": "K-Vault is a free serverless aggregated cloud drive built on Cloudflare, with Telegram as the core storage backend and compatibility with R2, S3, Discord and other storage services. It supports dual-mode deployment of Cloudflare Pages and Docker, provides features like file upload preview, chunked upload and API authentication, enabling zero-cost private data hosting and file sharing.",
         "tags_zh": [
           "Serverless架构",
           "云存储",
-          "多存储聚合",
-          "零成本文件托管"
+          "免费文件托管",
+          "多存储聚合"
         ],
-        "tags_en": []
+        "tags_en": [
+          "Cloud Storage",
+          "Free File Hosting",
+          "Multi-Storage Aggregation",
+          "Serverless Architecture"
+        ]
       },
       "pushed_at": "2026-09-21T07:31:56Z",
       "updated_at": "2026-09-24"
@@ -1713,17 +1835,19 @@
         "starred_at": "2026-05-06T08:48:37Z"
       },
       "summary": {
-        "本仓库提供基于Cloudflare Workers的直播订阅源生成方案，支持体育赛事TXT/M3U格式订阅输出，配套聚合搜索、网盘扩容等实用功能，无需本地服务器即可部署，适用于个人直播源获取与技术学习场景。": "zh",
-        "en": "This repository provides a live streaming subscription source generation solution based on Cloudflare Workers, supporting TXT/M3U format sports event subscription output, with supporting tools like aggregated search and cloud drive capacity expansion, which can be deployed without local servers, suitable for personal live source acquisition and technical learning scenarios.",
+        "zh": "该仓库提供基于Cloudflare Workers的部署脚本，可生成体育赛事直播TXT/M3U订阅源，配套免部署聚合搜索、夸克网盘扩容工具，适配安卓OK壳及极致播放器，附带完整部署教程与授权码获取指引，仅供个人技术学习交流使用。",
+        "en": "This repository offers Cloudflare Workers deployment scripts to generate TXT/M3U subscription sources for sports event live streaming, alongside no-deployment aggregated search, Quark cloud drive expansion tools, compatible with Android OK shell and ultimate players, with complete deployment tutorials and authorization code acquisition guides, for personal technical learning and exchange only.",
         "tags_zh": [
           "Cloudflare Workers",
-          "直播工具",
-          "订阅源生成"
+          "IPTV直播",
+          "体育赛事订阅",
+          "自动化部署"
         ],
         "tags_en": [
+          "Automated Deployment",
           "Cloudflare Workers",
-          "Live Streaming Tool",
-          "Subscription Source Generation"
+          "IPTV Live Streaming",
+          "Sports Event Subscription"
         ]
       },
       "pushed_at": "2026-09-12T16:15:40Z",
@@ -1745,18 +1869,18 @@
         "starred_at": "2026-07-06T01:42:56Z"
       },
       "summary": {
-        ": ": "Video Duplicate Finder 是一款跨平台重复媒体检测工具，可识别分辨率、帧率、水印存在差异的重复视频/图片，支持通过音频指纹、本地AI视觉嵌入检测局部剪辑片段，提供桌面GUI、CLI、Web界面及Docker镜像，满足多场景使用需求。",
-        "en": "Video Duplicate Finder is a cross-platform duplicate media detection tool that can identify duplicate videos and images with differences in resolution, frame rate or watermarks. It supports partial clip detection via audio fingerprinting and local AI visual embedding, and provides desktop GUI, CLI, Web UI and Docker deployment for diverse usage scenarios.",
+        ": ": "Video Duplicate Finder 是跨平台多媒体重复文件检测工具，可识别不同分辨率、帧率、带水印的视频/图片重复项，支持音频指纹片段检测、本地AI视觉匹配识别裁剪/镜像等编辑副本，提供桌面GUI、CLI、WebUI及Docker镜像，适用于个人媒体库整理、NAS存储优化等场景。",
+        "en": "Video Duplicate Finder is a cross-platform multimedia duplicate detection tool that identifies duplicate videos and images with different resolutions, frame rates or watermarks. It supports audio fingerprint-based partial clip detection and local AI vision matching to recognize edited copies like cropped or mirrored ones, and offers desktop GUI, CLI, WebUI and Docker images for media library organization and NAS storage optimization.",
         "tags_zh": [
           "AI视觉匹配",
           "多媒体工具",
-          "重复媒体检测",
-          "音频指纹检测"
+          "跨平台桌面应用",
+          "重复文件检测"
         ],
         "tags_en": [
           "AI Vision Matching",
-          "Audio Fingerprinting",
-          "Duplicate Media Detection",
+          "Cross-platform Desktop App",
+          "Duplicate File Detection",
           "Multimedia Tool"
         ]
       },
@@ -1792,7 +1916,7 @@
         "name": "Agent-Reach",
         "owner": "Panniantong",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-        "stars": 85128,
+        "stars": 85131,
         "language": "Python",
         "url": "https://github.com/Panniantong/Agent-Reach",
         "homepage": "",
@@ -1816,7 +1940,7 @@
           "youtube-transcript"
         ],
         "pushed_at": "2026-09-15T16:16:24Z",
-        "updated_at": "2026-09-24T03:56:10Z",
+        "updated_at": "2026-09-24T04:50:35Z",
         "starred_at": "2026-02-28T17:12:02Z"
       },
       "summary": {
@@ -1897,30 +2021,19 @@
         "name": "kgcheckin",
         "owner": "develop202",
         "description": "酷狗概念VIP自动签到",
-        "stars": 344,
+        "stars": 345,
         "language": "JavaScript",
         "url": "https://github.com/develop202/kgcheckin",
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-09-01T02:47:43Z",
-        "updated_at": "2026-09-23T14:26:03Z",
+        "updated_at": "2026-09-24T04:29:34Z",
         "starred_at": "2026-01-30T13:05:32Z"
       },
       "summary": {
-        ": ": "基于GitHub Actions实现的酷狗概念VIP自动签到工具，调用酷狗音乐API完成自动化签到逻辑，支持二维码/手机号双登录、多账号管理、多渠道结果通知，可自动每日领取VIP权益并定期刷新登录态，无需人工操作。",
-        "en": "An automatic KuGou Concept VIP check-in tool built on GitHub Actions, which uses KuGou Music API to implement automated check-in logic. It supports QR code/phone number dual login, multi-account management, and multi-channel result notification, automatically claims VIP benefits daily and refreshes login status regularly without manual operation.",
-        "tags_zh": [
-          "GitHub Actions",
-          "会员自动签到",
-          "自动化工具",
-          "酷狗音乐API"
-        ],
-        "tags_en": [
-          "Auto VIP Check-in",
-          "Automation Tool",
-          "GitHub Actions",
-          "KuGou Music API"
-        ]
+        ": ": ", ",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2026-09-01T02:47:43Z",
       "updated_at": "2026-09-24"
@@ -1948,19 +2061,19 @@
         "starred_at": "2026-02-08T12:59:02Z"
       },
       "summary": {
-        ": ": "Warden 是部署于 Cloudflare Workers 的 Bitwarden 兼容无服务器密码管理服务，基于 Cloudflare D1 存储数据，支持核心密码库操作、TOTP、Bitwarden Send 及附件功能，与官方 Bitwarden 客户端兼容，免费低维护，适合个人自托管密码管理场景，无需服务器运维。",
-        "en": "Warden is a Bitwarden-compatible serverless password management service deployed on Cloudflare Workers, using Cloudflare D1 for data storage. It supports core vault operations, TOTP, Bitwarden Send and file attachments, is compatible with official Bitwarden clients, and provides free, low-maintenance deployment for personal self-hosted password management without server management overhead.",
+        "zh": "Warden 是部署于 Cloudflare Workers 的 Bitwarden 兼容自托管密码服务器，采用无服务器架构，依托 Cloudflare D1 存储数据，免费且低维护，支持密码库核心操作、TOTP、Bitwarden Send 及附件存储，兼容官方 Bitwarden 全平台客户端，适合个人用户零成本搭建自主可控的密码管理服务。",
+        "en": "Warden is a Bitwarden-compatible self-hosted password server deployed on Cloudflare Workers, leveraging a serverless architecture with Cloudflare D1 for data storage. It is free and low-maintenance, supporting core vault operations, TOTP, Bitwarden Send, and attachment storage, and is compatible with official Bitwarden cross-platform clients, enabling individual users to build a self-controlled password management service at zero cost.",
         "tags_zh": [
-          "Bitwarden协议兼容",
-          "Cloudflare Workers无服务器",
-          "个人自托管",
-          "密码管理工具"
+          "Bitwarden兼容",
+          "Cloudflare Workers",
+          "个人自托管服务",
+          "密码管理"
         ],
         "tags_en": [
-          "Bitwarden Protocol Compatible",
-          "Cloudflare Workers Serverless",
-          "Password Management Tool",
-          "Personal Self-hosted"
+          "Bitwarden Compatibility",
+          "Cloudflare Workers",
+          "Password Management",
+          "Self-hosted Personal Vault"
         ]
       },
       "pushed_at": "2026-08-09T12:41:44Z",
@@ -1982,9 +2095,20 @@
         "starred_at": "2026-06-17T12:48:29Z"
       },
       "summary": {
-        "summary": "Selene-TV 是适配 MoonTV/Helios 后端的 Android TV 流媒体客户端，专为遥控器大屏操作场景优化，基于 Kotlin + Jetpack Compose for TV 开发，支持 ExoPlayer/mpv 双内核播放、多平台弹幕聚合、手机扫码遥控，提供沉浸式大屏观影体验。",
-        "tags_zh": [],
-        "tags_en": []
+        ": ": "Selene-TV 是专为 Android TV 大屏打造的流媒体客户端，适配遥控器操作，对接 MoonTV/Helios 后端，基于 Kotlin + Compose for TV 构建，支持双播放内核、多源聚合搜索、多平台弹幕聚合及手机扫码遥控，提供沉浸式大屏观影体验。",
+        "en": "Selene-TV is an Android TV streaming client optimized for remote control operation, connecting to MoonTV/Helios backends. Built with Kotlin and Jetpack Compose for TV, it features dual playback kernels, multi-source aggregated search, cross-platform danmaku aggregation, and mobile scan-to-remote function, delivering an immersive large-screen viewing experience.",
+        "tags_zh": [
+          "Jetpack Compose for TV",
+          "双播放内核",
+          "大屏流媒体客户端",
+          "智能电视应用"
+        ],
+        "tags_en": [
+          "Android TV Application",
+          "Dual Playback Kernels",
+          "Jetpack Compose for TV",
+          "Large-screen Streaming Client"
+        ]
       },
       "pushed_at": "2026-06-22T07:50:38Z",
       "updated_at": "2026-09-24"
@@ -2005,19 +2129,19 @@
         "starred_at": "2026-01-04T09:50:00Z"
       },
       "summary": {
-        ": ": "这是适配OpenWrt/LEDE路由器的消息推送插件，由原ServerChan插件改造而来，支持钉钉、企业微信、飞书、Bark等10余种推送渠道，可监控设备上下线、IP变动、路由运行状态等，解决微信推送功能局限，完美适配OpenWrt生态。",
-        "en": "This is a message push plugin for OpenWrt/LEDE routers, evolved from the original ServerChan plugin. It supports over 10 push channels including DingTalk, WeCom, Feishu and Bark, capable of monitoring device online/offline status, IP changes and router running status, solving the functional limitations of WeChat push, and fully compatible with OpenWrt ecosystem.",
+        "zh": "本插件是OpenWrt/LEDE平台的LuCI推送工具，由原Serverchan微信推送插件改版而来，支持钉钉、企业微信、飞书、Bark等10余种推送渠道，可监控路由器IP变动、设备上下线、CPU负载温度等状态，通知直接展示完整内容无需二次点开，解决路由器状态查看不便的问题。",
+        "en": "This is a LuCI push plugin for OpenWrt/LEDE routers, modified from the original Serverchan WeChat push plugin. It supports over 10 push channels including DingTalk, WeCom, Feishu and Bark, and can monitor router IP changes, device online/offline status, CPU load and temperature. Notifications display full content directly without opening again, solving the inconvenience of checking router operation status.",
         "tags_zh": [
-          "OpenWrt LuCI开发",
-          "多平台推送适配",
-          "消息推送",
+          "LuCI插件开发",
+          "跨平台消息推送",
+          "路由器状态监控",
           "运维自动化"
         ],
         "tags_en": [
-          "Message Push",
-          "Multi-platform Push Integration",
-          "Network Operations Automation",
-          "OpenWrt LuCI Development"
+          "Cross-platform Push Integration",
+          "LuCI Plugin Development",
+          "Operation Automation",
+          "Router Status Monitoring"
         ]
       },
       "pushed_at": "2026-07-26T09:01:46Z",
@@ -2062,18 +2186,9 @@
         "starred_at": "2025-12-30T05:49:44Z"
       },
       "summary": {
-        ": ": "基于Cloudflare Workers的智能挪车通知系统，解决传统挪车码暴露车主隐私、易遭骚扰的痛点，通过推送通知、双向位置共享与骚扰防控机制实现挪车提醒，无服务器零运维成本，依托Cloudflare免费额度即可部署，兼顾隐私保护与使用效率。",
-        "en": "An intelligent car-moving notification system built on Cloudflare Workers, addressing the privacy leakage and harassment risks of traditional car-moving QR codes. It enables move-car reminders via push notifications, bidirectional location sharing and anti-harassment mechanisms, with zero server operation cost and free deployment supported by Cloudflare's free tier, balancing privacy protection and usage efficiency.",
-        "tags_zh": [
-          "Cloudflare Workers 无服务器架构",
-          "生活服务",
-          "隐私保护挪车通知"
-        ],
-        "tags_en": [
-          "Cloudflare Workers Serverless",
-          "Life Services",
-          "Privacy-preserving Move-car Notification"
-        ]
+        "summary": "MoveCar是基于Cloudflare Workers开发的智能挪车通知系统，解决传统挪车码暴露车主隐私、被堵时无法联系车主的痛点，支持扫码通知、双向实时位置共享、多推送服务，内置防骚扰机制，采用Serverless架构零运维、免费部署，适用于日常挪车通知场景。",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2025-12-31T04:32:03Z",
       "updated_at": "2026-09-24"
@@ -2128,19 +2243,19 @@
         "starred_at": "2025-12-18T14:27:40Z"
       },
       "summary": {
-        ": ": "基于合宙Air780系列通信模块的短信UART转发系统，下位机运行Lua脚本实现短信收发与串口透传，上位机提供Web管理界面，支持多平台消息推送、短信记录与定时发送，可通过Docker或原生方式部署于Linux设备，适用于物联网通信、运维通知等场景。",
-        "en": "A SMS UART forwarding system based on Air780 series communication modules. The lower computer runs Lua scripts for SMS sending/receiving and serial port passthrough, while the upper computer provides a Web management interface supporting multi-platform message push, SMS logging and scheduled SMS sending. It can be deployed on Linux devices via Docker or native installation, suitable for IoT communication and operation notification scenarios.",
+        ": ": "本项目是基于合宙Air780系列4G模块的短信UART转发系统，通过UART串口实现4G模块与上位机的短信交互，支持短信收发、来电告警及钉钉、企业微信等多平台通知推送，提供Web管理界面与Docker/原生部署方案，适用于物联网设备短信监控、运维告警等场景。",
+        "en": "This project is a UART SMS forwarding system built for LuatOS Air780 series 4G modules, which realizes SMS interaction between the 4G module and host computer via UART. It supports SMS sending/receiving, incoming call alerts, and multi-platform (DingTalk, WeCom, Feishu etc.) notification push, with a web management interface and Docker/native deployment options, suitable for IoT device SMS monitoring and operation alert scenarios.",
         "tags_zh": [
-          "Lua脚本",
-          "串口转发",
+          "Lua脚本开发",
+          "UART串口通信",
           "物联网通信",
-          "运维通知"
+          "短信转发告警"
         ],
         "tags_en": [
           "IoT Communication",
           "Lua Scripting",
-          "Operation Notification",
-          "Serial Port Forwarding"
+          "SMS Forwarding & Alerting",
+          "UART Communication"
         ]
       },
       "pushed_at": "2026-08-04T08:22:56Z",
@@ -2162,7 +2277,7 @@
         "starred_at": "2025-12-29T17:36:45Z"
       },
       "summary": {
-        "基于LuatOS开发的Air780E嵌入式短信转发系统，支持企业微信、飞书、钉钉、自定义Webhook、邮件多类渠道的短信转发，提供关键词/正则匹配、异步并发处理、设备信息附加、网络容错等能力，适用于验证码通知、多端消息同步等场景，具备低功耗、高稳定特性。": "基于LuatOS开发的Air780E嵌入式短信转发系统，支持企业微信、飞书、钉钉、自定义Webhook、邮件多类渠道的短信转发，提供关键词/正则匹配、异步并发处理、设备信息附加、网络容错等能力，适用于验证码通知、多端消息同步等场景，具备低功耗、高稳定特性。",
+        "zh": "基于LuatOS开发的Air780E 4G物联网模块短信智能转发系统，支持关键词与正则匹配，可将短信异步转发至企业微信、飞书、钉钉、邮件等多渠道，具备网络容错、低功耗特性，适用于验证码统一接收、业务短信监控等场景。",
         "tags_zh": [],
         "tags_en": []
       },
@@ -2294,19 +2409,19 @@
         "starred_at": "2025-10-25T08:34:46Z"
       },
       "summary": {
-        ": ": "基于Tauri v2开发的跨平台B站视频下载桌面工具，支持普通视频、番剧、充电视频、课程等全类型内容下载，提供NFO刮削、字幕/弹幕下载、广告标记等功能，可无缝对接Emby等媒体库，支持分片下载、批量任务与自定义命名。",
-        "en": "A cross-platform Bilibili video downloader desktop tool built with Tauri v2, supporting downloads of all content types including regular videos, anime, paid videos and courses. It offers NFO scraping, subtitle/danmaku download, ad marking features, and integrates seamlessly with media libraries like Emby, with segmented download, batch task management and custom naming support.",
+        "zh": "基于Tauri v2开发的跨平台B站视频下载工具，支持普通视频、番剧、课程、充电视频等全类型内容下载，提供图形界面，具备NFO刮削、字幕/弹幕下载、广告章节标记、自定义命名等功能，可无缝对接Emby等媒体库。",
+        "en": "A cross-platform Bilibili video downloader built with Tauri v2, supporting all content types such as regular videos, anime, courses and paid videos. It features a GUI, NFO scraping, subtitle/danmaku download, ad chapter marking and custom naming, enabling seamless integration with media servers like Emby.",
         "tags_zh": [
-          "B站视频解析",
-          "Tauri v2",
-          "媒体库管理",
-          "桌面应用"
+          "B站视频下载",
+          "NFO刮削",
+          "媒体工具",
+          "跨平台桌面开发"
         ],
         "tags_en": [
-          "Bilibili Video Parsing",
-          "Desktop Application",
-          "Media Library Integration",
-          "Tauri v2"
+          "Bilibili Video Download",
+          "Cross-platform Desktop Development",
+          "Media Tool",
+          "NFO Scraping"
         ]
       },
       "pushed_at": "2026-08-25T02:38:16Z",
@@ -2324,23 +2439,21 @@
         "homepage": "",
         "topics": [],
         "pushed_at": "2026-09-20T15:56:38Z",
-        "updated_at": "2026-09-24T04:24:57Z",
+        "updated_at": "2026-09-24T04:44:51Z",
         "starred_at": "2025-10-30T15:10:27Z"
       },
       "summary": {
-        ": ": "这是基于Cloudflare Workers/Pages的代理订阅管理工具，支持VLESS、Trojan、xhttp等多协议节点配置，内置自研订阅转换引擎无需外部依赖，提供图形化管理面板，配置修改后立即生效无需重新部署，支持优选IP自动化管理、多客户端适配与出站代理控制，部署于CF边缘网络实现低延迟访问。",
-        "en": "This is a proxy subscription management tool built on Cloudflare Workers/Pages, supporting multi-protocol node configuration including VLESS, Trojan and xhttp. It features a built-in self-developed subscription conversion engine with no external dependencies, offers a graphical management panel where configuration changes take effect immediately without redeployment, supports automated optimal IP management, multi-client adaptation and outbound proxy control, and is deployed on CF edge network for low-latency access.",
+        ": ": "CFnew是基于Cloudflare Workers/Pages的边缘代理订阅管理服务，支持VLESS、Trojan等多协议，提供无外部依赖的订阅转换、优选IP动态管理、多客户端配置生成，通过KV存储实现配置即时生效，无需自建服务器，可灵活配置出站代理、自定义路径与DNS/ECH，适用于代理节点的订阅分发与运维管理场景。",
+        "en": "CFnew is an edge proxy subscription management service built on Cloudflare Workers/Pages, supporting multi-protocols like VLESS and Trojan. It provides dependency-free subscription conversion, dynamic optimal IP management, and multi-client config generation, with KV storage for instant config updates without self-built servers. It supports flexible outbound proxy, custom paths, DNS/ECH configuration, suitable for proxy node subscription distribution and O&M.",
         "tags_zh": [
           "Cloudflare Workers",
-          "优选IP管理",
-          "网络代理工具",
-          "自研订阅转换"
+          "代理订阅管理",
+          "运维自动化"
         ],
         "tags_en": [
           "Cloudflare Workers",
-          "Custom Subscription Converter",
-          "Optimal IP Management",
-          "Proxy Management Tool"
+          "Operation Automation",
+          "Proxy Subscription Management"
         ]
       },
       "pushed_at": "2026-09-20T15:56:38Z",
@@ -2423,17 +2536,19 @@
         "starred_at": "2025-10-25T09:24:10Z"
       },
       "summary": {
-        ": ": "Whistle是基于Node.js的跨平台网络抓包调试代理工具，支持HTTP、HTTPS、HTTP/2、WebSocket、TCP等协议的抓包与请求/响应修改，内置远程DOM检查、请求重放等调试能力，支持规则配置与插件扩展，适用于前端开发、接口调试、线上问题排查等场景。",
-        "en": "Whistle is a Node.js-based cross-platform network packet capture and debugging proxy tool. It supports capturing and modifying requests and responses for protocols including HTTP, HTTPS, HTTP/2, WebSocket and TCP, and provides built-in debugging features like remote DOM inspection and request replay. With rule-based configuration and plugin extension support, it is widely applied in frontend development, API debugging and online issue troubleshooting.",
+        "zh": "Whistle是基于Node.js的跨平台网络抓包调试代理工具，支持HTTP、HTTPS、HTTP/2、WebSocket、TCP等协议的抓包与请求/响应修改，内置Weinre、Composer等调试工具，支持规则配置与插件扩展，适用于前后端接口调试、网络问题排查等场景。",
+        "en": "Whistle is a Node.js-based cross-platform network packet capture and debugging proxy that supports capturing and modifying requests and responses for protocols including HTTP, HTTPS, HTTP/2, WebSocket and TCP. It provides built-in debugging tools like Weinre and Composer, supports rule-based configuration and plugin extension, and is suitable for front-end/back-end API debugging and network issue troubleshooting.",
         "tags_zh": [
           "Node.js",
-          "抓包调试",
-          "自动化工具"
+          "接口调试",
+          "跨平台",
+          "运维自动化"
         ],
         "tags_en": [
-          "Automation Tool",
-          "Node.js",
-          "Packet Capture & Debugging"
+          "API Debugging",
+          "Cross-platform",
+          "Network Debugging Tool",
+          "Node.js"
         ]
       },
       "pushed_at": "2026-09-21T02:43:12Z",
@@ -2445,7 +2560,7 @@
         "name": "TVAPP",
         "owner": "youhunwl",
         "description": " 收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！              ✅ TVBox/影视仓等影音壳接口配置源。",
-        "stars": 23547,
+        "stars": 23548,
         "language": "JavaScript",
         "url": "https://github.com/youhunwl/TVAPP",
         "homepage": "https://app.iyouhun.com",
@@ -2458,23 +2573,23 @@
           "tv-box"
         ],
         "pushed_at": "2026-09-23T03:04:06Z",
-        "updated_at": "2026-09-24T04:20:33Z",
+        "updated_at": "2026-09-24T04:28:59Z",
         "starred_at": "2025-10-25T04:25:41Z"
       },
       "summary": {
-        ": ": "本仓库为安卓TV/电视盒子应用资源合集，收录TVBox、影视仓等主流影音壳工具及配套点播直播源，适配多版本安卓系统，支持便捷下载与接口配置，助力用户快速搭建家庭影音娱乐中心。",
-        "en": "This repository is a collection of Android TV and TV box application resources, integrating mainstream media shell tools such as TVBox and Yingshi Cang, along with supporting on-demand and live streaming sources. It is compatible with multiple Android versions, supports convenient download and interface configuration, helping users quickly build a home audio and video entertainment center.",
+        "zh": "本仓库专注收集全网优质Android TV/电视盒子应用，涵盖影视、直播、K歌、工具等多类APK资源，提供TVBox/影视仓等影音壳接口配置源，支持便捷下载、安全验证与兼容性标注，助力用户快速搭建家庭影音娱乐中心。",
+        "en": "This repository focuses on collecting high-quality Android TV and TV box applications from across the web, covering APK resources for videos, live streaming, karaoke, tools and more. It provides interface configuration sources for media shells such as TVBox and YingshiCang, supports easy download, security verification and compatibility labeling, helping users quickly build a home audio-visual entertainment center.",
         "tags_zh": [
-          "TV壳接口配置",
-          "安卓TV应用",
-          "家庭影音中心搭建",
-          "影音资源聚合"
+          "APK资源整理",
+          "家庭影音娱乐",
+          "影音接口源配置",
+          "智能电视应用"
         ],
         "tags_en": [
-          "Android TV Applications",
-          "Home Entertainment Center Construction",
-          "Media Resource Aggregation",
-          "TV Shell Interface Configuration"
+          "APK Resource Curation",
+          "Home Audio-visual Entertainment",
+          "Media Interface Configuration",
+          "Smart TV Applications"
         ]
       },
       "pushed_at": "2026-09-23T03:04:06Z",
@@ -2533,16 +2648,27 @@
           "v2rayn",
           "vless"
         ],
-        "pushed_at": "2026-09-23T18:24:44Z",
-        "updated_at": "2026-09-23T18:24:48Z",
+        "pushed_at": "2026-09-24T04:54:06Z",
+        "updated_at": "2026-09-24T04:54:10Z",
         "starred_at": "2025-10-17T13:31:46Z"
       },
       "summary": {
-        "value": "本仓库面向Clash、V2RayN、Shadowrocket等主流代理客户端，提供免费节点订阅服务，每2小时自动更新，输出Base64通用订阅与Clash YAML订阅两种标准化格式，已完成节点统一命名与格式校验，不承诺节点可用性，仅做公开订阅源整理。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "本项目聚合公开免费代理节点，提供适配Clash、V2RayN、Shadowrocket等主流客户端的Base64与YAML格式订阅链接，每2小时自动更新并统一节点命名，附各客户端导入指南，仅做格式整理不承诺节点可用性与安全性。",
+        "en": "This project aggregates publicly available free proxy nodes, offering Base64 and YAML subscription links compatible with mainstream clients like Clash, V2RayN and Shadowrocket. It updates automatically every 2 hours with unified node naming, provides import guides for different clients, and only does format integration without guaranteeing node availability or security.",
+        "tags_zh": [
+          "免费节点订阅",
+          "多格式适配",
+          "自动化工具",
+          "自动更新"
+        ],
+        "tags_en": [
+          "Automated Update",
+          "Automation Tool",
+          "Free Proxy Subscription",
+          "Multi-format Adaptation"
+        ]
       },
-      "pushed_at": "2026-09-23T18:24:44Z",
+      "pushed_at": "2026-09-24T04:54:06Z",
       "updated_at": "2026-09-24"
     },
     "btjawa/BiliTools": {
@@ -2665,13 +2791,13 @@
         "name": "pansou",
         "owner": "fish2018",
         "description": "PanSou是一款高性能的网盘资源搜索API服务，支持TG频道和插件搜索。系统设计以性能和可扩展性为核心，支持多频道多插件并发搜索、结果智能排序和网盘类型分类。docker集成前后端，一键启动，开箱即用。仅供学习研究，请勿以各种形式用于盈利目的。 https://t.me/s/webhtv",
-        "stars": 14682,
+        "stars": 14681,
         "language": "Go",
         "url": "https://github.com/fish2018/pansou",
         "homepage": "https://so.252035.xyz/",
         "topics": [],
         "pushed_at": "2026-09-15T06:57:24Z",
-        "updated_at": "2026-09-24T04:19:46Z",
+        "updated_at": "2026-09-24T04:46:48Z",
         "starred_at": "2025-10-04T03:09:31Z"
       },
       "summary": {
@@ -2746,19 +2872,19 @@
         "starred_at": "2025-06-18T08:16:58Z"
       },
       "summary": {
-        ": ": " 这是针对斐讯R1智能音箱的开源IoT改造项目，基于Java开发，提供Docker容器化一键部署方案，可快速将R1接入智能家居生态实现设备联动控制，同时配套二手设备获取指引。",
-        "en": "This is an open-source IoT modification project for Phicomm R1 smart speaker, built with Java and offering Docker containerized one-click deployment, enabling quick integration of R1 into smart home ecosystem for device linkage control, along with second-hand device acquisition guidance.",
+        "zh": "该项目是基于Java开发的斐讯R1智能音箱IoT改造方案，支持Docker容器化一键部署，可将闲置的斐讯R1音箱接入智能家居生态，实现设备自动化控制，低门槛盘活旧智能硬件，具备轻量化部署、适配消费级闲置IoT设备的特点。",
+        "en": "This project is an IoT modification solution for Phicomm R1 smart speaker developed with Java, supporting one-click Docker containerized deployment. It can connect idle Phicomm R1 speakers to the smart home ecosystem to achieve automated device control, revitalizing idle consumer IoT devices with low threshold, featuring lightweight deployment and compatibility with consumer-grade idle IoT hardware.",
         "tags_zh": [
-          "Docker部署",
+          "Docker容器化",
           "Java开发",
-          "智能家居IoT",
-          "智能音箱改造"
+          "智能家居",
+          "智能硬件改造"
         ],
         "tags_en": [
-          "Docker Deployment",
-          "Java",
-          "Smart Home IoT",
-          "Smart Speaker Modification"
+          "Docker Containerization",
+          "IoT Hardware Modification",
+          "Java Development",
+          "Smart Home"
         ]
       },
       "pushed_at": "2026-03-25T15:57:28Z",
@@ -2780,7 +2906,7 @@
           "indie-developer"
         ],
         "pushed_at": "2026-09-23T15:12:44Z",
-        "updated_at": "2026-09-24T03:43:55Z",
+        "updated_at": "2026-09-24T04:34:25Z",
         "starred_at": "2025-10-07T16:09:15Z"
       },
       "summary": {
@@ -2823,7 +2949,7 @@
         "starred_at": "2025-06-15T15:01:32Z"
       },
       "summary": {
-        "summary": "OpenList是应对信任危机的AList社区驱动开源分叉，以长期治理、代码完全透明为核心目标，支持阿里云盘、OneDrive、GoogleDrive等十余种云存储及本地存储的统一管理，采用AGPL-3.0协议，提供多语言支持与免费开源服务。",
+        "zh": "OpenList是应对开源信任危机的AList社区分叉项目，采用长期社区自治治理模式，支持阿里云盘、OneDrive、GoogleDrive等十余种本地/云存储的统一文件管理，基于Go开发，遵循AGPL-3.0开源协议，为个人及团队提供免费、透明的多云资源管理方案。",
         "tags_zh": [],
         "tags_en": []
       },
@@ -2874,13 +3000,13 @@
         "name": "ChinaTextbook",
         "owner": "TapXWorld",
         "description": "所有小初高、大学PDF教材。",
-        "stars": 82276,
+        "stars": 82277,
         "language": "Roff",
         "url": "https://github.com/TapXWorld/ChinaTextbook",
         "homepage": "",
         "topics": [],
         "pushed_at": "2025-10-18T13:39:24Z",
-        "updated_at": "2026-09-24T03:48:08Z",
+        "updated_at": "2026-09-24T04:27:55Z",
         "starred_at": "2025-05-22T08:32:35Z"
       },
       "summary": {
@@ -3048,18 +3174,20 @@
         "starred_at": "2025-02-02T20:17:16Z"
       },
       "summary": {
-        ": ": "今日热榜API是聚合全网主流平台热门榜单的高性能轻量接口服务，支持JSON与RSS双模式输出，覆盖B站、微博、知乎等十余个平台，提供Docker、Vercel等多方式部署，可快速集成至资讯聚合、热点监控、个人导航站等场景，响应速度快、路由结构清晰易扩展。",
-        "en": "DailyHotApi is a lightweight, high-performance API service dedicated to aggregating trending lists from all mainstream platforms across the web. It supports both JSON and RSS dual output modes, covers over 10 popular platforms including Bilibili, Weibo and Zhihu, provides multiple flexible deployment options, and can be quickly integrated into various scenarios like news aggregation, trend monitoring and personal navigation sites, featuring fast response speed and clear, easily extensible routing structure.",
+        "summary": "今日热榜API是聚合全网主流平台热门榜单的轻量接口服务，支持JSON/RSS双模式返回，提供Vercel、Docker等多方式部署，覆盖B站、微博、知乎等十余个平台热榜数据，响应速度快、路由结构清晰，便于开发者快速集成热点数据能力。",
+        "tags": [
+          "数据聚合服务",
+          "RESTful API",
+          "跨平台部署",
+          "热点数据聚合"
+        ],
         "tags_zh": [
           "RESTful API",
+          "数据聚合服务",
           "热点数据聚合",
-          "资讯聚合"
+          "跨平台部署"
         ],
-        "tags_en": [
-          "News Aggregation",
-          "RESTful API",
-          "Trending Data Aggregation"
-        ]
+        "tags_en": []
       },
       "pushed_at": "2026-03-11T10:38:03Z",
       "updated_at": "2026-09-24"
@@ -3136,9 +3264,20 @@
         "starred_at": "2025-01-27T18:16:54Z"
       },
       "summary": {
-        "value": "基于Protractor的自动化代理爬虫工具，每3小时自动更新1800+代理池，支持HTTP/S、SOCKS4/5多类型代理，可输出TXT/JSON/CSV等多格式，支持存储至MySQL数据库，配套代理可用性测试脚本，公开托管可直接调用。",
-        "tags_zh": [],
-        "tags_en": []
+        "基于Protractor开发的自动化代理爬取工具，通过GitHub Actions每3小时自动更新1800+条代理资源，支持HTTP/S、SOCKS4/5多类型，可导出为TXT/JSON/CSV等6种格式，支持存储至MySQL数据库，附带代理可用性测试脚本，适用于网络爬虫、运维测试等场景。": "zh",
+        "en": "An automated proxy scraping tool built with Protractor, automatically updating over 1800 proxy resources every 3 hours via GitHub Actions. It supports HTTP/S, SOCKS4/5 proxy types, exports to 6 formats including TXT/JSON/CSV, supports MySQL storage, and comes with a proxy availability test script, suitable for web scraping, network testing and other scenarios.",
+        "tags_zh": [
+          "Node.js",
+          "Protractor",
+          "代理爬取",
+          "运维自动化"
+        ],
+        "tags_en": [
+          "Network Automation",
+          "Node.js",
+          "Protractor",
+          "Proxy Scraping"
+        ]
       },
       "pushed_at": "2026-09-24T03:31:58Z",
       "updated_at": "2026-09-24"
@@ -3309,7 +3448,7 @@
         "name": "HelloGitHub",
         "owner": "521xueweihan",
         "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-        "stars": 178326,
+        "stars": 178327,
         "language": "Python",
         "url": "https://github.com/521xueweihan/HelloGitHub",
         "homepage": "https://hellogithub.com",
@@ -3320,23 +3459,12 @@
           "python"
         ],
         "pushed_at": "2026-09-20T10:22:21Z",
-        "updated_at": "2026-09-24T04:18:41Z",
+        "updated_at": "2026-09-24T04:57:47Z",
         "starred_at": "2024-12-27T02:14:26Z"
       },
       "summary": {
-        "summary": "HelloGitHub是面向开源新手的推荐项目，每月28日以月刊形式更新，精选分享GitHub上有趣、入门级的开源项目、开源书籍及实战项目，通过官网、公众号等渠道传播，降低开源入门门槛，帮助用户快速感受开源魅力。",
-        "tags": [
-          "开源社区",
-          "开源项目精选",
-          "内容月刊",
-          "新手入门引导"
-        ],
-        "tags_zh": [
-          "内容月刊",
-          "开源社区",
-          "开源项目精选",
-          "新手入门引导"
-        ],
+        "summary": "HelloGitHub是面向开发者的开源项目推荐月刊，每月28日更新，收录有趣、入门级、实战类等优质开源项目与开源书籍，通过官网、公众号等多渠道分发，帮助开发者快速发现优质开源资源，降低开源探索门槛。",
+        "tags_zh": [],
         "tags_en": []
       },
       "pushed_at": "2026-09-20T10:22:21Z",
@@ -3407,7 +3535,7 @@
         "starred_at": "2025-01-06T03:44:07Z"
       },
       "summary": {
-        "text": "Notepad--是支持Windows/Linux/macOS的轻量级跨平台文本编辑器，核心目标是实现文本编辑类软件的国产可替代，重点适配国产信创UOS等操作系统，相比同类工具对Linux/mac系统兼容性更优，致力于为用户提供无不当言论的纯净文本编辑工具。",
+        "zh": "Notepad--是一款支持Windows、Linux、macOS的轻量级国产文本编辑器，核心目标是实现文本编辑类软件的国产可替代，重点适配国产信创Uos等操作系统，具备跨平台、轻量化特性，为用户提供合规的文本编辑工具选择。",
         "tags_zh": [],
         "tags_en": []
       },
@@ -3454,7 +3582,7 @@
         "name": "yt-dlp",
         "owner": "yt-dlp",
         "description": "A feature-rich command-line audio/video downloader",
-        "stars": 193254,
+        "stars": 193257,
         "language": "Python",
         "url": "https://github.com/yt-dlp/yt-dlp",
         "homepage": "https://discord.gg/H5MNcFW63r",
@@ -3468,21 +3596,21 @@
           "yt-dlp"
         ],
         "pushed_at": "2026-09-16T07:48:51Z",
-        "updated_at": "2026-09-24T03:47:13Z",
+        "updated_at": "2026-09-24T04:58:20Z",
         "starred_at": "2025-03-14T06:17:16Z"
       },
       "summary": {
-        "summary": "yt-dlp 是 youtube-dl 的活跃维护分支，功能丰富的命令行音视频下载工具，支持上千个站点的媒体资源获取，提供格式筛选、字幕下载、后处理、广告跳过等丰富特性，是当前最主流的开源音视频下载解决方案之一。",
+        "summary": "yt-dlp是youtube-dl的活跃维护分支，是一款功能全面的命令行音视频下载工具，支持上千家站点音视频资源获取，提供格式智能筛选、元数据编辑、SponsorBlock去广告、插件扩展等特性，可嵌入第三方项目，适用于媒体资源采集、离线观看等场景。",
         "tags": [
-          "下载工具",
+          "自动化工具",
           "Python",
-          "命令行工具",
+          "CLI工具",
           "音视频下载"
         ],
         "tags_zh": [
+          "CLI工具",
           "Python",
-          "下载工具",
-          "命令行工具",
+          "自动化工具",
           "音视频下载"
         ],
         "tags_en": []
@@ -3517,19 +3645,19 @@
         "starred_at": "2024-10-31T06:32:24Z"
       },
       "summary": {
-        ": ": ", ",
-        "en": "Yingsuo is a rootless virtual location tool for Android 8.0+, built on Android Debug API and Baidu Map SDK. It supports coordinate modification and joystick-controlled movement simulation for location technology learning, and is open-sourced under GPL-3.0 license.",
+        ": ": "影梭是基于Android调试API与百度地图SDK开发的安卓8.0+无Root虚拟定位工具，支持位置修改、摇杆模拟移动、坐标搜索与历史记录功能，可用于Android定位开发技术学习，明确禁止用于游戏及校园运动作弊。",
+        "en": "Yingsuo (GoGoGo) is a no-root virtual location tool for Android 8.0+, built on Android Debug API and Baidu Map SDK. It supports location spoofing, joystick-controlled movement simulation, location search and history records, serving as a learning resource for Android location development, and is prohibited for cheating use.",
         "tags_zh": [
           "Android调试API",
           "安卓工具",
-          "百度地图SDK",
-          "虚拟定位"
+          "无Root虚拟定位",
+          "百度地图SDK"
         ],
         "tags_en": [
           "Android Debug API",
           "Android Tool",
           "Baidu Map SDK",
-          "Virtual Location"
+          "No-Root Virtual Location"
         ]
       },
       "pushed_at": "2025-11-20T17:04:08Z",
@@ -3606,7 +3734,7 @@
         "starred_at": "2024-11-03T16:24:49Z"
       },
       "summary": {
-        ": ": "zh\": \"NetMount是基于Tauri、Rust与React开发的跨平台桌面工具，统一管理挂载各类云存储设施，底层集成Rclone与OpenList，支持多协议云服务接入，可简化多云存储资源的调度与访问流程，适用于个人及团队的多云存储统一管理场景。\",\n  \"en\": \"NetMount is a cross-platform desktop tool built with Tauri, Rust and React, designed to unify the management and mounting of diverse cloud storage services. It integrates Rclone and OpenList to support multi-protocol cloud access, simplifying the scheduling and access of multi-cloud storage resources for both individual and team use.\",\n  \"tags_zh\": [\"云存储管理\", \"Tauri\", \"Rust\", \"多云存储挂载\"],\n  \"tags_en\": [\"Cloud Storage Management\", \"Tauri\", \"Rust\", \"Unified Multi-Cloud Mounting\"]\n}",
+        "summary": "NetMount是开源跨平台云存储统一管理工具，基于Rust+Tauri+React开发，集成Rclone与OpenList核心能力，支持多类云存储服务的挂载、统一管控，简化个人及团队多云资源访问流程，降低跨存储服务切换成本。",
         "tags_zh": [],
         "tags_en": []
       },
@@ -3629,9 +3757,20 @@
         "starred_at": "2024-09-30T07:13:47Z"
       },
       "summary": {
-        "summary": "TaoSync是适配OpenList/AList v3+的开源自动化文件同步工具，内置存储引擎无需额外部署OpenList，支持云盘、FTP等多存储端的定时全量/增量同步、定时下载任务，覆盖全主流架构跨平台运行，提供任务监控与通知能力。",
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "TaoSync是开源跨平台自动化文件同步工具，兼容OpenList/AList v3+生态且内置存储引擎无需额外部署，支持全量/增量同步、定时任务，可用于多存储端文件备份、跨云盘同步、定时资源下载等场景，支持多架构与Docker部署。",
+        "en": "TaoSync is an open-source cross-platform automated file synchronization tool compatible with OpenList/AList v3+ ecosystem, featuring a built-in storage engine that eliminates the need for additional OpenList deployment. It supports full/incremental sync and scheduled tasks, applicable to multi-storage file backup, cross-cloud drive sync, and scheduled resource download, and supports multi-architecture and Docker deployment.",
+        "tags_zh": [
+          "Python",
+          "文件同步",
+          "自动化工具",
+          "跨平台"
+        ],
+        "tags_en": [
+          "Automation Tool",
+          "Cross-Platform",
+          "File Synchronization",
+          "Python"
+        ]
       },
       "pushed_at": "2026-07-28T03:27:48Z",
       "updated_at": "2026-09-24"
@@ -3707,18 +3846,18 @@
         "starred_at": "2024-08-23T15:34:36Z"
       },
       "summary": {
-        ": ": "该项目自动抓取合并互联网公开代理节点，提供适配Clash/Clash Meta的订阅配置及定制分流规则，配套多CDN镜像保障访问稳定性，采用反996开源许可，适用于代理工具配置场景，核心亮点为自动化节点聚合、多源分发与规则自定义。",
-        "en": "This project automatically crawls and merges publicly available proxy nodes from the internet, delivers subscription configurations compatible with Clash/Clash Meta alongside customized routing rules, provides multi-CDN mirrors to ensure access stability, and adopts an anti-996 open source license. It serves proxy tool configuration scenarios, with core highlights of automated node aggregation, multi-source distribution and customizable rules.",
+        "zh": "NoMoreWalls 是自动抓取合并互联网公开代理节点的工具，可生成适配 Clash Meta 等客户端的订阅配置与分流规则，提供多CDN镜像保障访问稳定性，采用反996许可证，附带明确的安全提示与合规要求。",
+        "en": "NoMoreWalls is a tool that automatically fetches and merges public proxy nodes from the internet, generates subscription configurations and routing rules for clients like Clash Meta, provides multi-CDN mirrors for access stability, adopts the Anti-996 License, and includes clear security tips and compliance requirements.",
         "tags_zh": [
-          "代理订阅分发",
+          "代理节点聚合",
           "网络工具",
           "网页爬虫",
-          "配置生成"
+          "自动化工具"
         ],
         "tags_en": [
-          "Config Generation",
+          "Automation Tools",
           "Network Tools",
-          "Proxy Subscription Distribution",
+          "Proxy Node Aggregation",
           "Web Crawler"
         ]
       },
@@ -3758,7 +3897,7 @@
         "starred_at": "2024-10-04T15:59:38Z"
       },
       "summary": {
-        "value": "本仓库提供基于Cloudflare Workers/Pages的代理脚本，支持VLESS、Trojan的ws+tls代理，同时提供支持ECH-TLS等多模式的本地Socks5/http代理，内置CF官方优选IP，无需自定义域名即可快速部署，配置全本地化避免第三方订阅泄露隐私，支持多格式节点订阅，适合新手快速搭建代理节点。",
+        "value": "这是部署于Cloudflare Workers/Pages的边缘代理工具，支持VLESS、Trojan的ws+tls代理协议，内置CF官方优选IP无需频繁更新，无需依赖第三方订阅，可生成多格式客户端订阅链接，同时提供支持ECH-TLS等多模式的本地代理脚本，降低小白部署使用门槛。",
         "tags_zh": [],
         "tags_en": []
       },
@@ -3792,15 +3931,20 @@
         "starred_at": "2024-09-15T07:31:44Z"
       },
       "summary": {
-        ": ": "zh",
-        "  ": [
-          "Online Proxy",
+        "zh": "基于Cloudflare Worker的无服务器在线代理工具，支持Cloudflare、Deno等多平台部署，无需服务器运维成本，可实现Github加速、Libgen学术资源解锁、Duckduckgo AI聊天代理（支持GPT4o/Claude3），内置密码安全校验与Cookie域隔离机制，用于安全访问受限网络资源。",
+        "en": "A serverless online proxy tool built on Cloudflare Worker, supporting deployment on multiple platforms including Cloudflare and Deno without server operation and maintenance costs. It enables GitHub acceleration, Libgen academic resource access, and proxying for DuckDuckGo AI chat (supporting GPT-4o and Claude 3). With built-in password verification and Cookie domain isolation to prevent credential leakage, it is designed for accessing restricted network resources safely.",
+        "tags_zh": [
           "Cloudflare Worker",
-          "Cross-platform Deployment",
-          "Network Access Acceleration"
+          "受限资源解锁",
+          "在线代理",
+          "无服务器架构"
         ],
-        "tags_zh": [],
-        "tags_en": []
+        "tags_en": [
+          "Cloudflare Worker",
+          "Online Proxy",
+          "Resource Unblocking",
+          "Serverless Architecture"
+        ]
       },
       "pushed_at": "2026-06-11T02:24:22Z",
       "updated_at": "2026-09-24"
@@ -3876,19 +4020,19 @@
         "starred_at": "2024-04-07T13:50:09Z"
       },
       "summary": {
-        ": ": "这是VPS服务器综合测评Shell脚本（融合怪），支持Ubuntu、Debian、CentOS等主流系统及多CPU架构，提供交互与无交互参数模式，可完成IP质量检测、回程路由、网络基准测试等全维度测评，目前功能已重构为无环境依赖的Go版本，Shell版仅作维护。",
-        "en": "This is a comprehensive VPS server testing shell script (Fusion Monster), supporting mainstream systems like Ubuntu, Debian, CentOS and multiple CPU architectures. It offers both interactive and non-interactive parameter modes, and can perform full-dimensional tests including IP quality detection, return route tracing and network benchmarking. Its features have been refactored into a zero-dependency Go version, while the shell version is only for maintenance.",
+        "zh": "这是VPS服务器综合测评Shell脚本（融合怪测评脚本），支持多系统多架构，提供无交互参数执行模式，可完成IP质量检测、回程路由、网络基准测试等任务，现已重构为无环境依赖的Go版本，适配非root等极端测试场景。",
+        "en": "This is a comprehensive VPS server testing shell script (Fusion Monster Test Script), supporting multiple systems and architectures. It provides a non-interactive parameter execution mode, capable of IP quality detection, return route testing, network benchmark testing and other tasks. It has been refactored into a Go version with zero external dependencies, suitable for extreme test scenarios like non-root execution.",
         "tags_zh": [
+          "Go语言",
           "Shell脚本",
-          "VPS服务器测评",
-          "跨平台",
+          "VPS测评",
           "运维自动化"
         ],
         "tags_en": [
-          "Cross-platform",
           "DevOps Automation",
-          "Shell Scripting",
-          "VPS Server Testing"
+          "Go Language",
+          "Shell Script",
+          "VPS Testing"
         ]
       },
       "pushed_at": "2026-09-04T06:30:48Z",
@@ -3910,17 +4054,19 @@
         "starred_at": "2024-04-12T13:07:04Z"
       },
       "summary": {
-        ": ": "本仓库为Cloudflare生态开源工具精选列表，面向独立开发者收录图床、博客、短链、对象存储等轻量工具，帮助开发者提升开发效率、降低部署成本，提供多语言版本及在线导航，持续更新中。",
-        "en": "This repository is a curated list of open-source tools in the Cloudflare ecosystem, targeting indie developers. It collects lightweight tools for image hosting, blogs, short links, object storage and more, helping developers improve development efficiency and reduce deployment costs. It offers multilingual versions and online navigation, and is continuously updated.",
+        "zh": "本仓库是专为独立开发者整理的 Cloudflare 生态开源资源精选列表，收录图床、对象存储、短链、网站分析等多类轻量易部署的工具、开源项目与教程，帮助开发者提升开发效率、降低使用成本，持续更新中。",
+        "en": "This repository is a curated list of Cloudflare ecosystem open-source resources tailored for indie developers, collecting lightweight and easy-to-deploy tools, open-source projects and tutorials covering image hosting, object storage, short links, website analytics and more, helping developers boost development efficiency and reduce usage costs, with continuous updates.",
         "tags_zh": [
           "Cloudflare生态",
-          "开源工具集",
-          "独立开发者工具"
+          "开发者工具",
+          "无服务器",
+          "独立开发者工具导航"
         ],
         "tags_en": [
           "Cloudflare Ecosystem",
-          "Indie Developer Tools",
-          "Open Source Toolkit"
+          "Developer Tools",
+          "Indie Developer Resource Curation",
+          "无服务器"
         ]
       },
       "pushed_at": "2026-06-30T01:51:01Z",
@@ -3966,7 +4112,7 @@
         "name": "proxypin",
         "owner": "wanghongenpin",
         "description": "Open source free capture HTTP(S) traffic  software ProxyPin, supporting full platform systems",
-        "stars": 13997,
+        "stars": 13998,
         "language": "Dart",
         "url": "https://github.com/wanghongenpin/proxypin",
         "homepage": "",
@@ -3979,7 +4125,7 @@
           "zhuabao"
         ],
         "pushed_at": "2026-09-23T18:53:25Z",
-        "updated_at": "2026-09-24T03:07:42Z",
+        "updated_at": "2026-09-24T04:41:21Z",
         "starred_at": "2024-04-01T14:53:56Z"
       },
       "summary": {
@@ -4025,20 +4171,18 @@
         "starred_at": "2024-03-15T13:58:24Z"
       },
       "summary": {
-        "summary": "本项目为AI驱动的v2ray/Clash免费节点自动爬虫，每日12点定时运行，聚合多源公开免费代理节点，提供txt、yaml格式标准订阅文件与镜像加速链接，仅供学习交流使用。",
-        "tags": [
-          "网络工具",
-          "AI爬虫",
-          "自动化更新",
-          "免费节点订阅"
-        ],
+        ": ": "AI驱动的v2ray/Clash免费节点自动爬虫项目，每日定时运行更新，聚合多源公开节点资源，提供标准订阅文件与镜像加速链接，仅供学习交流使用，简化代理节点获取流程。",
+        "en": "An AI-powered crawler for free V2Ray/Clash nodes that operates automatically on a daily basis. It aggregates node resources from multiple public sources, offers standard subscription files and mirrored acceleration links, for learning and communication use only, simplifying the process of obtaining proxy nodes.",
         "tags_zh": [
           "AI爬虫",
           "免费节点订阅",
-          "网络工具",
-          "自动化更新"
+          "网络工具"
         ],
-        "tags_en": []
+        "tags_en": [
+          "AI Crawler",
+          "Free Node Subscription",
+          "Network Tools"
+        ]
       },
       "pushed_at": "2026-09-23T09:02:19Z",
       "updated_at": "2026-09-24"
@@ -4067,10 +4211,18 @@
         "starred_at": "2024-02-16T04:17:51Z"
       },
       "summary": {
-        "text": "GOODBYEADS是面向AdGuard、Quantumult X、SmartDNS的聚合去广告规则集合，合并多源优质上游规则并去重优化，覆盖21万+广告拦截、10万+DNS拦截及1万+白名单规则，支持定时更新、多格式订阅及国内加速源，可有效屏蔽网页、应用及智能电视广告。",
-        "word_count": 94,
-        "tags_zh": [],
-        "tags_en": []
+        "zh": "GOODBYEADS是面向AdGuard、Quantumult X、SmartDNS等主流网络工具的强力去广告规则集合，合并多源优质上游规则并去重整理，提供多格式规则文件与国内加速订阅，支持DNS拦截、域名黑名单、白名单等多种规则类型，拥有超21万条拦截规则，定时更新保障全面去广告效果。",
+        "en": "GOODBYEADS is a powerful, regularly updated ad-blocking rule set designed for mainstream network tools including AdGuard, Quantumult X and SmartDNS. It merges and deduplicates high-quality upstream rules from multiple authoritative sources, offers multi-format rule files with domestic accelerated subscriptions, supports DNS blocking, domain blacklists and whitelists, with over 210,000 blocking rules to ensure comprehensive ad interception.",
+        "tags_zh": [
+          "广告拦截",
+          "网络优化",
+          "跨平台"
+        ],
+        "tags_en": [
+          "Ad Blocking",
+          "Cross-Platform",
+          "Network Optimization"
+        ]
       },
       "pushed_at": "2026-09-24T04:05:46Z",
       "updated_at": "2026-09-24"
@@ -4143,19 +4295,19 @@
         "starred_at": "2024-02-09T17:27:48Z"
       },
       "summary": {
-        ": ": "本项目自动聚合多源广告过滤规则，每8小时定时更新，通过DNS解析校验去除无效域名，输出适配AdGuard、DNSMasq等多工具的规则库，提供多线路加速链接与国内域名精简版，解决手动同步广告规则的痛点。",
-        "en": "This project automatically aggregates ad-blocking filter rules from multiple upstream sources, updates every 8 hours on schedule, removes invalid domains via DNS resolution verification, and outputs rule sets compatible with tools like AdGuard and DNSMasq, with multi-line acceleration links and China-only lite versions provided to solve the pain point of manual ad rule synchronization.",
+        "zh": "本仓库为自动合并更新的广告过滤规则库，每8小时同步上游规则源，经合并去重、多节点DNS验证剔除无效域名后生成多版本规则，适配AdGuard、AdGuard Home、DNSMasq等主流工具，提供国内加速链接与国内域名精简版，有效降低误拦截概率。",
+        "en": "This repository provides an automatically merged and updated ad-blocking filter list to eliminate the hassle of manual rule configuration on multiple devices, syncing upstream rule sources every 8 hours. After deduplication and invalid domain removal via multi-node DNS verification, it generates multi-version rules compatible with mainstream tools like AdGuard, AdGuard Home and DNSMasq, with domestic acceleration links and lite versions for Chinese domains to reduce false blocking.",
         "tags_zh": [
-          "DNS校验",
+          "DNS过滤",
           "广告拦截",
-          "自动化更新",
-          "规则聚合"
+          "网络工具",
+          "运维自动化"
         ],
         "tags_en": [
           "Ad Blocking",
-          "Automated Update",
-          "DNS Verification",
-          "Rule Aggregation"
+          "DNS Filtering",
+          "DevOps Automation",
+          "Network Tools"
         ]
       },
       "pushed_at": "2026-09-24T04:08:36Z",
@@ -4167,7 +4319,7 @@
         "name": "TikTokDownloader",
         "owner": "JoeanAmier",
         "description": "抖音 / TikTok 平台作品下载/数据采集工具",
-        "stars": 16285,
+        "stars": 16286,
         "language": "JavaScript",
         "url": "https://github.com/JoeanAmier/TikTokDownloader",
         "homepage": "https://discord.com/invite/ZYtmgKud9Y",
@@ -4191,23 +4343,23 @@
           "xlsx"
         ],
         "pushed_at": "2026-09-22T13:49:13Z",
-        "updated_at": "2026-09-24T03:19:30Z",
+        "updated_at": "2026-09-24T04:29:24Z",
         "starred_at": "2023-12-22T10:29:29Z"
       },
       "summary": {
-        ": ": "DouK-Downloader 是基于 Python 开发的抖音/TikTok 双平台内容工具，支持高清作品下载、全量数据采集、直播拉流，提供 WebUI 交互界面，具备批量/增量下载、多格式数据导出、代理访问、剪贴板监听等能力，可部署于服务器，适用于内容备份、数据调研等场景。",
-        "en": "DouK-Downloader is a Python-based dual-platform tool for Douyin/TikTok, supporting high-definition video download, full data collection, and live stream link extraction. It features a WebUI interface, batch/incremental download, multi-format data export, proxy access, and clipboard monitoring, and can be deployed on servers for content backup and data research.",
+        ": ": "DouK-Downloader 是基于 Python 开发的抖音/TikTok 双平台作品下载与数据采集工具，支持最高画质视频/图集批量下载、账号作品/评论/直播数据采集，提供 WebUI 交互界面，支持多线程、断点续传、多格式数据持久化及 Docker 部署，适用于内容备份、平台数据分析等场景。",
+        "en": "DouK-Downloader is a Python-based dual-platform tool for downloading works and collecting data from Douyin and TikTok. It supports high-definition video/image batch download, account works/comment/live stream data collection, provides WebUI interface, and features multi-threading, breakpoint resumption, multi-format data persistence and Docker deployment, suitable for content backup and platform data analysis.",
         "tags_zh": [
           "Python",
           "WebUI",
-          "内容采集工具",
-          "短视频下载"
+          "短视频下载与数据采集",
+          "网页爬虫"
         ],
         "tags_en": [
-          "Content Collection Tool",
           "Python",
-          "Short Video Download",
-          "WebUI"
+          "Short Video Download & Data Collection",
+          "WebUI",
+          "网页爬虫"
         ]
       },
       "pushed_at": "2026-09-22T13:49:13Z",
@@ -4246,20 +4398,20 @@
         "starred_at": "2023-11-25T08:29:35Z"
       },
       "summary": {
-        "summary": "x-ui精简修改版一键部署脚本，用于代理服务快速搭建与管理，支持Hysteria2、Xhttp等新传输协议及ENC、MLDSA65加密算法，集成Argo固定/临时双隧道、Psiphon赛风30国IP分流，可本地生成多类型客户端订阅配置，适配多架构与Alpine等系统，提供Docker版本。",
-        "tags": [
-          "网络代理工具",
-          "x-ui面板",
-          "Hysteria2协议",
-          "本地订阅生成"
-        ],
+        ": ": "x-ui精简修改版一键部署脚本，面板设置与原版保持一致，支持Hysteria2、Xhttp传输协议及ENC、MLDSA65加密，集成Argo固定临时双隧道、Psiphon赛风VPN分流能力，可本地化生成多协议聚合订阅及Clash-meta、Sing-box配置，适配多架构与Alpine系统，提供官方Docker版本。",
+        "en": "A streamlined modified one-click deployment script for the x-ui panel, with settings aligned to the original version. It supports transmission protocols including Hysteria2 and Xhttp, alongside ENC and MLDSA65 encryption. Featuring integrated Argo fixed and temporary dual tunnels and Psiphon VPN traffic splitting, it can locally generate multi-protocol aggregated subscriptions and configurations for Clash-meta and Sing-box. Compatible with multiple architectures and Alpine system, with an official Docker version available.",
         "tags_zh": [
-          "Hysteria2协议",
           "x-ui面板",
-          "本地订阅生成",
+          "一键部署脚本",
+          "多协议支持",
           "网络代理工具"
         ],
-        "tags_en": []
+        "tags_en": [
+          "Multi-Protocol Support",
+          "Network Proxy Tool",
+          "One-Click Deployment Script",
+          "x-ui Panel"
+        ]
       },
       "pushed_at": "2026-09-15T12:37:31Z",
       "updated_at": "2026-09-24"
@@ -4270,7 +4422,7 @@
         "name": "mediago",
         "owner": "mediago-dev",
         "description": "Cross-platform video downloader — sniff and grab m3u8/HLS streams, Bilibili, YouTube and more. Desktop + Docker + 🦞.",
-        "stars": 9244,
+        "stars": 9245,
         "language": "TypeScript",
         "url": "https://github.com/mediago-dev/mediago",
         "homepage": "https://downloader.caorushizi.cn/guides.html?form=github",
@@ -4286,24 +4438,24 @@
           "youtube"
         ],
         "pushed_at": "2026-09-24T02:55:10Z",
-        "updated_at": "2026-09-24T02:55:17Z",
+        "updated_at": "2026-09-24T04:52:39Z",
         "starred_at": "2023-05-06T02:57:22Z"
       },
       "summary": {
-        ": ": "MediaGo是跨平台视频下载工具，核心支持m3u8/HLS流嗅探与抓取，兼容B站、YouTube、X、Instagram等千余站点。提供桌面端、Docker一键部署方案，内置浏览器插件、HTTP API、本地格式转换功能，还可对接AI助手实现语音下载，无需抓包、配置扩展或操作复杂命令行即可快速保存视频。",
-        "en": "MediaGo is a cross-platform video downloader designed for sniffing and grabbing m3u8/HLS streams, with compatibility for over 1000 mainstream video sites including Bilibili, YouTube, Twitter/X and Instagram. It offers flexible deployment options including desktop apps and one-line Docker deployment, equipped with built-in browser extension, open HTTP API, local format conversion, and AI assistant integration to enable voice-controlled download, eliminating the need for packet capture, browser extension configuration or complex command-line operations.",
-        "tags_zh": [
-          "yt-dlp",
-          "流媒体嗅探",
-          "视频下载工具",
+        "summary": "MediaGo 是跨平台视频下载工具，内置嗅探能力可直接抓取 m3u8/HLS 流，支持 Bilibili、YouTube 等 1000+ 视频站点。提供桌面端、Docker 部署、浏览器插件、AI 助手集成及开放 HTTP API，无需抓包或配置扩展即可快速下载，还支持内置格式转换。",
+        "tags": [
+          "自动化工具",
+          "HLS流嗅探",
+          "yt-dlp集成",
           "跨平台部署"
         ],
-        "tags_en": [
-          "Cross-platform Deployment",
-          "Stream Sniffing",
-          "Video Downloader",
-          "yt-dlp"
-        ]
+        "tags_zh": [
+          "HLS流嗅探",
+          "yt-dlp集成",
+          "自动化工具",
+          "跨平台部署"
+        ],
+        "tags_en": []
       },
       "pushed_at": "2026-09-24T02:55:10Z",
       "updated_at": "2026-09-24"
@@ -4398,7 +4550,7 @@
         "name": "1Panel",
         "owner": "1Panel-dev",
         "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform.",
-        "stars": 37008,
+        "stars": 37009,
         "language": "Go",
         "url": "https://github.com/1Panel-dev/1Panel",
         "homepage": "https://1panel.pro",
@@ -4418,24 +4570,13 @@
           "webmin"
         ],
         "pushed_at": "2026-09-24T03:42:39Z",
-        "updated_at": "2026-09-24T02:18:24Z",
+        "updated_at": "2026-09-24T04:49:39Z",
         "starred_at": "2023-04-01T01:30:37Z"
       },
       "summary": {
-        ": ": "1Panel是开源Linux服务器管理与轻量AI管理一体化平台，服务全球250万+自托管用户。支持AI智能体全生命周期管理、可视化服务器运维、网站一键部署及开源应用商店，提供多语言界面，大幅降低服务器管理与AI落地门槛。",
-        "en": "1Panel is an open-source, all-in-one Linux server management and lightweight AI management platform, serving over 2.5 million self-hosters globally. It provides full lifecycle AI agent management, visual server operations, one-click website deployment, and a built-in open-source app store, with multi-language support, significantly lowering the threshold for server management and AI implementation.",
-        "tags_zh": [
-          "AI管理平台",
-          "Web管理面板",
-          "服务器管理",
-          "运维自动化"
-        ],
-        "tags_en": [
-          "AI Management Platform",
-          "Operations Automation",
-          "Server Management",
-          "Web Management Panel"
-        ]
+        "summary": "1Panel是开源Linux服务器管理面板与轻量AI管理平台，通过可视化Web界面提供主机监控、文件/数据库/容器管理、一键网站部署、AI网关与Agent统一托管等能力，大幅降低服务器运维与AI应用落地门槛，服务全球超250万自托管用户。",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2026-09-24T03:42:39Z",
       "updated_at": "2026-09-24"
@@ -4536,7 +4677,7 @@
         "starred_at": "2024-04-24T14:57:46Z"
       },
       "summary": {
-        "value": "httpsok是一款轻量稳定的SSL证书自动续期工具，适配Nginx、Apache等主流服务器，一行命令即可完成证书自动续签，支持泛域名/多域名证书、主流云厂商CDN/OSS证书管理，自动识别复杂配置并提供公众号到期提醒，替代Let's Encrypt手动操作，提升运维效率。",
+        ": ": ", ",
         "tags_zh": [],
         "tags_en": []
       },
@@ -4562,18 +4703,22 @@
         "starred_at": "2022-11-04T06:13:00Z"
       },
       "summary": {
-        ": ": "该仓库为免费API接口聚合平台，持续收集并更新涵盖工具、生活、AI、资讯、查询等多领域的公开免费接口，为开发者提供一站式免费接口资源，降低开发成本，配套公众号同步推送密钥与月度更新通知。",
-        "en": "This repository is a free API aggregation platform that continuously collects and updates public free APIs across multiple fields including tools, daily life, AI, information, and query, offering one-stop free API resources for developers to reduce development costs, with a supporting official account that synchronously pushes keys and monthly update notifications.",
-        "tags_zh": [
-          "API聚合",
-          "免费接口服务",
-          "开发者工具"
-        ],
-        "tags_en": [
-          "API Aggregation",
-          "Developer Tools",
-          "Free API Service"
-        ]
+        "该仓库是免费API接口聚合平台，持续收集并更新涵盖工具服务、生活查询、AI能力、资讯数据等多领域的免费公开接口，配套公众号提供密钥与更新通知，为开发者降低接口获取成本，提升开发效率。": "zh_summary",
+        "en": {
+          "This repository is a free API aggregation platform that continuously collects and updates free public APIs across multiple fields such as tool services, life query, AI capabilities, and information data. It provides an official account for key distribution and update notifications, reducing API acquisition costs for developers and improving development efficiency.": "en_summary",
+          "tags_zh": [
+            "开发者工具",
+            "API聚合",
+            "免费接口服务"
+          ],
+          "tags_en": [
+            "Developer Tools",
+            "API Aggregation",
+            "Free API Services"
+          ]
+        },
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2026-07-25T07:08:36Z",
       "updated_at": "2026-09-24"
@@ -4584,7 +4729,7 @@
         "name": "changedetection.io",
         "owner": "dgtlmoon",
         "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
-        "stars": 34499,
+        "stars": 34500,
         "language": "Python",
         "url": "https://github.com/dgtlmoon/changedetection.io",
         "homepage": "https://changedetection.io",
@@ -4611,7 +4756,7 @@
           "website-watcher"
         ],
         "pushed_at": "2026-09-21T16:06:16Z",
-        "updated_at": "2026-09-24T04:03:34Z",
+        "updated_at": "2026-09-24T04:45:13Z",
         "starred_at": "2022-11-13T08:48:29Z"
       },
       "summary": {
@@ -4740,7 +4885,7 @@
         "starred_at": "2022-04-10T05:36:00Z"
       },
       "summary": {
-        ": ": "zh\": \"每日更新的全网热门BT Tracker列表，经人工筛选高可用节点，可显著提升BT下载速度，提供best/all/http/nohttp四类分类列表，适配Aria2、qBittorrent等主流BT客户端，附带多CDN备用地址，更新及时。\",\n  \"en\": \"A daily updated collection of popular BitTorrent trackers, manually curated for high availability to boost BT download speed. It offers 4 categorized lists (best/all/http/nohttp), works with mainstream BT clients like Aria2 and qBittorrent, provides multiple CDN backup links, and is updated in a timely manner.\",\n  \"tags_zh\": [\"BT下载\", \"Tracker列表聚合\", \"下载加速\"],\n  \"tags_en\": [\"BitTorrent Download\", \"Tracker List Aggregation\", \"Download Acceleration\"]\n}",
+        ": ": " ",
         "tags_zh": [],
         "tags_en": []
       },
@@ -4816,6 +4961,8 @@
         "starred_at": "2020-11-08T10:02:10Z"
       },
       "summary": {
+        ": ": "这是基于.NET开发的Windows右键菜单管理工具，支持Win7至Win10全版本系统，可对文件、文件夹、新建等各类右键菜单项实现启用禁用、增删改、图标修改等操作，兼容高低分屏与多语言，完全免费开源。",
+        "en{": "  ",
         "tags_zh": [],
         "tags_en": []
       },
@@ -4828,7 +4975,7 @@
         "name": "ShareX",
         "owner": "ShareX",
         "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
-        "stars": 39720,
+        "stars": 39722,
         "language": "C#",
         "url": "https://github.com/ShareX/ShareX",
         "homepage": "https://getsharex.com",
@@ -4855,24 +5002,13 @@
           "url-shortener"
         ],
         "pushed_at": "2026-09-24T03:13:00Z",
-        "updated_at": "2026-09-24T03:42:09Z",
+        "updated_at": "2026-09-24T04:42:04Z",
         "starred_at": "2020-02-26T04:54:09Z"
       },
       "summary": {
-        ": ": "ShareX是Windows平台免费开源的屏幕捕获与生产力工具，支持全屏/区域截图、GIF/视频录屏、OCR识别、文件自动上传分享，可自定义热键与工作流，无广告隐私友好，适用于开发者、内容创作者等群体的日常截图、录屏、文件共享场景。",
-        "en": "ShareX is a free, open-source lightweight Windows desktop tool for screen capture, recording and file sharing. It supports full/region screenshot, GIF/video recording, OCR text recognition, automatic file upload, customizable hotkeys and workflows, with no ads and privacy-focused design, serving developers, content creators and power users for daily capture, recording and sharing needs.",
-        "tags_zh": [
-          "屏幕捕获",
-          "文件共享",
-          "桌面应用",
-          "自动化工具"
-        ],
-        "tags_en": [
-          "Desktop Application",
-          "File Sharing Tool",
-          "Screen Capture",
-          "Workflow Automation"
-        ]
+        "summary": "ShareX是免费开源的Windows桌面效率工具，整合屏幕截图、录屏、OCR识别、文件上传及自动化工作流能力，无广告无需账号，支持自定义快捷键与多平台上传目标，面向开发、设计、内容创作者等群体，实现截图到分享的全流程自动化。",
+        "tags_zh": [],
+        "tags_en": []
       },
       "pushed_at": "2026-09-24T03:13:00Z",
       "updated_at": "2026-09-24"
@@ -4925,8 +5061,7 @@
         "starred_at": "2022-03-18T09:29:11Z"
       },
       "summary": {
-        "text": "本仓库是Docker封装的Microsoft 365 E5订阅自动续订工具，基于开源项目E5 Renew X改造，支持多CPU架构部署，提供邮件通知、Web管理界面，单行命令即可完成部署，镜像体积仅225MB、资源占用低，支持数据卷挂载备份配置，仅用于学习用途，禁止商业化。",
-        "word_count": 98,
+        "summary": "本项目为Docker封装的Microsoft 365 E5订阅自动续订工具，基于开源项目E5 Renew X改造，支持多CPU架构部署，提供Web管理界面与邮件通知功能，部署便捷，仅可用于Docker学习，禁止商业化。",
         "tags_zh": [],
         "tags_en": []
       },
@@ -4939,7 +5074,7 @@
         "name": "v2rayN",
         "owner": "2dust",
         "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-        "stars": 116818,
+        "stars": 116819,
         "language": "C#",
         "url": "https://github.com/2dust/v2rayN",
         "homepage": "https://v2rayn.2dust.link",
@@ -4957,7 +5092,7 @@
           "xtls"
         ],
         "pushed_at": "2026-09-23T18:46:50Z",
-        "updated_at": "2026-09-24T03:22:37Z",
+        "updated_at": "2026-09-24T04:35:34Z",
         "starred_at": "2019-12-29T09:59:51Z"
       },
       "summary": {
