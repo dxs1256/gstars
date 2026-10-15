@@ -23,7 +23,7 @@
 - 📝 为每个仓库读取 README，调用 AI 生成内容摘要和技术标签
 - 🏷️ **标签智能治理**：内置 `TAG_MAPPING` 映射库，自动合并同义词、归一化技术栈（如 LLM -> AI 大模型），拒绝标签爆炸（可能效果也不好）
 - ⚡️ **高效率**：支持**并发调用** AI 接口，大幅提升处理大量新项目时的速度
-- 🗃️ **数据驱动**：运行时使用 `data/stars.json`，发布到 `gh-pages/data/stars.json`，支持二次开发
+- 🗃️ **数据驱动**：运行时使用 `data/stars.json`，并随站点产物一并发布，支持二次开发
 - 🎨 **模版驱动**：使用 Jinja2 模版生成 Markdown 和 HTML 静态页面
 - ⏭️ **智能增量**：新项目调用 AI 总结，旧项目**自动同步最新的 Star 数和元数据**
 - ⏰ GitHub Actions **定时自动运行**，cron 表达式自由配置
@@ -326,17 +326,16 @@ python3 scripts/atlas_mcp.py --selftest
 
 ## GitHub Pages 部署（可选）
 
-本项目自动生成支持多语言、支持实时搜索的静态网页：
+本项目自动生成支持多语言、支持实时搜索的静态网页，使用 GitHub 官方 artifact 方式发布，**无需额外的发布分支**（只需要 `main`）：
 
 1. 确保 `PAGES_SYNC_ENABLED=true`。
-2. 运行一次 Action 后，进入 **Settings -> Pages**。
-3. **Branch** 选择 `gh-pages`，目录选择 `/(root)`，保存。
+2. 进入 **Settings -> Pages**，在 **Source** 处选择 **GitHub Actions**。
+3. 运行一次 Action，产物会自动发布到 Pages。
 
 > [!IMPORTANT]
-> **数据源迁移说明（兼容 Fork）**：
-> - 当前推荐的数据源为 `gh-pages/data/stars.json`。
-> - `main` 分支中的 `data/stars.json` 仅用于首次迁移兼容（例如 Fork 后第一次运行 Action 的回退读取）。
-> - 常规运行不会再把 `data/stars.json` 提交回 `main`。
+> **数据源说明**：
+> - 增量状态保存在 `main` 分支的 `data/stars.json`，Action 每次运行后会自动提交回 `main`（无变化时跳过）。
+> - 站点产物（含 `data/stars.json`）通过 GitHub Actions artifact 发布，不再使用 `gh-pages` 分支。
 
 ---
 
