@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Stars Atlas · 其他</title><link>https://stars.iblogc.com/atlas/</link><description>其他（Other）：尚未归入其他领域，或用途很杂的项目。</description><language>zh-cn</language><lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate><generator>Stars Atlas (scripts/sync_atlas.py)</generator><atom:link href="https://stars.iblogc.com/atlas/feed-misc.xml" rel="self" type="application/rss+xml" /><item><title>dongtiantv/box</title><link>https://github.com/dongtiantv/box</link><guid isPermaLink="false">stars-atlas:dongtiantv/box</guid><pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate><category>其他</category><description>暂无描述。
+
+★ 2 · JavaScript · 其他</description></item><item><title>1c7/chinese-independent-developer</title><link>https://github.com/1c7/chinese-independent-developer</link><guid isPermaLink="false">stars-atlas:1c7/chinese-independent-developer</guid><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><category>其他</category><category>AI 应用</category><description>本仓库聚合中国独立开发者项目，涵盖AI工具、桌面应用、浏览器插件等多元领域。项目注重本地优先与用户体验，技术栈包括AI大模型、跨平台开发，助力开发者、创业者及学生洞察趋势、促进技术交流。
+
+★ 61.8k · N/A · 其他</description></item><item><title>OpenListTeam/OpenList</title><link>https://github.com/OpenListTeam/OpenList</link><guid isPermaLink="false">stars-atlas:OpenListTeam/OpenList</guid><pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate><category>其他</category><category>平台与集成</category><description>OpenList是AList的社区分支，通过长期治理应对信任危机，保障开源健康。集成多云存储，支持阿里云盘、OneDrive、GoogleDrive等，及本地存储与FTP。基于AGPL-3.0许可，强调透明共治。提供统一的多云文件管理平台。
+
+★ 25.1k · Go · 其他</description><comments>https://doc.oplist.org</comments></item></channel></rss>
