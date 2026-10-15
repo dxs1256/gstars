@@ -118,6 +118,7 @@ jobs:
           AI_BASE_URL: ${{ vars.AI_BASE_URL }} # AI 接口地址
           AI_MODEL: ${{ vars.AI_MODEL }}
           MAX_CONCURRENCY: ${{ vars.MAX_CONCURRENCY }}
+          AI_MIN_INTERVAL: ${{ vars.AI_MIN_INTERVAL }}
           OUTPUT_FILENAME: ${{ vars.OUTPUT_FILENAME }}
           VAULT_SYNC_ENABLED: ${{ vars.VAULT_SYNC_ENABLED }}
           VAULT_REPO: ${{ vars.VAULT_REPO }}

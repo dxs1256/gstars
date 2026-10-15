@@ -15,6 +15,7 @@ import json
 import re
 import time
 import base64
+import random
 import logging
 import argparse
 import threading
@@ -70,6 +71,7 @@ def load_config() -> dict:
         "AI_API_KEY": "ai.api_key",
         "AI_MODEL": "ai.model",
         "MAX_CONCURRENCY": "ai.concurrency",
+        "AI_MIN_INTERVAL": "ai.min_interval",
         "OUTPUT_FILENAME": "output.filename",
         "VAULT_SYNC_ENABLED": "vault_sync.enabled",
         "VAULT_REPO": "vault_sync.repo",
@@ -87,6 +89,7 @@ def load_config() -> dict:
             "base_url": "https://api.openai.com/v1",
             "api_key": None,
             "concurrency": 5,
+            "min_interval": 1.0,
         },
         "output": {"filename": "stars"},
         "vault_sync": {
@@ -123,6 +126,11 @@ def load_config() -> dict:
                 if val.isdigit():
                     val = int(val)
                 else:
+                    continue
+            elif env_key == "AI_MIN_INTERVAL":
+                try:
+                    val = float(val)
+                except ValueError:
                     continue
             elif env_key in ["VAULT_SYNC_ENABLED", "PAGES_SYNC_ENABLED"]:
                 val = val.lower() == "true"
@@ -405,16 +413,79 @@ TAG_MAPPING = {
 # AI 摘要生成
 # ════════════════════════════════════════════════════════════
 
+class RateLimiter:
+    """全局节流器：保证任意两次 AI 请求之间至少间隔 min_interval 秒。
+
+    即便开了多线程并发，请求也会被这个锁串行错开，避免瞬时打满上游配额。
+    """
+
+    def __init__(self, min_interval: float = 0.0):
+        self.min_interval = max(float(min_interval or 0.0), 0.0)
+        self._lock = threading.Lock()
+        self._last_ts = 0.0
+
+    def wait(self):
+        if self.min_interval <= 0:
+            return
+        with self._lock:
+            now = time.monotonic()
+            sleep_for = self.min_interval - (now - self._last_ts)
+            if sleep_for > 0:
+                time.sleep(sleep_for)
+            self._last_ts = time.monotonic()
+
+
 class AISummarizer:
     THINK_BLOCK_RE = re.compile(r"<think>.*?</think>", re.IGNORECASE | re.DOTALL)
+    RATE_LIMIT_HINTS = (
+        "429",
+        "rate limit",
+        "rate_limited",
+        "too many requests",
+        "tpm",
+    )
 
     def __init__(
-        self, base_url: str, api_key: str, model: str, timeout: int = 60, retry: int = 3
+        self,
+        base_url: str,
+        api_key: str,
+        model: str,
+        timeout: int = 60,
+        retry: int = 3,
+        min_interval: float = 0.0,
     ):
         self.base_url = (base_url or "").lower()
         self.model = model
         self.retry = retry
         self.client = OpenAI(base_url=base_url, api_key=api_key, timeout=timeout)
+        self.rate_limiter = RateLimiter(min_interval)
+
+    @classmethod
+    def _is_rate_limited(cls, err: Exception) -> bool:
+        status = getattr(err, "status_code", None)
+        if status == 429:
+            return True
+        text = str(err).lower()
+        return any(h in text for h in cls.RATE_LIMIT_HINTS)
+
+    @staticmethod
+    def _extract_retry_after(err: Exception) -> Optional[float]:
+        try:
+            headers = err.response.headers  # type: ignore[attr-defined]
+            value = headers.get("retry-after")
+            if value is not None:
+                return max(float(value), 0.0)
+        except Exception:
+            pass
+        return None
+
+    def _retry_delay(self, err: Exception, attempt: int) -> float:
+        if self._is_rate_limited(err):
+            # 限速场景：优先尊重上游给的 Retry-After，否则做更长的指数退避。
+            retry_after = self._extract_retry_after(err)
+            base = retry_after if retry_after is not None else 5.0 * (2**attempt)
+            return base + random.uniform(0, 1.0)
+        return (2**attempt) + random.uniform(0, 0.5)
 
     def normalize_tags(self, tags: list[str]) -> list[str]:
         """标签归一化：去重、合并同义词、统一大小写"""
@@ -501,6 +572,7 @@ class AISummarizer:
 }"""
         for attempt in range(self.retry):
             try:
+                self.rate_limiter.wait()
                 kwargs = {
                     "model": self.model,
                     "messages": [
@@ -536,7 +608,7 @@ class AISummarizer:
                         "tags_en": [],
                     }
                 log.warning(f"AI 生成失败 [{repo_name}]，重试中 {attempt + 1}: {e}")
-                time.sleep(2**attempt)
+                time.sleep(self._retry_delay(e, attempt))
 
 
 # ════════════════════════════════════════════════════════════
@@ -618,6 +690,7 @@ def main():
             cfg["ai"]["model"],
             cfg["ai"].get("timeout", 60),
             cfg["ai"].get("max_retries", 3),
+            cfg["ai"].get("min_interval", 0.0),
         )
 
         # 1. 抓取所有 Stars
