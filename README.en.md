@@ -8,6 +8,9 @@ English | [中文](README.md)
 
 - [Features](#features)
 - [Quick Start](#quick-start)
+- [Stars Atlas (Star Chart View)](#stars-atlas-star-chart-view)
+- [Agent Access (No Server Required)](#agent-access-no-server-required)
+- [RSS Feeds](#rss-feeds)
 - [Configuration Reference (Environment Variables / .env)](#configuration-reference-environment-variables--env)
 - [Obsidian Sync (Optional)](#obsidian-sync-optional)
 - [Local Installation](#local-installation)
@@ -27,6 +30,124 @@ English | [中文](README.md)
 - 🔄 **Vault Sync (Optional)**: Automatically pushes generated `stars_zh.md` & `stars_en.md` to your **Obsidian Vault**.
 - 🌐 **GitHub Pages (Optional)**: Deploys a static search page with multi-language (ZH/EN) support and real-time search.
 - 💻 **Flexible AI Providers**: Compatible with any **OpenAI-format API** (OpenAI, Azure, local Ollama, etc.).
+- 🗺️ **Stars Atlas (sub-page)**: `/` remains the original browsing home page; an `atlas/` sub-page is generated for **faster lookup**, and sorts every repo into **16 domains / 85 subcategories / 100+ tags** using a **pure rule engine** (no AI, no extra keys), presented as a master–detail data grid: faceted filters on the left (domain, language, AI tags, form, starred year, created year, star tier), a dense sortable table in the middle, full records on the right. Facet counts, infinite scroll, keyboard navigation, shareable URLs, en/zh and light/dark.
+- 🤖 **Agent-ready**: Publishes a static data API (per-domain/per-topic shards plus a JSONL corpus) and ships a **zero-dependency MCP server**, so an agent can search, get recommendations, and pull full records on its own.
+- 📡 **RSS feeds**: Site-wide and per-domain, ordered by when you starred each repo.
+
+---
+
+## Stars Atlas (Star Chart View)
+
+The home page (`/`) is for browsing and revisiting: a card stream with AI summaries, filterable by tag and language.
+Atlas is its **sub-page** (`/atlas/`), offering a different reading: **a searchable data table** for quickly locating "the tool that does X".
+
+Both are built from the same `data/stars.json`. The home page carries an `[ Open Atlas ]` entry in the top-right, and Atlas links back with "← Back to Stars Archive", forming a closed loop.
+
+Atlas also has a **"Feeds & API"** button in its top bar. It opens a panel listing every destination at
+once — site-wide and per-domain RSS, the API entry point, the light index, the full corpus, usage notes
+and `llms.txt` — each with a copyable relative path and its item count.
+
+Three columns: faceted filters (domain, language, tag, form, year, star tier) on the left, a dense sortable table in the middle, the selected repository's full record on the right. On narrow screens the rail becomes a drawer and details move into a dialog.
+
+| Dimension | Description |
+| :--- | :--- |
+| **Domains** (16) | AI, Developer tooling, Web & backend, Data, Cloud & ops, System & desktop, Network, Security & privacy, Media & graphics, Docs & knowledge, Office & productivity, Communication & social, Mobile, Design & visual, Learning & reference, Games & fun |
+| **Subcategories** (85) | Deeper cuts, e.g. "AI → Agents & coding / Models & inference / RAG & knowledge" |
+| **Topic tags** (100+) | Fine-grained keywords for cross-domain filtering: MCP, Proxies, WeChat, Type & typography … |
+| **Forms** (8) | App / CLI / Extension / Library / Theme / Collection / Asset / Docs |
+| **Description / AI summary** | The description is the repo's own GitHub text; the AI summary is model-generated. Both are shown separately. |
+| **Starred / created year** | The former is when *you* starred it; the latter is when the project itself was born. Both are filterable. |
+| **Repo topics / AI tags** | The former are the author's GitHub topics; the latter are AI-derived category tags. |
+
+Classification runs in the keyword engine in `scripts/atlas/taxonomy.py` — deterministic, explainable, and offline:
+
+- **Deterministic**: the same `stars.json` always yields the same classification, so results are reproducible and diffable.
+- **Explainable**: `--explain` prints exactly which keywords matched, in which field.
+- **Spam-resistant**: fields are weighted (topics/tags most trustworthy, summary prose least), and only the three most specific matches per field count, so a category with a long keyword list does not automatically win.
+- **Honest fallback**: thin evidence lands in "Other" rather than being forced into a domain.
+
+```bash
+# Build the data grid page (reads data/stars.json only; no fetching, no AI)
+python3 scripts/sync_atlas.py
+
+# Classification stats only
+python3 scripts/sync_atlas.py --stats
+
+# Why was a repo classified that way?
+python3 scripts/sync_atlas.py --explain microsoft/playwright -v
+
+# Classification regression tests (29 real anchors + structural invariants)
+python3 tests/test_atlas.py -v
+```
+
+Artifacts:
+
+| File | Description |
+| :--- | :--- |
+| `dist/atlas/index.html` | The data grid page (published at `https://<your-domain>/atlas/`) |
+| `dist/atlas/atlas.json` | Dataset with classifications, for downstream use |
+
+> [!NOTE]
+> To adjust the taxonomy, edit `CANON_TAGS` / `CATS` in `scripts/atlas/taxonomy.py`, then run `python3 tests/test_atlas.py` to confirm no anchor regressed.
+
+---
+
+## Agent Access (No Server Required)
+
+The site is static — there is no backend to query. The "API" is therefore a set of
+**pre-split files** that any agent can `GET` without credentials, and without running anything.
+
+**Read the catalog first, then pull one shard.** `api/index.json` lists every domain,
+subcategory and topic with counts, plus `shards[].bytes` — so the caller knows the context
+cost *before* fetching, instead of dumping the whole site into the window.
+
+| What you need | What to fetch |
+| :--- | :--- |
+| An overview of the taxonomy | `api/index.json` (tens of KB) |
+| One specific area | `api/c/<domain>.json` (e.g. `api/c/ai.json`), `api/t/<topic>.json` |
+| A cheap scan of everything | `api/index.jsonl` (one compact profile per line, ~1/3 the size of the full corpus) |
+| Full summaries and topics | `api/repos.jsonl` |
+
+The `fields` key in `api/index.json` documents every field in Chinese, readable by a model as-is.
+
+### MCP (optional, recommended)
+
+If the host supports MCP, mount `scripts/atlas_mcp.py` to call this as tools instead of
+hand-rolling HTTP requests. It has **no third-party dependencies** (standard library only),
+so there is nothing to install:
+
+```json
+{
+  "mcpServers": {
+    "stars-atlas": {
+      "command": "python3",
+      "args": ["/absolute/path/scripts/atlas_mcp.py"]
+    }
+  }
+}
+```
+
+It exposes five tools: `list_facets`, `search_repos`, **`recommend_for_task`** (describe your
+task in plain language and get suitable projects), `get_repo`, and `get_domain_digest`.
+Run `python3 scripts/atlas_mcp.py --selftest` to check it without a host.
+
+> [!TIP]
+> Find candidates → read summaries → open `url` to read the source. That is the intended
+> loop: agents can use this data both to **recommend** an existing project and to **learn
+> from** its implementation.
+
+---
+
+## RSS Feeds
+
+`dist/atlas/feed.xml` (site-wide) and `dist/atlas/feed-<domain>.xml` (e.g. `feed-ai.xml`),
+standard RSS 2.0, ordered by **when you starred each repo** — so new stars show up in your reader.
+
+- All: `https://<your-domain>/atlas/feed.xml`
+- Per domain: `https://<your-domain>/atlas/feed-ai.xml`
+
+The page head already carries `<link rel="alternate" type="application/rss+xml">`, so most
+readers will auto-discover the feed when you paste the site URL.
 
 ---
 
@@ -73,7 +194,26 @@ graph TD
 Click the **Fork** button in the top right corner to copy this repository to your account.
 
 > [!IMPORTANT]
-> This site template includes the `analytics.1step.dev` analytics script with `data-website-id` set to `GitHubStarsIndex`. After forking, change it to your own website ID or remove the script at the bottom of `templates/index.html.j2` so your traffic does not appear in the original project dashboard.
+> This site template includes the `analytics.1step.dev` analytics script with `data-website-id` set to `GitHubStarsIndex`.
+> After forking, change it to your own website ID so your traffic does not appear in the original project dashboard.
+>
+> The script lives in exactly one place — **`templates/analytics.html.j2`** — and every HTML page
+> (`/` and `/atlas/`) pulls it in via `{% include %}`, so one edit covers the whole site.
+>
+> **No configuration required**: `data-website-id="GitHubStarsIndex"` is injected on both pages by default.
+> To change that in GitHub Actions, set these **Variables** (the workflow forwards them; leaving one blank
+> falls back to its default):
+>
+> | Variable | Default | Effect |
+> | :--- | :--- | :--- |
+> | `ANALYTICS_WEBSITE_ID` | `GitHubStarsIndex` | Your website ID — change this after forking |
+> | `ANALYTICS_ENABLED` | on | Set to `false` to drop the script entirely |
+> | `ANALYTICS_SRC` | `analytics.1step.dev/tracker.min.js` | Custom script URL |
+>
+> A blank value counts as "not configured" and falls back to the default (GitHub renders an unset
+> Variable as an empty string).
+>
+> Note: `stars_zh.md` / `stars_en.md` are Markdown archives — there is no JS runtime there, so they cannot be tracked.
 
 ### Step 2: Configure Environment (Choose One)
 
@@ -259,6 +399,12 @@ python scripts/sync_stars.py --render-only
 | `templates/`                 | Jinja2 generation templates (Markdown/HTML)       |
 | `dist/`                      | Automatically generated local results (HTML / MD) |
 | `scripts/sync_stars.py`      | Core sync and generation script                   |
+| `scripts/sync_atlas.py`      | Atlas dataset/page builder (reads stars.json only) |
+| `scripts/atlas/publish.py`   | Static API shards and RSS generation              |
+| `scripts/atlas_mcp.py`       | MCP server (stdio, no third-party deps)           |
+| `scripts/atlas/taxonomy.py`  | Atlas taxonomy and scoring engine                 |
+| `templates/atlas.html.j2`    | Atlas page template                               |
+| `tests/test_atlas.py`        | Classification + artifact contract tests          |
 | `.github/workflows/sync.yml` | GitHub Actions scheduled workflow                 |
 | `.env.example`               | Configuration example file                        |
 

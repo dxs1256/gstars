@@ -8,6 +8,9 @@
 
 - [功能特性](#功能特性)
 - [快速开始](#快速开始)
+- [Stars Atlas（数据网格）](#stars-atlas数据网格)
+- [给 Agent 调用（无需服务端）](#给-agent-调用无需服务端)
+- [RSS 订阅](#rss-订阅)
 - [配置项详解](#配置项详解-环境变量--env)
 - [Obsidian 同步（可选）](#obsidian-同步可选)
 - [本地运行](#本地运行)
@@ -27,6 +30,9 @@
 - 🔄 可选：自动将生成的 `stars_zh.md` & `stars_en.md` **推送到 Obsidian Vault 仓库**
 - 🌐 可选：自动同步到 **GitHub Pages** 分支，支持多语言 (ZH/EN) 切换与页面实时搜索
 - 💻 支持任意 **OpenAI 格式兼容接口**（OpenAI / Azure / 本地 Ollama 等）
+- 🗺️ **Stars Atlas 数据网格（子页面）**：`/` 仍是原来的浏览主页，另在 `atlas/` 生成一个**更快检索**的子页面 —— 用**纯规则引擎**（零 AI、零额外密钥）把仓库分成 **16 个领域 / 85 个子类 / 100+ 标签**，以「左侧分面筛选 + 高密度可排序表格 + 右侧详情」的主从视图呈现（筛选维度含领域、语言、AI 标签、形态、收藏年份、创建年份、星数），带分面计数、无限滚动、键盘导航、可分享 URL 与中英双语/明暗主题
+- 🤖 **可被 Agent 调用**：发布静态数据接口（按领域/主题切好的分片 + JSONL 语料），并附带**零依赖 MCP 服务器**，让 Agent 在别的活里直接检索、推荐、取档案
+- 📡 **RSS 订阅**：全站与分领域订阅源，按收藏时间倒序
 
 ---
 
@@ -74,7 +80,24 @@ graph TD
 点击右上角 **Fork**，将本仓库复制到你自己的账号下。
 
 > [!IMPORTANT]
-> 本站模板已内置 `analytics.1step.dev` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。Fork 后请改成你自己的站点 ID，或直接删除 `templates/index.html.j2` 底部的脚本，避免统计数据混入原项目仪表板。
+> 本站模板已内置 `analytics.1step.dev` 网站分析脚本，默认 `data-website-id` 为 `GitHubStarsIndex`。
+> 为避免统计数据混入原项目仪表板，Fork 后请改成你自己的站点 ID。
+>
+> 脚本只在 **`templates/analytics.html.j2`** 一处维护，所有 HTML 页面（`/` 与 `/atlas/`）都通过
+> `{% include %}` 引入 —— 改一处即全站生效。
+>
+> **不配置也能用**：默认注入 `data-website-id="GitHubStarsIndex"`，两个页面都带。
+> 想在 GitHub Actions 里改，用下面这几个 **Variables**（工作流已透传，留空即用默认值）：
+>
+> | Variable | 默认值 | 作用 |
+> | :--- | :--- | :--- |
+> | `ANALYTICS_WEBSITE_ID` | `GitHubStarsIndex` | 网站 ID，Fork 后改成自己的 |
+> | `ANALYTICS_ENABLED` | 开启 | 设 `false` 即整段不注入脚本 |
+> | `ANALYTICS_SRC` | `analytics.1step.dev/tracker.min.js` | 自定义脚本地址 |
+>
+> 留空会被当成「未配置」并回落到默认值（GitHub 对未设置的 Variable 渲染出的就是空串）。
+>
+> 注：`stars_zh.md` / `stars_en.md` 是 Markdown 归档，不含 JS 运行环境，无法统计。
 
 ### 第二步：配置环境 (二选一)
 
@@ -120,6 +143,137 @@ schedule:
 ### 第四步：手动触发首次运行
 
 进入 **Actions → 🌟 GitHub Stars Index同步 → Run workflow**，点击运行。
+
+---
+
+## Stars Atlas（数据网格）
+
+主页（`/`）负责浏览与回顾：卡片流、AI 摘要、按标签与语言筛选。
+Atlas 是它的**子页面**（`/atlas/`），换一种读法：**一张可检索的数据表**，用来快速定位「我要找一个做 X 的工具」。
+
+两页共用同一份 `data/stars.json`。主页右上角有 `[ 步入星图 ]` 入口跳到 Atlas，Atlas 脚注有「← 返回 Stars Archive」跳回主页，形成闭环。
+
+Atlas 顶栏另有一个 **「订阅与接口」** 入口，打开后可一次性看到全部订阅源与接口地址
+（全站 RSS + 各领域 RSS + 接口目录 / 轻量索引 / 全量语料 / 用法说明 / llms.txt），
+每个条目都带上可复制的相对路径与条目数。
+
+三栏主从结构：左侧按领域/语言/标签/形态/年份/星数分面筛选，中间是高密度可排序表格，右侧是选中项目的完整档案。窄屏下左栏收成抽屉、详情改用对话框。
+
+| 维度 | 说明 |
+| :--- | :--- |
+| **领域**（16 个） | AI、开发工具、Web/服务端、数据、云与运维、系统与桌面、网络、安全与隐私、影音与图像、文档与知识、办公与效率、沟通与社交、移动端、设计与视觉、学习与参考、游戏与娱乐 |
+| **子类**（85 个） | 领域下再细分，例如「AI → 智能体与编码 / 模型与推理 / RAG 与知识库」 |
+| **主题标签**（100+） | 细颗粒关键词，跨领域交叉筛选：MCP、代理与科学上网、微信生态、字体与排版…… |
+| **形态**（8 个） | 应用 / 命令行 / 插件 / 库框架 / 主题模板 / 合集群单 / 素材字体 / 教程文档 |
+| **项目描述 / AI 摘要** | 项目描述是仓库在 GitHub 上的原文；AI 摘要由模型生成，两者分开呈现 |
+| **收藏年份 / 创建年份** | 前者是「我什么时候收藏的」，后者是「这个项目什么时候诞生的」，两个维度可交叉筛选 |
+| **项目自带标签 / AI 标签** | 前者是作者填写的 GitHub topics，后者是 AI 归纳的分类标签 |
+
+分类由 `scripts/atlas/taxonomy.py` 里的**关键词规则引擎**完成，不调用 AI、不需要额外密钥：
+
+- **确定性**：同样的 `stars.json` 永远得到同样的分类，可复现、可 diff；
+- **可解释**：`--explain` 能打印任意仓库的判定依据（命中了哪些词、在哪个字段）；
+- **抗堆词**：字段有权重（topics/tags 最可信，摘要正文最弱），且每个字段只采纳特异性最高的前 3 条命中，避免「关键词写得多的类目通吃」；
+- **兜底**：证据不足的项目进入「其他」，不硬塞。
+
+```bash
+# 生成数据网格页面（只读 data/stars.json，不抓取、不调 AI）
+python3 scripts/sync_atlas.py
+
+# 只看分类统计 / 只列出未分类的项目
+python3 scripts/sync_atlas.py --stats
+
+# 查某个仓库为什么被这样分类
+python3 scripts/sync_atlas.py --explain microsoft/playwright -v
+
+# 分类回归测试（29 个真实锚点 + 结构不变量）
+python3 tests/test_atlas.py -v
+```
+
+产物：
+
+| 文件 | 说明 |
+| :--- | :--- |
+| `dist/atlas/index.html` | 数据网格页面（发布到 `https://<你的域名>/atlas/`） |
+| `dist/atlas/atlas.json` | 带分类结果的数据集，供二次开发 |
+| `dist/atlas/api/index.json` | **Agent 调用入口**：分类全貌 + 分片清单（含字节数） |
+| `dist/atlas/api/c/*.json` | 按领域切好的分片 |
+| `dist/atlas/api/t/*.json` | 按主题切好的分片 |
+| `dist/atlas/api/index.jsonl` | 轻量索引（每行一个精简画像，约 340 KB / 837 项） |
+| `dist/atlas/api/repos.jsonl` | 全量语料（含完整摘要，一行一条，可 grep） |
+| `dist/atlas/feed.xml`、`feed-*.xml` | RSS 2.0：全站 + 各领域 |
+| `dist/atlas/llms.txt` | 站点自述，按 llms.txt 约定 |
+
+> [!NOTE]
+> 想调整分类，只改 `scripts/atlas/taxonomy.py` 的 `CANON_TAGS` / `CATS`，然后跑一次 `python3 tests/test_atlas.py` 确认锚点没有回归即可。
+
+---
+
+## 给 Agent 调用（无需服务端）
+
+站点是纯静态的，没有可以查询的后端。因此「接口」的形态是**预先切好的分片文件**，
+用普通 GET 就能取——Agent 不需要任何凭据，也不需要跑服务。
+
+**先看目录，再取分片。** `api/index.json` 里有全部领域/子类/主题及各自条目数，
+还有 `shards[].bytes`——拉取之前就知道要花多少上下文，不必把整站塞进窗口。
+
+| 想要什么 | 取哪个 |
+| :--- | :--- |
+| 先了解有哪些分类 | `api/index.json`（几十 KB） |
+| 只关心某一类 | `api/c/<领域>.json`（如 `api/c/ai.json`）、`api/t/<主题>.json` |
+| 想整体粗筛一遍 | `api/index.jsonl`（每行一个精简画像，约为全量语料的 1/3） |
+| 要完整摘要与 topics | `api/repos.jsonl` |
+
+`api/index.json` 的 `fields` 字段用中文说明了每条记录每个字段的含义，Agent 可直接读。
+
+### MCP（可选，推荐）
+
+如果宿主支持 MCP，可以挂上 `scripts/atlas_mcp.py`，直接以工具形式调用，
+不必自己拼 HTTP 请求。该文件**零第三方依赖**（只用标准库），部署成本极低：
+
+```json
+{
+  "mcpServers": {
+    "stars-atlas": {
+      "command": "python3",
+      "args": ["/绝对路径/scripts/atlas_mcp.py"]
+    }
+  }
+}
+```
+
+提供 5 个工具：
+
+| 工具 | 用途 |
+| :--- | :--- |
+| `list_facets` | 列出领域/子类/标签/形态/语言及条目数 |
+| `search_repos` | 关键词 + 过滤条件检索 |
+| `recommend_for_task` | **用一段自然语言描述任务，推荐合适的项目** |
+| `get_repo` | 取单个项目完整档案 |
+| `get_domain_digest` | 取某领域代表作速览 |
+
+自检（不必接进宿主）：
+
+```bash
+python3 scripts/atlas_mcp.py --selftest
+```
+
+> [!TIP]
+> 找候选 → 看摘要 → 打开 `url` 读源码，是这套数据最自然的用法：
+> Agent 既可以用它**推荐**合适的现成项目，也可以顺着链接**借鉴**这些项目的实现。
+
+---
+
+## RSS 订阅
+
+`dist/atlas/feed.xml`（全站）与 `dist/atlas/feed-<领域>.xml`（如 `feed-ai.xml`），
+标准 RSS 2.0，按**收藏时间**倒序——也就是说，你新收藏了什么，订阅里就出现什么。
+
+- 全站：`https://<你的域名>/atlas/feed.xml`
+- 分领域：`https://<你的域名>/atlas/feed-ai.xml`
+
+页面 `<head>` 里已写好 `<link rel="alternate" type="application/rss+xml">`，
+大多数阅读器直接粘贴站点地址就能自动发现订阅源。
 
 ---
 
@@ -260,6 +414,12 @@ python scripts/sync_stars.py --render-only
 | `templates/`                 | Jinja2 生成模版（Markdown/HTML）   |
 | `dist/`                      | 自动生成的本地成品（HTML / MD）    |
 | `scripts/sync_stars.py`      | 核心同步与生成脚本                 |
+| `scripts/sync_atlas.py`      | Atlas 数据集与页面构建（只读 stars.json） |
+| `scripts/atlas/taxonomy.py`  | 分类体系、配色与评分引擎           |
+| `templates/atlas.html.j2`    | 数据网格页面模版                   |
+| `scripts/atlas/publish.py`   | 静态接口分片与 RSS 生成             |
+| `scripts/atlas_mcp.py`       | MCP 服务器（stdio，零第三方依赖）   |
+| `tests/test_atlas.py`        | 分类回归与产物契约测试              |
 | `.github/workflows/sync.yml` | GitHub Actions 定时工作流          |
 | `.env.example`               | 配置示例文件                       |
 

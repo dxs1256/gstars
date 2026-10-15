@@ -113,6 +113,11 @@ def load_config() -> dict:
     for env_key, config_path in env_mapping.items():
         val = os.environ.get(env_key)
         if val is not None:
+            # 未配置的 GitHub Variable 会被渲染成空字符串（不是不传）。
+            # 若直接采用，就会用空串覆盖掉下面的默认值 —— 例如 AI_MODEL 变成 ''，
+            # 默认的 gpt-4o-mini 形同虚设。空值一律视为「未配置」。
+            if not val.strip():
+                continue
             # 处理类型转换
             if env_key in ["MAX_CONCURRENCY", "TEST_LIMIT"]:
                 if val.isdigit():
@@ -251,6 +256,8 @@ class GitHubClient:
                     {
                         "full_name": repo["full_name"],
                         "name": repo["name"],
+                        # 仓库编号：全局自增，created_at 缺失时可用来插值创建年份
+                        "repo_id": repo.get("id"),
                         "owner": repo["owner"]["login"],
                         "description": repo.get("description") or "",
                         "stars": repo["stargazers_count"],
@@ -258,6 +265,7 @@ class GitHubClient:
                         "url": repo["html_url"],
                         "homepage": repo.get("homepage") or "",
                         "topics": repo.get("topics", []),
+                        "created_at": repo.get("created_at", "") or "",
                         "pushed_at": repo.get("pushed_at", "") or "",
                         "updated_at": repo.get("updated_at", "") or "",
                         "starred_at": starred_at_raw or "",
@@ -553,6 +561,15 @@ class TemplateGenerator:
         return template.render(context)
 
 
+def analytics_context() -> dict:
+    """网站分析配置：默认值写在 templates/analytics.html.j2，这里只读环境变量做覆盖。"""
+    return {
+        "analytics_enabled": os.environ.get("ANALYTICS_ENABLED"),
+        "analytics_id": os.environ.get("ANALYTICS_WEBSITE_ID"),
+        "analytics_src": os.environ.get("ANALYTICS_SRC"),
+    }
+
+
 # ════════════════════════════════════════════════════════════
 # 主流程
 # ════════════════════════════════════════════════════════════
@@ -706,6 +723,7 @@ def main():
         "repos": ordered_repos,
         "top_langs": top_langs,
         "ai_model": cfg["ai"].get("model", "gpt-4o-mini"),
+        **analytics_context(),
     }
     langs = ["zh", "en"]
     generated_mds = {}
