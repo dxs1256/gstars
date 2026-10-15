@@ -291,6 +291,7 @@ python3 scripts/atlas_mcp.py --selftest
 | `VAULT_SYNC_PATH`    | 可选     | Vault 同步的目录路径       | `GitHub-Stars/`             |
 | `PAGES_SYNC_ENABLED` | 可选     | 是否开启 GitHub Pages 部署 | `true`                      |
 | `MAX_CONCURRENCY`    | 可选     | AI 并发处理数 (建议 1-10)  | `1`                         |
+| `AI_MIN_INTERVAL`    | 可选     | 相邻两次 AI 请求的最小间隔秒数，遇 429 可调大 | `1`            |
 | `GH_TOKEN`           | **建议** | 提升 API 额度，防止限速    | -                           |
 
 ---

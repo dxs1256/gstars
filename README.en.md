@@ -276,6 +276,7 @@ Go to **Actions → 🌟 GitHub Stars Index 同步 → Run workflow** and click 
 | `VAULT_SYNC_PATH`    | Optional                 | Directory path for Vault sync                 | `GitHub-Stars/`             |
 | `PAGES_SYNC_ENABLED` | Optional                 | Whether to deploy to GitHub Pages             | `true`                      |
 | `MAX_CONCURRENCY`    | Optional                 | AI concurrency limit (recommended 1-10)       | `1`                         |
+| `AI_MIN_INTERVAL`    | Optional                 | Minimum seconds between AI requests; raise it on 429 | `1`                   |
 | `GH_TOKEN`           | **Strongly Recommended** | Increases API limits to prevent rate-limiting | -                           |
 
 ---
