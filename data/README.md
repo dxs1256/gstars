@@ -1,15 +1,12 @@
 # data 目录说明
 
-`data/stars.json` 在本仓库 `main` 分支中保留为迁移兼容入口，主要用于以下场景：
+`data/stars.json` 是本项目在 `main` 分支中的增量数据源，用于：
 
-- Fork 用户首次运行 GitHub Actions 时，若 `gh-pages` 尚未初始化，可回退读取该文件，但 Fork 后第一次建议手动运行 Action 选择强制重建=true。
-- 同步脚本运行过程中会临时使用该文件作为本地数据缓存。
-
-当前推荐的长期数据源与发布目标为：
-
-- `gh-pages/data/stars.json`
+- 记录已处理过的仓库及其 AI 摘要，实现增量更新，避免每次全量重新生成。
+- 作为本地同步脚本运行时的数据缓存。
 
 说明：
 
-- 常规 Action 流程不会将 `data/stars.json` 提交回 `main`。
-- 如果你已完成迁移，可在你自己的仓库中选择删除 `main` 下的 `data/stars.json`。
+- GitHub Actions 每次运行完成后，会将更新后的 `data/stars.json` 自动提交回 `main`（内容无变化时跳过提交），保证增量状态持久化。
+- 站点发布使用 GitHub 官方 artifact 方式，产物中的 `data/stars.json` 供前端页面读取，不再依赖 `gh-pages` 分支。
+- 若你希望从零重建数据集，可手动运行 Action 并选择 `force_rebuild=true`。

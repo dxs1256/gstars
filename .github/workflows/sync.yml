@@ -30,12 +30,22 @@ on:
 
 permissions:
   contents: write # 允许 Action 提交文件到本仓库
+  pages: write # 允许部署到 GitHub Pages
+  id-token: write # actions/deploy-pages 需要 OIDC 令牌
+
+# 同一时间只跑一个 Pages 部署，避免并发冲突（不取消进行中的任务）
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
   sync:
     name: 抓取 Stars 并生成摘要
     runs-on: ubuntu-latest
     timeout-minutes: 120 # 超时保护（Stars 较多时可能耗时长）
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       # ── 1. 检出代码 ───────────────────────────────────────
@@ -53,24 +63,17 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      # ── 4.1 准备 stars.json（优先 gh-pages，回退 main） ───────────
-      - name: 准备 stars.json（gh-pages -> main fallback）
+      # ── 4.1 准备 stars.json（从 main 分支的已跟踪文件恢复） ─────────
+      # 说明：增量状态保存在 main 分支的 data/stars.json（见文末「持久化增量数据」步骤）。
+      - name: 准备 stars.json（main）
         id: seed_stars
         run: |
           set -e
           mkdir -p data
-          tmp_file="$(mktemp)"
-          git fetch origin gh-pages --depth=1 || true
-          if git show origin/gh-pages:data/stars.json > "$tmp_file" 2>/dev/null && [ -s "$tmp_file" ]; then
-            mv "$tmp_file" data/stars.json
-            echo "✅ 已从 gh-pages 恢复 data/stars.json"
-            echo "source=gh-pages" >> "$GITHUB_OUTPUT"
-          elif [ -s data/stars.json ]; then
-            rm -f "$tmp_file"
-            echo "✅ 使用 main 分支现有 data/stars.json（首次迁移）"
+          if [ -s data/stars.json ]; then
+            echo "✅ 使用 main 分支现有 data/stars.json"
             echo "source=main" >> "$GITHUB_OUTPUT"
           else
-            rm -f "$tmp_file"
             echo "ℹ️ 未找到可复用 stars.json，将从空数据开始"
             rm -f data/stars.json
             echo "source=none" >> "$GITHUB_OUTPUT"
@@ -83,29 +86,7 @@ jobs:
           echo "⚠️ 强制重建模式：删除现有数据"
           rm -rf data/stars.json
 
-      # # ── 5a. 首次迁移（main -> gh-pages）：仅渲染，避免重新抓取 ───
-      # - name: 首次迁移仅渲染（不抓取）
-      #   if: steps.seed_stars.outputs.source == 'main'
-      #   env:
-      #     # ── Secrets（机密，加密保存）──
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    # Actions 自动注入，无需手动添加
-      #     AI_API_KEY: ${{ secrets.AI_API_KEY }}        # AI API Key
-      #     VAULT_PAT: ${{ secrets.VAULT_PAT }}          # Vault 仓库写权限 PAT（Vault 同步时必填）
-
-      #     # ── Variables（非机密，明文，在 Settings → Variables 中配置）──
-      #     GH_USERNAME: ${{ vars.GH_USERNAME }}         # 要抓取 Stars 的 GitHub 用户名
-      #     AI_BASE_URL: ${{ vars.AI_BASE_URL }}         # AI 接口地址
-      #     AI_MODEL: ${{ vars.AI_MODEL }}
-      #     MAX_CONCURRENCY: ${{ vars.MAX_CONCURRENCY }}
-      #     OUTPUT_FILENAME: ${{ vars.OUTPUT_FILENAME }}
-      #     VAULT_SYNC_ENABLED: ${{ vars.VAULT_SYNC_ENABLED }}
-      #     VAULT_REPO: ${{ vars.VAULT_REPO }}
-      #     VAULT_SYNC_PATH: ${{ vars.VAULT_SYNC_PATH }}
-      #     TEST_LIMIT: ${{ github.event.inputs.test_limit }}
-      #     PAGES_SYNC_ENABLED: ${{ vars.PAGES_SYNC_ENABLED }}
-      #   run: python scripts/sync_stars.py --render-only
-
-      # ── 5b. 常规模式：正常同步（增量抓取） ─────────────────────
+      # ── 5. 常规模式：正常同步（增量抓取） ─────────────────────
       - name: 同步 GitHub Stars
         env:
           # ── Secrets（机密，加密保存）──
@@ -148,23 +129,45 @@ jobs:
         run: python3 scripts/sync_atlas.py --data data/stars.json --out dist/atlas
 
       # ── 7. 准备 Pages 发布内容（包含 stars.json） ─────────────
-      - name: 准备 gh-pages 发布目录
+      - name: 准备 Pages 发布目录
         run: |
           set -e
           test -s data/stars.json || { echo "❌ 未找到有效 data/stars.json"; exit 1; }
           test -s dist/atlas/index.html || { echo "❌ Stars Atlas 未生成"; exit 1; }
           mkdir -p dist/data
           cp data/stars.json dist/data/stars.json
-          echo "✅ 已写入 dist/data/stars.json（仅发布到 gh-pages，不提交 main）"
+          echo "✅ 已写入 dist/data/stars.json"
 
-          # Atlas 数据集（含分类结果）发布到 gh-pages，可供「仅渲染」模式或其它站点复用
+          # Atlas 数据集（含分类结果）一并发布，可供「仅渲染」模式或其它站点复用
           test -s dist/atlas/atlas.json && echo "✅ 已包含 dist/atlas/atlas.json（$(du -h dist/atlas/atlas.json | cut -f1)）"
 
-      # ── 8. 部署到 GitHub Pages ─────────────────────────────
-      - name: 部署到 GitHub Pages
+      # ── 8. 持久化增量数据到 main ────────────────────────────
+      # 增量状态 data/stars.json 现在保存到 main 分支（不再依赖 gh-pages）。
+      # 若无变化则跳过，避免产生空提交。
+      - name: 持久化增量数据到 main
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/stars.json
+          if git diff --staged --quiet; then
+            echo "ℹ️ data/stars.json 无变化，跳过提交"
+          else
+            git commit -m "chore: 更新 Stars 增量数据 [skip ci]"
+            git push origin HEAD:main
+            echo "✅ 已将 data/stars.json 提交回 main"
+          fi
+
+      # ── 9. 部署到 GitHub Pages ─────────────────────────────
+      # 使用官方 artifact 方式发布，无需 gh-pages 分支。
+      # 前提：在仓库 Settings → Pages → Source 选择 "GitHub Actions"。
+      - name: 上传 Pages 产物
         if: vars.PAGES_SYNC_ENABLED == 'true'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: dist # 同步 dist 文件夹的内容
-          branch: gh-pages # 目标分支
-          clean: true # 保持分支整洁
+          path: dist
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        if: vars.PAGES_SYNC_ENABLED == 'true'
+        uses: actions/deploy-pages@v4

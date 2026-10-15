@@ -23,7 +23,7 @@ English | [中文](README.md)
 - 📝 **AI Summaries**: Reads each repository's README and uses AI to generate concise summaries and technical tags.
 - 🏷️ **Smart Tagging**: Built-in `TAG_MAPPING` for automatic synonym merging and tech stack normalization (e.g., LLM -> Large Language Model), preventing tag explosion.
 - ⚡️ **High Performance**: Supports **concurrency** for AI API calls, significantly speeding up the processing of new projects.
-- 🗃️ **Data Driven**: Uses `data/stars.json` at runtime and publishes it to `gh-pages/data/stars.json` for custom development.
+- 🗃️ **Data Driven**: Uses `data/stars.json` at runtime and publishes it together with the site artifacts for custom development.
 - 🎨 **Template Driven**: Uses Jinja2 templates to generate Markdown and static HTML search pages.
 - ⏭️ **Smart Incremental Updates**: Uses AI for new projects, while **automatically updating star counts and metadata** for existing ones.
 - ⏰ **Automated Workflow**: Regularly runs via GitHub Actions with customizable cron schedules.
@@ -311,17 +311,16 @@ This feature allows you to automatically push the generated star summaries to yo
 
 ## GitHub Pages Deployment (Optional)
 
-This project automatically generates multi-language static web pages with real-time search functionality.
+This project automatically generates multi-language static web pages with real-time search functionality, published via GitHub's official artifact flow, so **no extra publish branch is needed** (only `main`):
 
 1. Ensure `PAGES_SYNC_ENABLED=true`.
-2. After running the Action once, go to **Settings -> Pages**.
-3. Select `gh-pages` branch and `/(root)` directory, then click Save.
+2. Go to **Settings -> Pages** and set **Source** to **GitHub Actions**.
+3. Run the Action once and the site will be published automatically.
 
 > [!IMPORTANT]
-> **Data Source Migration (Compatibility for Forks)**:
-> - The current recommended data source is `gh-pages/data/stars.json`.
-> - `data/stars.json` in the `main` branch is only used for initial migration compatibility.
-> - Normal runs will no longer commit `data/stars.json` back to the `main` branch.
+> **Data Source**:
+> - Incremental state is stored in `data/stars.json` on the `main` branch, and the Action commits it back to `main` after each run (skipped when unchanged).
+> - Site artifacts (including `data/stars.json`) are published via GitHub Actions artifacts; the `gh-pages` branch is no longer used.
 
 ---
 
